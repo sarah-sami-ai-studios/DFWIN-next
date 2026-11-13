@@ -1,0 +1,41 @@
+---
+layout: layouts/base.njk
+title: About
+description: DFWin International was established in 2012 by supply chain professionals to provide end-to-end supply for North American and European buyers.
+permalink: about.html
+css: about
+ctaTitle: Talk to the team that would run your order.
+---
+<section class="page-head">
+  <div class="wrap">
+    <h1>Supply chain veterans, close to the source</h1>
+    <p class="lede">{{ site.name }} was founded by veteran supply chain professionals to serve North American and European customers from close to the supply base in Asia.</p>
+  </div>
+</section>
+
+<div class="on-light band">
+<div class="wrap">
+  <figure class="media ab-photo">
+    <img src="{{ 'assets/img/hero-ship.webp' | rel }}" alt="Cruise ship under way on a calm sea" width="2400" height="1350" decoding="async">
+  </figure>
+</div>
+
+<section class="ab-body">
+  <div class="wrap ab-split">
+    <div>
+      <h2 class="visually-hidden" id="mission-title">Our mission</h2>
+      <ul class="ab-mission" aria-labelledby="mission-title">
+        <li>To serve as a trusted, long-term strategic partner.</li>
+        <li>To empower clients through successful, large-scale supply chain transformations.</li>
+      </ul>
+    </div>
+    <dl class="ab-facts">
+      <div><dt>Established</dt><dd>{{ site.founded }}</dd></div>
+      <div><dt>Supplying cruise lines since</dt><dd>2014</dd></div>
+      <div><dt>Offices</dt><dd>{% for office in site.offices %}<span>{{ office.city }}</span>{% endfor %}</dd></div>
+      <div><dt>Sales</dt><dd><a href="mailto:{{ site.email.sales }}">{{ site.email.sales }}</a></dd></div>
+      <div><dt>General</dt><dd><a href="mailto:{{ site.email.general }}">{{ site.email.general }}</a></dd></div>
+    </dl>
+  </div>
+</section>
+</div>
