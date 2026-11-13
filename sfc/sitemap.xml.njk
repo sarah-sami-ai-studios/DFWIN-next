@@ -1,0 +1,17 @@
+---
+permalink: sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{#- Ordinary pages. Product pages are listed from products.json below, so they
+    are skipped here to avoid duplicates. Pages marked noindex are left out. #}
+{%- for item in collections.all | sort(false, false, 'url') %}
+{%- if item.url and not item.data.noindex and item.url.indexOf('/products/') != 0 and (item.url == '/' or item.url.slice(-5) == '.html' or item.url.slice(-1) == '/') %}
+  <url><loc>{{ item.url | abs }}</loc><lastmod>{{ buildDate }}</lastmod></url>
+{%- endif %}
+{%- endfor %}
+{%- for p in products %}
+  <url><loc>{{ ('products/' + p.slug + '.html') | abs }}</loc><lastmod>{{ buildDate }}</lastmod></url>
+{%- endfor %}
+</urlset>
