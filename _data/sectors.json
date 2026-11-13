@@ -1,0 +1,26 @@
+[
+  {
+    "key": "Technology",
+    "slug": "technology",
+    "title": "Technology",
+    "summary": "RFID wristbands, key cards and fobs for access, payment and guest identification.",
+    "image": "assets/img/sector-technology.webp",
+    "tagline": "RFID and access systems."
+  },
+  {
+    "key": "Hospitality",
+    "slug": "hospitality",
+    "title": "Hospitality",
+    "summary": "Carts, trolleys, linens, tableware and in-room equipment for hotels, resorts and cruise ship hotel operations.",
+    "image": "assets/img/sector-hospitality.webp",
+    "tagline": "Hotel, cruise and resort products."
+  },
+  {
+    "key": "Marine",
+    "slug": "marine",
+    "title": "Marine",
+    "summary": "Mooring ropes, life jackets and deck lighting for ship operators and yards.",
+    "image": "assets/img/sector-marine.webp",
+    "tagline": "Mooring, safety and deck equipment."
+  }
+]

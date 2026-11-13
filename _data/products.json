@@ -1,0 +1,1067 @@
+[
+  {
+    "id": "TECH-0001",
+    "name": "RFID Wrist Bands",
+    "sector": "Technology",
+    "category": "RFID Wristbands",
+    "slug": "technology-rfid-wrist-bands",
+    "image": "assets/img/products/technology-rfid-wrist-bands.webp",
+    "source_image": "Technology__RFID Wrist Bands 1.png",
+    "description": "Adjustable RFID wristbands for guest access, onboard payment and identification on cruise ships and at resorts. Colour, print and branding are confirmed in your quote.",
+    "keywords": [
+      "RFID",
+      "access",
+      "control",
+      "cruise",
+      "wristband",
+      "wristbands"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "TECH-0002",
+    "name": "Hotel Key Card",
+    "sector": "Technology",
+    "category": "Key Cards",
+    "slug": "technology-hotel-key-card",
+    "image": "assets/img/products/technology-hotel-key-card.webp",
+    "source_image": "Technology__Hotel Key Card.png",
+    "description": "Printed key cards for guest room and cabin door access, issued at check-in or embarkation. Artwork and encoding requirements are confirmed in your quote.",
+    "keywords": [
+      "access",
+      "cabin",
+      "door",
+      "key card",
+      "keycard",
+      "rfid",
+      "seapass"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "TECH-0003",
+    "name": "RFID Key Fob",
+    "sector": "Technology",
+    "category": "Key Fobs",
+    "slug": "technology-rfid-key-fob",
+    "image": "assets/img/products/technology-rfid-key-fob.webp",
+    "source_image": "Technology__RFID Key Fob 1.png",
+    "description": "Key fobs with an RFID tag and a split ring, used for crew access, lockers and back-of-house doors in hotels and on ships. Branding is confirmed in your quote.",
+    "keywords": [
+      "access",
+      "crew",
+      "fob",
+      "key fob",
+      "rfid"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "MARI-0004",
+    "name": "Mooring Rope JIUMAX",
+    "sector": "Marine",
+    "category": "Mooring Ropes",
+    "slug": "marine-mooring-rope-jiumax",
+    "image": "assets/img/products/marine-mooring-rope-jiumax.webp",
+    "source_image": "Marine__Mooring Rope JIUMAX.png",
+    "description": "Braided mooring rope from the JIUMAX line for berthing and securing vessels alongside. Tell us the diameter and length you need and we confirm availability in your quote.",
+    "keywords": [
+      "dock",
+      "line",
+      "marine",
+      "mooring",
+      "rope"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "MARI-0005",
+    "name": "Life Jackets",
+    "sector": "Marine",
+    "category": "Life Jackets & Safety",
+    "slug": "marine-life-jackets",
+    "image": "assets/img/products/marine-life-jackets.webp",
+    "source_image": "Marine__Life Jackets 1.png",
+    "description": "Life jackets for passenger and crew muster stations and lifeboat stowage on ships. Approval requirements for your vessel and flag are confirmed in your quote.",
+    "keywords": [],
+    "status": "Active"
+  },
+  {
+    "id": "MARI-0006",
+    "name": "Mooring Rope Flex",
+    "sector": "Marine",
+    "category": "Mooring Ropes",
+    "slug": "marine-mooring-rope-flex",
+    "image": "assets/img/products/marine-mooring-rope-flex.webp",
+    "source_image": "Marine__Mooring Rope Flex.png",
+    "description": "Plaited mooring rope from the Flex line, used for dock lines and for securing ships at berth. Diameter and length are quoted to the requirement of your vessel.",
+    "keywords": [
+      "dock",
+      "line",
+      "marine",
+      "mooring",
+      "rope"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "MARI-0007",
+    "name": "Mooring Rope KARAT MAXI",
+    "sector": "Marine",
+    "category": "Mooring Ropes",
+    "slug": "marine-mooring-rope-karat-maxi",
+    "image": "assets/img/products/marine-mooring-rope-karat-maxi.webp",
+    "source_image": "Marine__Mooring Rope - KARAT MAXI.png",
+    "description": "Mooring rope from the KARAT MAXI line for ship operators and yards handling berthing and tie-up. Send the size and length you need and we quote to match.",
+    "keywords": [
+      "dock",
+      "line",
+      "marine",
+      "mooring",
+      "rope"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "MARI-0008",
+    "name": "LED Lights",
+    "sector": "Marine",
+    "category": "Marine Lighting",
+    "slug": "marine-led-lights",
+    "image": "assets/img/products/marine-led-lights.webp",
+    "source_image": "Marine__LED Lights 1.png",
+    "description": "LED spot lamps for cabin, corridor and public area light fittings on board. Base type, light colour and quantity are confirmed in your quote.",
+    "keywords": [],
+    "status": "Active"
+  },
+  {
+    "id": "MARI-0009",
+    "name": "Mooring Rope Super Line",
+    "sector": "Marine",
+    "category": "Mooring Ropes",
+    "slug": "marine-mooring-rope-super-line",
+    "image": "assets/img/products/marine-mooring-rope-super-line.webp",
+    "source_image": "Marine__Mooring Rope Super Line.png",
+    "description": "Braided mooring rope from the Super Line range for mooring decks and dockside line handling. We quote by diameter and coil length to suit your vessel.",
+    "keywords": [
+      "dock",
+      "line",
+      "marine",
+      "mooring",
+      "rope"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "MARI-0010",
+    "name": "Life Jacket Light",
+    "sector": "Marine",
+    "category": "Life Jackets & Safety",
+    "slug": "marine-life-jacket-light",
+    "image": "assets/img/products/marine-life-jacket-light.webp",
+    "source_image": "Marine__Life Jacket Light 1.png",
+    "description": "Compact flashing light that attaches to a life jacket so a person in the water can be located in the dark. Supplied with life jackets or separately.",
+    "keywords": [],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0011",
+    "name": "Laundry Cage",
+    "sector": "Hospitality",
+    "category": "Carts",
+    "slug": "hospitality-laundry-cage",
+    "image": "assets/img/products/hospitality-laundry-cage.webp",
+    "source_image": "Hospitality__Laundry Cage 1.png",
+    "description": "Wheeled wire cage for moving bagged laundry and linen between cabins, decks and the laundry on ships and in hotels. Size and finish are confirmed in your quote.",
+    "keywords": [
+      "cage",
+      "cart",
+      "carts",
+      "housekeeping",
+      "laundry",
+      "luggage",
+      "rack",
+      "truck",
+      "utility"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0012",
+    "name": "Melamine Green Edge Series 1",
+    "sector": "Hospitality",
+    "category": "Melamine Dinnerware",
+    "slug": "hospitality-melamine-green-edge-series-1",
+    "image": "assets/img/products/hospitality-melamine-green-edge-series-1.webp",
+    "source_image": "Hospitality__Melamine Green Edge Series 1 - 1.png",
+    "description": "Melamine plates and bowls with a green rim, suited to buffet, pool deck and casual dining service. The piece selection is confirmed in your quote.",
+    "keywords": [
+      "bowls",
+      "dinnerware",
+      "dishware",
+      "plates",
+      "tableware"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0013",
+    "name": "Trash Bins Series 1",
+    "sector": "Hospitality",
+    "category": "Trash Bins",
+    "slug": "hospitality-trash-bins-series-1",
+    "image": "assets/img/products/hospitality-trash-bins-series-1.webp",
+    "source_image": "Hospitality__Trash Bins Series 1 1.png",
+    "description": "Rectangular lidded waste bins in a dark finish for guest rooms, cabins and public areas. Size, finish and quantities are confirmed in your quote.",
+    "keywords": [],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0014",
+    "name": "Trash Bins Series 2",
+    "sector": "Hospitality",
+    "category": "Trash Bins",
+    "slug": "hospitality-trash-bins-series-2",
+    "image": "assets/img/products/hospitality-trash-bins-series-2.webp",
+    "source_image": "Hospitality__Trash Bins Series 2 - 1.png",
+    "description": "Round open-top waste bins with a brushed metal look for guest rooms, bathrooms and corridors. Tell us the sizes you need and we quote the set.",
+    "keywords": [],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0015",
+    "name": "Color Changing Plastic Mugs",
+    "sector": "Hospitality",
+    "category": "Drinkware",
+    "slug": "hospitality-color-changing-plastic-mugs",
+    "image": "assets/img/products/hospitality-color-changing-plastic-mugs.webp",
+    "source_image": "Hospitality__Color Changing Plastic Mugs 1.png",
+    "description": "Lidded plastic travel mugs with printed artwork that changes colour, used as bar souvenirs and retail items on cruise ships and at resorts. Artwork is confirmed in your quote.",
+    "keywords": [
+      "beverage",
+      "cups",
+      "drinking",
+      "glasses",
+      "mugs",
+      "vessels"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0016",
+    "name": "Compact Housekeeping Carts",
+    "sector": "Hospitality",
+    "category": "Carts",
+    "slug": "hospitality-compact-housekeeping-carts",
+    "image": "assets/img/products/hospitality-compact-housekeeping-carts.webp",
+    "source_image": "Hospitality__Compact Housekeeping Carts 1.png",
+    "description": "Compact housekeeping carts with a fabric bag body, for narrow cabin corridors and small service areas where a full-size cart does not fit.",
+    "keywords": [
+      "cage",
+      "cart",
+      "carts",
+      "housekeeping",
+      "laundry",
+      "luggage",
+      "rack",
+      "truck",
+      "utility"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0017",
+    "name": "Luggage Cages Series 2",
+    "sector": "Hospitality",
+    "category": "Carts",
+    "slug": "hospitality-luggage-cages-series-2",
+    "image": "assets/img/products/hospitality-luggage-cages-series-2.webp",
+    "source_image": "Hospitality__Luggage Cages Series 2 - 1.png",
+    "description": "Wheeled luggage cages for moving guest bags between the terminal and the ship on embarkation and debarkation days. DFWin has supplied luggage cages to cruise lines since 2014.",
+    "keywords": [
+      "cage",
+      "cart",
+      "carts",
+      "housekeeping",
+      "laundry",
+      "luggage",
+      "rack",
+      "truck",
+      "utility"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0018",
+    "name": "Two Tier Trolley",
+    "sector": "Hospitality",
+    "category": "Trolleys",
+    "slug": "hospitality-two-tier-trolley",
+    "image": "assets/img/products/hospitality-two-tier-trolley.webp",
+    "source_image": "Hospitality__Two Tier Trolley 1.png",
+    "description": "Two-shelf metal service trolley on castors for galleys, pantries and room service. Shelf size and finish are confirmed in your quote.",
+    "keywords": [
+      "cart",
+      "carts",
+      "service",
+      "trolley",
+      "trolleys",
+      "wheeled"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0019",
+    "name": "Three Shelf Trolley",
+    "sector": "Hospitality",
+    "category": "Trolleys",
+    "slug": "hospitality-three-shelf-trolley",
+    "image": "assets/img/products/hospitality-three-shelf-trolley.webp",
+    "source_image": "Hospitality__Three Shelf Trolley.png",
+    "description": "Three-shelf utility trolley with side bins and moulded handles, used to clear tables and move supplies in restaurants, buffets and crew mess areas.",
+    "keywords": [
+      "cart",
+      "carts",
+      "service",
+      "trolley",
+      "trolleys",
+      "wheeled"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0020",
+    "name": "Plush Bath Towels",
+    "sector": "Hospitality",
+    "category": "Towels & Linens",
+    "slug": "hospitality-plush-bath-towels",
+    "image": "assets/img/products/hospitality-plush-bath-towels.webp",
+    "source_image": "Hospitality__Plush Bath Towels.png",
+    "description": "White bath towels for hotel rooms and cruise cabins, supplied folded for housekeeping stock. Size and any woven or embroidered branding are confirmed in your quote.",
+    "keywords": [
+      "bath",
+      "linen",
+      "linens",
+      "textile",
+      "towel",
+      "towels",
+      "washcloth"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0021",
+    "name": "Plush Bath Towels Series 2",
+    "sector": "Hospitality",
+    "category": "Towels & Linens",
+    "slug": "hospitality-plush-bath-towels-series-2",
+    "image": "assets/img/products/hospitality-plush-bath-towels-series-2.webp",
+    "source_image": "Hospitality__Plush Bath Towels Series 2 - 1.png",
+    "description": "White towels with a banded border, shown as a stacked set of bath, hand and face sizes for guest bathrooms. The set make-up is confirmed in your quote.",
+    "keywords": [
+      "bath",
+      "linen",
+      "linens",
+      "textile",
+      "towel",
+      "towels",
+      "washcloth"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0022",
+    "name": "Plush Bath Towels Series",
+    "sector": "Hospitality",
+    "category": "Towels & Linens",
+    "slug": "hospitality-plush-bath-towels-series",
+    "image": "assets/img/products/hospitality-plush-bath-towels-series.webp",
+    "source_image": "Hospitality__Plush Bath Towels Series 3.png",
+    "description": "Stacks of white bath towels for housekeeping stores in hotels and on ships, ordered in bulk for regular room turnover. Sizes and quantities are quoted to your stock levels.",
+    "keywords": [
+      "bath",
+      "linen",
+      "linens",
+      "textile",
+      "towel",
+      "towels",
+      "washcloth"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0023",
+    "name": "Bellman Carts",
+    "sector": "Hospitality",
+    "category": "Carts",
+    "slug": "hospitality-bellman-carts",
+    "image": "assets/img/products/hospitality-bellman-carts.webp",
+    "source_image": "Hospitality__Bellman Carts 1.png",
+    "description": "Bellman carts with a hanging rail and carpeted deck for moving guest luggage through hotel lobbies and ship terminals. Frame finish and carpet colour are confirmed in your quote.",
+    "keywords": [
+      "cage",
+      "cart",
+      "carts",
+      "housekeeping",
+      "laundry",
+      "luggage",
+      "rack",
+      "truck",
+      "utility"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0024",
+    "name": "Flat Truck",
+    "sector": "Hospitality",
+    "category": "Carts",
+    "slug": "hospitality-flat-truck",
+    "image": "assets/img/products/hospitality-flat-truck.webp",
+    "source_image": "Hospitality__Flat Truck 1.png",
+    "description": "Flatbed platform truck with a push handle for moving cartons, stores and luggage through service corridors, loading areas and provision rooms.",
+    "keywords": [
+      "cage",
+      "cart",
+      "carts",
+      "housekeeping",
+      "laundry",
+      "luggage",
+      "rack",
+      "truck",
+      "utility"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0025",
+    "name": "Barricade",
+    "sector": "Hospitality",
+    "category": "Stanchions & Barriers",
+    "slug": "hospitality-barricade",
+    "image": "assets/img/products/hospitality-barricade.webp",
+    "source_image": "Hospitality__Barricade.png",
+    "description": "Freestanding metal crowd barrier for managing queues at terminals, gangways and event spaces. Sections stand on their own feet and can be placed side by side.",
+    "keywords": [],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0026",
+    "name": "Hotel Safe",
+    "sector": "Hospitality",
+    "category": "Hotel Safes",
+    "slug": "hospitality-hotel-safe",
+    "image": "assets/img/products/hospitality-hotel-safe.webp",
+    "source_image": "Hospitality__Hotel Safe 1.png",
+    "description": "In-room safe with a digital keypad for guest valuables in hotel rooms and cruise cabins. Size, door style and locking options are confirmed in your quote.",
+    "keywords": [
+      "in-room",
+      "locker",
+      "safe",
+      "security"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0027",
+    "name": "LED Lights",
+    "sector": "Hospitality",
+    "category": "Lighting",
+    "slug": "hospitality-led-lights",
+    "image": "assets/img/products/hospitality-led-lights.webp",
+    "source_image": "Hospitality__LED Lights 1.png",
+    "description": "LED spot lamps for guest rooms, corridors, restaurants and back-of-house areas in hotels. Tell us the fitting type and quantity and we quote a matching lamp.",
+    "keywords": [],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0028",
+    "name": "Light Up Glass",
+    "sector": "Hospitality",
+    "category": "Drinkware",
+    "slug": "hospitality-light-up-glass",
+    "image": "assets/img/products/hospitality-light-up-glass.webp",
+    "source_image": "Hospitality__Light Up Glass 1.jpg",
+    "description": "Clear drinking glass with built-in lights that glow in changing colours, used for bar promotions, themed nights and souvenir drinks on ships and at resorts.",
+    "keywords": [
+      "beverage",
+      "cups",
+      "drinking",
+      "glasses",
+      "mugs",
+      "vessels"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0029",
+    "name": "Chinaware Yuanfeng 01",
+    "sector": "Hospitality",
+    "category": "Chinaware",
+    "slug": "hospitality-chinaware-yuanfeng-01",
+    "image": "assets/img/products/hospitality-chinaware-yuanfeng-01.webp",
+    "source_image": "Hospitality__Chinaware - Yuanfeng 01 - 1.png",
+    "description": "White round chinaware plates from the Yuanfeng range in a run of sizes, for main dining rooms, buffets and banquet service. Logo decoration can be quoted on request.",
+    "keywords": [
+      "bowls",
+      "ceramic",
+      "china",
+      "dinnerware",
+      "plates",
+      "porcelain",
+      "tableware"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0030",
+    "name": "Linen Cart",
+    "sector": "Hospitality",
+    "category": "Carts",
+    "slug": "hospitality-linen-cart",
+    "image": "assets/img/products/hospitality-linen-cart.webp",
+    "source_image": "Hospitality__Linen Cart 1.png",
+    "description": "Barred metal linen cart with shelves and castors for moving clean and soiled linen between housekeeping stores, laundries and guest floors.",
+    "keywords": [
+      "cage",
+      "cart",
+      "carts",
+      "housekeeping",
+      "laundry",
+      "luggage",
+      "rack",
+      "truck",
+      "utility"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0031",
+    "name": "Speed Rack 7 Shelves",
+    "sector": "Hospitality",
+    "category": "Carts",
+    "slug": "hospitality-speed-rack-7-shelves",
+    "image": "assets/img/products/hospitality-speed-rack-7-shelves.webp",
+    "source_image": "Hospitality__Speed Rack 7 Shelves.png",
+    "description": "Open-frame rack on castors with seven runner levels for holding trays in galleys, bakeries and banquet kitchens. Tray size and spacing are confirmed in your quote.",
+    "keywords": [
+      "cage",
+      "cart",
+      "carts",
+      "housekeeping",
+      "laundry",
+      "luggage",
+      "rack",
+      "truck",
+      "utility"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0032",
+    "name": "Plush Towels Series",
+    "sector": "Hospitality",
+    "category": "Towels & Linens",
+    "slug": "hospitality-plush-towels-series",
+    "image": "assets/img/products/hospitality-plush-towels-series.webp",
+    "source_image": "Hospitality__Plush Towels Series 3.png",
+    "description": "White towels supplied in matching stacks for cabin and guest room bathrooms. Order one size or a mix, and we confirm packing in your quote.",
+    "keywords": [
+      "bath",
+      "linen",
+      "linens",
+      "textile",
+      "towel",
+      "towels",
+      "washcloth"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0033",
+    "name": "Trash Bins Series 1A",
+    "sector": "Hospitality",
+    "category": "Trash Bins",
+    "slug": "hospitality-trash-bins-series-1a",
+    "image": "assets/img/products/hospitality-trash-bins-series-1a.webp",
+    "source_image": "Hospitality__Trash Bins Series 1A - 1.png",
+    "description": "A variation of our Series 1 rectangular lidded bin for cabins, guest rooms and offices. Send your preferred size and finish and we confirm both in your quote.",
+    "keywords": [],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0034",
+    "name": "Chinaware Yuanhui 02",
+    "sector": "Hospitality",
+    "category": "Chinaware",
+    "slug": "hospitality-chinaware-yuanhui-02",
+    "image": "assets/img/products/hospitality-chinaware-yuanhui-02.webp",
+    "source_image": "Hospitality__Chinaware - yuanhui 02 - 1.png",
+    "description": "White chinaware sauce boat from the Yuanhui range for restaurant and room service table settings. Tell us which other pieces you need and we quote them together.",
+    "keywords": [
+      "bowls",
+      "ceramic",
+      "china",
+      "dinnerware",
+      "plates",
+      "porcelain",
+      "tableware"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0035",
+    "name": "Linen Cart 2A",
+    "sector": "Hospitality",
+    "category": "Carts",
+    "slug": "hospitality-linen-cart-2a",
+    "image": "assets/img/products/hospitality-linen-cart-2a.webp",
+    "source_image": "Hospitality__Linen Cart 2a - 1.png",
+    "description": "A variation of our barred metal linen cart with shelves, for housekeeping and laundry teams on ships and in hotels. Dimensions are confirmed in your quote.",
+    "keywords": [
+      "cage",
+      "cart",
+      "carts",
+      "housekeeping",
+      "laundry",
+      "luggage",
+      "rack",
+      "truck",
+      "utility"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0036",
+    "name": "Plush Towels",
+    "sector": "Hospitality",
+    "category": "Towels & Linens",
+    "slug": "hospitality-plush-towels",
+    "image": "assets/img/products/hospitality-plush-towels.webp",
+    "source_image": "Hospitality__Plush Towels 5.png",
+    "description": "Folded white towels for everyday guest room and cabin use. A plain design that suits most bathroom schemes, with size and branding confirmed in your quote.",
+    "keywords": [
+      "bath",
+      "linen",
+      "linens",
+      "textile",
+      "towel",
+      "towels",
+      "washcloth"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0037",
+    "name": "Melamine White 1",
+    "sector": "Hospitality",
+    "category": "Melamine Dinnerware",
+    "slug": "hospitality-melamine-white-1",
+    "image": "assets/img/products/hospitality-melamine-white-1.webp",
+    "source_image": "Hospitality__Melamine White 1 - 1.png",
+    "description": "White melamine plates and bowls for buffet, poolside and casual dining, a practical choice for outdoor and high-turnover service.",
+    "keywords": [
+      "bowls",
+      "dinnerware",
+      "dishware",
+      "plates",
+      "tableware"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0038",
+    "name": "Pool Towel 1",
+    "sector": "Hospitality",
+    "category": "Towels & Linens",
+    "slug": "hospitality-pool-towel-1",
+    "image": "assets/img/products/hospitality-pool-towel-1.webp",
+    "source_image": "Hospitality__Pool Towel 1 1.png",
+    "description": "Striped pool towels for pool decks, beach clubs and spa areas at resorts and on cruise ships. Stripe colour, size and branding are confirmed in your quote.",
+    "keywords": [
+      "bath",
+      "linen",
+      "linens",
+      "textile",
+      "towel",
+      "towels",
+      "washcloth"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0039",
+    "name": "Slim Housekeeping Cart 1",
+    "sector": "Hospitality",
+    "category": "Carts",
+    "slug": "hospitality-slim-housekeeping-cart-1",
+    "image": "assets/img/products/hospitality-slim-housekeeping-cart-1.webp",
+    "source_image": "Hospitality__Slim Housekeeping Cart 1 1.png",
+    "description": "Slim housekeeping cart with linen bags and supply drawers, for narrow cabin corridors on ships and tight hotel floors. Layout and finish are confirmed in your quote.",
+    "keywords": [
+      "cage",
+      "cart",
+      "carts",
+      "housekeeping",
+      "laundry",
+      "luggage",
+      "rack",
+      "truck",
+      "utility"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0040",
+    "name": "Flatware",
+    "sector": "Hospitality",
+    "category": "Flatware",
+    "slug": "hospitality-flatware",
+    "image": "assets/img/products/hospitality-flatware.webp",
+    "source_image": "Hospitality__Flatware 1.png",
+    "description": "Polished metal forks, knives and spoons for dining rooms, buffets and room service. Pattern, piece list and any logo marking are confirmed in your quote.",
+    "keywords": [],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0041",
+    "name": "Fold-Up Stanchion",
+    "sector": "Hospitality",
+    "category": "Stanchions & Barriers",
+    "slug": "hospitality-fold-up-stanchion",
+    "image": "assets/img/products/hospitality-fold-up-stanchion.webp",
+    "source_image": "Hospitality__Fold up Stanchion 1.png",
+    "description": "Stanchion post with a retractable belt that folds for storage, used to form queues at embarkation, reception desks and venue entrances.",
+    "keywords": [],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0042",
+    "name": "Hair Dryer",
+    "sector": "Hospitality",
+    "category": "Hair Dryers",
+    "slug": "hospitality-hair-dryer",
+    "image": "assets/img/products/hospitality-hair-dryer.webp",
+    "source_image": "Hospitality__Hair Dryer 1.png",
+    "description": "Hair dryer with a coiled cord for guest bathrooms and cabins. Mounting, plug type and voltage for your property or vessel are confirmed in your quote.",
+    "keywords": [],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0043",
+    "name": "Portable Utility Cart 2",
+    "sector": "Hospitality",
+    "category": "Carts",
+    "slug": "hospitality-portable-utility-cart-2",
+    "image": "assets/img/products/hospitality-portable-utility-cart-2.webp",
+    "source_image": "Hospitality__Portable Utility Cart 2 1.png",
+    "description": "Soft-sided rolling utility case with a telescopic handle and outer pockets, for carrying tools, supplies or amenities between rooms, decks and venues.",
+    "keywords": [
+      "cage",
+      "cart",
+      "carts",
+      "housekeeping",
+      "laundry",
+      "luggage",
+      "rack",
+      "truck",
+      "utility"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0044",
+    "name": "Plush Hand Towels",
+    "sector": "Hospitality",
+    "category": "Towels & Linens",
+    "slug": "hospitality-plush-hand-towels",
+    "image": "assets/img/products/hospitality-plush-hand-towels.webp",
+    "source_image": "Hospitality__Plush Hand Towels.png",
+    "description": "White hand towels for guest bathrooms, spas and public washrooms in hotels and on board. Supplied in bulk for housekeeping, with size confirmed in your quote.",
+    "keywords": [
+      "bath",
+      "linen",
+      "linens",
+      "textile",
+      "towel",
+      "towels",
+      "washcloth"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0045",
+    "name": "Three Tier Cart",
+    "sector": "Hospitality",
+    "category": "Carts",
+    "slug": "hospitality-three-tier-cart",
+    "image": "assets/img/products/hospitality-three-tier-cart.webp",
+    "source_image": "Hospitality__Three Tier Cart 1.png",
+    "description": "Three-tier metal service cart on castors with a push handle, for galley, restaurant and housekeeping work. Shelf size and finish are confirmed in your quote.",
+    "keywords": [
+      "cage",
+      "cart",
+      "carts",
+      "housekeeping",
+      "laundry",
+      "luggage",
+      "rack",
+      "truck",
+      "utility"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0046",
+    "name": "Plush Wash Cloth",
+    "sector": "Hospitality",
+    "category": "Towels & Linens",
+    "slug": "hospitality-plush-wash-cloth",
+    "image": "assets/img/products/hospitality-plush-wash-cloth.webp",
+    "source_image": "Hospitality__Plush Wash Cloth.png",
+    "description": "White wash cloths for cabin and guest room bathrooms, usually ordered alongside matching hand and bath towels. Quantities and packing are confirmed in your quote.",
+    "keywords": [
+      "bath",
+      "linen",
+      "linens",
+      "textile",
+      "towel",
+      "towels",
+      "washcloth"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0047",
+    "name": "Melamine White Series 2",
+    "sector": "Hospitality",
+    "category": "Melamine Dinnerware",
+    "slug": "hospitality-melamine-white-series-2",
+    "image": "assets/img/products/hospitality-melamine-white-series-2.webp",
+    "source_image": "Hospitality__Melamine White Series 2 - 1.png",
+    "description": "A second white melamine range for buffets, crew mess and outdoor dining. Send the piece list you need and we quote plates, bowls and serving pieces together.",
+    "keywords": [
+      "bowls",
+      "dinnerware",
+      "dishware",
+      "plates",
+      "tableware"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0048",
+    "name": "Melamine",
+    "sector": "Hospitality",
+    "category": "Melamine Dinnerware",
+    "slug": "hospitality-melamine",
+    "image": "assets/img/products/hospitality-melamine.webp",
+    "source_image": "Hospitality__Melamine 1.png",
+    "description": "Melamine dinnerware for restaurants, buffets and deck service on ships and at resorts. Shapes, colours and decoration are confirmed in your quote.",
+    "keywords": [
+      "bowls",
+      "dinnerware",
+      "dishware",
+      "plates",
+      "tableware"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0049",
+    "name": "Mini Bar Fridge",
+    "sector": "Hospitality",
+    "category": "Refrigeration",
+    "slug": "hospitality-mini-bar-fridge",
+    "image": "assets/img/products/hospitality-mini-bar-fridge.webp",
+    "source_image": "Hospitality__Mini Bar Fridge 1.png",
+    "description": "Compact minibar fridge with a glass door for hotel rooms and cruise cabins. DFWin supplies cabin minibar fridges to cruise lines and cabin builders, to the specification of each project.",
+    "keywords": [
+      "bar",
+      "cooler",
+      "fridge",
+      "mini",
+      "minibar",
+      "refrigerator"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0050",
+    "name": "Plush Towels 6-Piece Set",
+    "sector": "Hospitality",
+    "category": "Towels & Linens",
+    "slug": "hospitality-plush-towels-6-piece-set",
+    "image": "assets/img/products/hospitality-plush-towels-6-piece-set.webp",
+    "source_image": "Hospitality__Plush Towels 6 piece set.png",
+    "description": "A six-piece white towel set in three sizes for guest rooms and suites. Useful where rooms are stocked by the set, with packing confirmed in your quote.",
+    "keywords": [
+      "bath",
+      "linen",
+      "linens",
+      "textile",
+      "towel",
+      "towels",
+      "washcloth"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0051",
+    "name": "Plush Towel Set of 3",
+    "sector": "Hospitality",
+    "category": "Towels & Linens",
+    "slug": "hospitality-plush-towel-set-3-x",
+    "image": "assets/img/products/hospitality-plush-towel-set-3-x.webp",
+    "source_image": "Hospitality__Plush Towel Set 3 x 2.png",
+    "description": "A three-towel white set for a guest bathroom or cabin. Supplied as sets so housekeeping can stock rooms quickly, with sizes confirmed in your quote.",
+    "keywords": [
+      "bath",
+      "linen",
+      "linens",
+      "textile",
+      "towel",
+      "towels",
+      "washcloth"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0052",
+    "name": "Chinaware Yuanhua 02",
+    "sector": "Hospitality",
+    "category": "Chinaware",
+    "slug": "hospitality-chinaware-yuanhua-02",
+    "image": "assets/img/products/hospitality-chinaware-yuanhua-02.webp",
+    "source_image": "Hospitality__Chinaware - yuanhua 02 - 1.png",
+    "description": "White chinaware teapot with lid from the Yuanhua range, for breakfast, afternoon tea and in-room service. Tell us the other pieces you need and we quote the set.",
+    "keywords": [
+      "bowls",
+      "ceramic",
+      "china",
+      "dinnerware",
+      "plates",
+      "porcelain",
+      "tableware"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0053",
+    "name": "Light Changing Glass",
+    "sector": "Hospitality",
+    "category": "Drinkware",
+    "slug": "hospitality-light-changing-glass",
+    "image": "assets/img/products/hospitality-light-changing-glass.webp",
+    "source_image": "Hospitality__Light Changing Glass 1.png",
+    "description": "Glass tumbler with a printed tree design whose blossoms change colour, sold as a souvenir or used for speciality drinks in bars and lounges.",
+    "keywords": [
+      "beverage",
+      "cups",
+      "drinking",
+      "glasses",
+      "mugs",
+      "vessels"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0054",
+    "name": "Light Changing Cups",
+    "sector": "Hospitality",
+    "category": "Drinkware",
+    "slug": "hospitality-light-changing-cups",
+    "image": "assets/img/products/hospitality-light-changing-cups.webp",
+    "source_image": "Hospitality__Light Changing Cups 1.png",
+    "description": "Small glass cups with a printed blossom design that changes colour, shown as a pair. Suited to gift shops and bar service on ships and at resorts.",
+    "keywords": [
+      "beverage",
+      "cups",
+      "drinking",
+      "glasses",
+      "mugs",
+      "vessels"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0055",
+    "name": "Bus Trolley",
+    "sector": "Hospitality",
+    "category": "Trolleys",
+    "slug": "hospitality-bus-trolley",
+    "image": "assets/img/products/hospitality-bus-trolley.webp",
+    "source_image": "Hospitality__Bus Trolley 1.png",
+    "description": "Enclosed trolley with roll-down fronts for clearing tables and moving service ware out of guest view in restaurants and buffets. Finish is confirmed in your quote.",
+    "keywords": [
+      "cart",
+      "carts",
+      "service",
+      "trolley",
+      "trolleys",
+      "wheeled"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0056",
+    "name": "Speed Rack 3 Shelves",
+    "sector": "Hospitality",
+    "category": "Carts",
+    "slug": "hospitality-speed-rack-3-shelves",
+    "image": "assets/img/products/hospitality-speed-rack-3-shelves.webp",
+    "source_image": "Hospitality__Speed Rack 3 Shelves.png",
+    "description": "Low metal rack on castors with three levels and a flat top, used as a mobile work and holding station in galleys and pantries.",
+    "keywords": [
+      "cage",
+      "cart",
+      "carts",
+      "housekeeping",
+      "laundry",
+      "luggage",
+      "rack",
+      "truck",
+      "utility"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0057",
+    "name": "Plush Towels Double Stack",
+    "sector": "Hospitality",
+    "category": "Towels & Linens",
+    "slug": "hospitality-plush-towels-double-stack-x",
+    "image": "assets/img/products/hospitality-plush-towels-double-stack-x.webp",
+    "source_image": "Hospitality__Plush Towels Double Stack x 6.png",
+    "description": "White towels shown in two folded stacks, supplied in bulk for hotel and cruise ship linen rooms. Tell us the sizes and counts you need per room.",
+    "keywords": [
+      "bath",
+      "linen",
+      "linens",
+      "textile",
+      "towel",
+      "towels",
+      "washcloth"
+    ],
+    "status": "Active"
+  },
+  {
+    "id": "HOSP-0058",
+    "name": "Butler Trolley",
+    "sector": "Hospitality",
+    "category": "Trolleys",
+    "slug": "hospitality-butler-trolley",
+    "image": "assets/img/products/hospitality-butler-trolley.webp",
+    "source_image": "Hospitality__Butler Trolley 1.jpg",
+    "description": "Cabinet-style butler trolley on castors with doors and inner shelves, for suite service, corridor pantries and in-room dining setups.",
+    "keywords": [
+      "cart",
+      "carts",
+      "service",
+      "trolley",
+      "trolleys",
+      "wheeled"
+    ],
+    "status": "Active"
+  }
+]

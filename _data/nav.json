@@ -1,0 +1,60 @@
+{
+  "main": [
+    {
+      "label": "Catalog",
+      "url": "catalog.html"
+    },
+    {
+      "label": "How we work",
+      "url": "services.html"
+    },
+    {
+      "label": "Track record",
+      "url": "track-record.html"
+    },
+    {
+      "label": "About",
+      "url": "about.html"
+    }
+  ],
+  "footer": [
+    {
+      "title": "Catalog",
+      "links": [
+        {
+          "label": "Hospitality",
+          "url": "catalog.html#hospitality"
+        },
+        {
+          "label": "Marine",
+          "url": "catalog.html#marine"
+        },
+        {
+          "label": "Technology",
+          "url": "catalog.html#technology"
+        },
+        {
+          "label": "All products",
+          "url": "catalog.html"
+        }
+      ]
+    },
+    {
+      "title": "Company",
+      "links": [
+        {
+          "label": "How we work",
+          "url": "services.html"
+        },
+        {
+          "label": "Track record",
+          "url": "track-record.html"
+        },
+        {
+          "label": "About",
+          "url": "about.html"
+        }
+      ]
+    }
+  ]
+}

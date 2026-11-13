@@ -1,0 +1,197 @@
+/* How we work: three chapters joined by one line. Tokens come from site.css.
+   Two states:
+   1. Plain (no JavaScript, or reduced motion): three photo and text rows.
+   2. Live (.story--live, added by assets/js/services.js): a scroll story. */
+
+.page-head { padding-bottom: clamp(1.5rem, 3vw, 2.5rem); }
+
+.story { --gap: clamp(3rem, 9vw, 8rem); --progress: 0; position: relative; }
+.story__stage { display: none; }
+
+.journey { position: relative; padding-bottom: clamp(3rem, 6vw, 5rem); }
+
+/* The connecting line runs down the middle, between photo and text. */
+.journey::before,
+.journey::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 50%;
+  width: 1px;
+  background: var(--line-strong);
+}
+/* The filled part of the line. It only shows in the live state. */
+.journey::after {
+  width: 2px;
+  margin-left: -0.5px;
+  background: var(--signal);
+  transform: scaleY(var(--progress));
+  transform-origin: top;
+  display: none;
+}
+
+.chapter {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: var(--gap);
+  align-items: center;
+  padding-block: clamp(2.5rem, 5vw, 4rem);
+}
+
+/* One accent dot per chapter, sitting on the line. */
+.chapter::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  width: 9px;
+  height: 9px;
+  margin: -4px 0 0 -4px;
+  border-radius: 50%;
+  background: var(--signal);
+  box-shadow: 0 0 0 6px var(--navy-900);
+}
+
+.chapter--flip .chapter__photo { order: 2; }
+
+.chapter__photo,
+.story__shot {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: var(--r-tile);
+  background: var(--navy-800);
+}
+.chapter__photo img,
+.story__shot img { width: 100%; height: 100%; object-fit: cover; }
+
+/* Product shot on a pale tile (the photo is shot on white). */
+.chapter__photo--tile,
+.story__shot--tile { background: var(--paper); }
+.chapter__photo--tile img,
+.story__shot--tile img { object-fit: contain; padding: 6%; mix-blend-mode: multiply; }
+
+.chapter__text { max-width: 30rem; }
+
+.chapter__num {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(4.5rem, 9vw, 8rem);
+  line-height: 0.85;
+  letter-spacing: -0.04em;
+  color: var(--navy-700);
+  margin-bottom: 1rem;
+}
+
+.chapter h2 { font-size: var(--text-2xl); }
+
+.chapter__line {
+  margin-top: 0.9rem;
+  font-size: var(--text-lg);
+  line-height: 1.5;
+  color: var(--mist);
+}
+
+.chapter__list { margin-top: 1.5rem; border-top: 1px solid var(--line); }
+.chapter__list li {
+  padding-block: 0.7rem;
+  border-bottom: 1px solid var(--line);
+  font-weight: 600;
+}
+
+.chapter__proof {
+  margin-top: 1.25rem;
+  font-size: var(--text-sm);
+  color: var(--haze);
+}
+
+/* ------------------------------------------------------------ live state --- */
+/* The heading settles in on load. */
+.story-live .page-head h1,
+.story-live .page-head .lede { animation: head-in 700ms var(--ease-out) both; }
+.story-live .page-head .lede { animation-delay: 120ms; }
+@keyframes head-in { from { opacity: 0; transform: translateY(18px); } }
+
+.story--live .journey::after { display: block; }
+.story--live .chapter::before {
+  background: var(--navy-700);
+  transition: background-color 300ms, transform 400ms var(--ease-out);
+}
+.story--live .chapter.is-reached::before { background: var(--signal); }
+.story--live .chapter.is-active::before { transform: scale(1.5); }
+
+/* The three list rows follow the heading in, one after another. */
+.story--live .chapter__list li {
+  opacity: 0;
+  transform: translateX(-12px);
+  transition: opacity 500ms var(--ease-out), transform 500ms var(--ease-out);
+}
+.story--live .chapter.is-reached .chapter__list li { opacity: 1; transform: none; }
+.story--live .chapter__list li:nth-child(2) { transition-delay: 90ms; }
+.story--live .chapter__list li:nth-child(3) { transition-delay: 180ms; }
+
+/* Wide screens: the photo stays put and swaps; the steps scroll past it. */
+@media (min-width: 761px) {
+  .story--live {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--gap);
+    align-items: start;
+  }
+  .story--live .story__stage {
+    display: block;
+    position: sticky;
+    top: max(calc(var(--header-h) + 2rem), calc(50vh - 17vw));
+    aspect-ratio: 4 / 3;
+  }
+  .story--live .story__shot {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transform: scale(1.04);
+    transition: opacity 700ms var(--ease-out), transform 900ms var(--ease-out);
+  }
+  .story--live .story__shot.is-active { opacity: 1; transform: none; }
+
+  .story--live .journey { position: static; padding-bottom: 0; }
+  .story--live .journey::before,
+  .story--live .journey::after { inset: 0 auto 0 50%; }
+
+  .story--live .chapter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 82vh;
+    opacity: 0.28;
+    transition: opacity 500ms var(--ease-out);
+  }
+  .story--live .chapter.is-active { opacity: 1; }
+  .story--live .chapter::before { left: calc(var(--gap) / -2); }
+  .story--live .chapter__photo { display: none; }
+  .story--live .chapter__text { max-width: 30rem; width: 100%; }
+}
+
+@media (max-width: 760px) {
+  .journey::before,
+  .journey::after { left: 4px; }
+  .chapter {
+    grid-template-columns: 1fr;
+    row-gap: 1.5rem;
+    padding-left: 1.75rem;
+  }
+  .chapter::before { left: 4px; top: clamp(2.5rem, 5vw, 4rem); margin-top: 0; }
+  .chapter--flip .chapter__photo { order: 0; }
+  .chapter__text { max-width: none; }
+
+  /* Small screens: each step rises into place as it is reached. */
+  .story--live .chapter__photo,
+  .story--live .chapter__text {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 600ms var(--ease-out), transform 600ms var(--ease-out);
+  }
+  .story--live .chapter__text { transition-delay: 120ms; }
+  .story--live .chapter.is-reached .chapter__photo,
+  .story--live .chapter.is-reached .chapter__text { opacity: 1; transform: none; }
+}

@@ -1,0 +1,130 @@
+---
+layout: layouts/base.njk
+title: Home
+pageTitle: DFWin International | Engineered. Sourced. Delivered.
+description: DFWin International engineers, sources and delivers hotel, cruise and marine products. Browse the catalog or have a product made to your specification.
+permalink: index.html
+css: home
+js: home
+ctaTitle: What are you sourcing next?
+ctaText: Send a product list or a brief. We reply with pricing and lead times within one business day.
+---
+{# Home page. Five blocks, one story: what we do, proof, how we do it, what we sell, who buys it. #}
+
+{# ------------------------------------------------------------------ hero #}
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero__photo">
+    <img src="{{ 'assets/img/hero-dfwin-loading.png' | rel }}" alt="Generic cruise ship being supplied at port by a DFWin-branded truck" width="1500" height="1000" fetchpriority="high" decoding="async">
+  </div>
+  <svg class="hero__arc" viewBox="0 0 1200 600" preserveAspectRatio="none" aria-hidden="true"><path class="arc" pathLength="1" d="M60 620C200 300 620 70 1220 120"/></svg>
+  <div class="wrap hero__inner">
+    <h1 id="hero-title">Engineered.<br>Sourced.<br><span class="hero__accent">Delivered.</span></h1>
+    <p class="hero__lede">Hotel, cruise and marine products, from our catalog or built to your specification.</p>
+    <div class="cluster">
+      <a class="btn btn--primary" href="{{ 'quote.html' | rel }}">Request a quote {% icon "arrow-right" %}</a>
+      <a class="btn btn--outline" href="{{ 'catalog.html' | rel }}">Browse the catalog</a>
+    </div>
+  </div>
+</section>
+
+{# ------------------------------------------------------- figures (stats.json) #}
+<section class="figures" aria-label="DFWin in numbers">
+  <div class="wrap">
+    <dl class="figures__list">
+      {% for item in stats %}
+      <div class="stat">
+        <dt class="stat__label">{{ item.label }}</dt>
+        <dd class="stat__value" data-count>{{ item.value }}</dd>
+      </div>
+      {% endfor %}
+    </dl>
+  </div>
+</section>
+
+{# ------------------------------------------------------------ the journey #}
+<section class="section on-light journey" aria-labelledby="journey-title">
+  <div class="wrap">
+    <div class="journey__head">
+      <h2 id="journey-title">One partner, from first drawing to final delivery.</h2>
+      <a class="link-arrow" href="{{ 'services.html' | rel }}">How we work {% icon "arrow-right" %}</a>
+    </div>
+    <ol class="journey__steps">
+      <li class="journey__step">
+        <span class="journey__num" aria-hidden="true">1</span>
+        <h3>Engineer the solution</h3>
+        <p>We turn your drawing, sample or brief into a specification a factory can build.</p>
+      </li>
+      <li class="journey__step">
+        <span class="journey__num" aria-hidden="true">2</span>
+        <h3>Connect with manufacturing</h3>
+        <p>We select and audit the supplier, then manage production and quality.</p>
+      </li>
+      <li class="journey__step">
+        <span class="journey__num" aria-hidden="true">3</span>
+        <h3>Coordinate the journey</h3>
+        <p>We plan the logistics and deliver to your port, yard or property.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+{# ---------------------------------------------------------------- catalog #}
+<section class="section sectors" aria-labelledby="sectors-title">
+  <div class="wrap">
+    <div class="journey__head">
+      <h2 id="sectors-title">Or start in the catalog.</h2>
+      <a class="link-arrow" href="{{ 'catalog.html' | rel }}">All {{ products.length }} products {% icon "arrow-right" %}</a>
+    </div>
+    <div class="sectors__grid">
+      {% for sector in sectors %}
+      {% set count = products | where('sector', sector.key) | length %}
+      <a class="sector" href="{{ ('catalog.html#' + sector.slug) | rel }}">
+        <div class="media media--zoom sector__photo">
+          <img src="{{ sector.image | rel }}" alt="" width="736" height="256" loading="lazy" decoding="async">
+        </div>
+        <h3>{{ sector.title }} {% icon "arrow-up-right" %}</h3>
+        <p>{{ sector.tagline }} <span class="data">{{ count }} products</span></p>
+      </a>
+      {% endfor %}
+      <a class="sector" href="{{ 'quote.html' | rel }}">
+        <div class="media media--zoom sector__photo">
+          <img src="{{ 'assets/img/sector-outdoor.webp' | rel }}" alt="" width="736" height="256" loading="lazy" decoding="async">
+        </div>
+        <h3>Outdoor furniture {% icon "arrow-up-right" %}</h3>
+        <p>Coming soon. Ask us for a quote.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+{# -------------------------------------------------- customers (customers.json) #}
+<section class="section--tight on-light proof" aria-labelledby="proof-title">
+  <div class="wrap proof__inner">
+    <div class="proof__head">
+      <h2 id="proof-title">Awarded work by</h2>
+      <a class="link-arrow" href="{{ 'track-record.html' | rel }}">Track record {% icon "arrow-right" %}</a>
+    </div>
+    <ul class="proof__names">
+      {% for customer in customers %}
+      <li>{% if customer.logo %}<img src="{{ customer.logo | rel }}" alt="{{ customer.name }}" width="{{ customer.logoWidth }}" height="{{ customer.logoHeight }}" loading="lazy" decoding="async">{% else %}{{ customer.name }}{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{# Testimonials appear only when src/_data/testimonials.json has customer-approved entries. #}
+{% if testimonials.length %}
+<section class="section" aria-labelledby="quotes-title">
+  <div class="wrap">
+    <h2 id="quotes-title" class="visually-hidden">What customers say</h2>
+    <div class="quotes">
+      {% for t in testimonials %}
+      <figure class="quote">
+        <blockquote>{{ t.quote }}</blockquote>
+        <figcaption><strong>{{ t.name }}</strong><span>{{ t.role }}, {{ t.company }}</span></figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

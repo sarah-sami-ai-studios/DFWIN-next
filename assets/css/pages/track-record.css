@@ -1,0 +1,44 @@
+/* Track record page. Shared tokens and components come from site.css. */
+
+.tr-block { padding-bottom: clamp(3rem, 5vw, 4.5rem); }
+.tr-block--last { padding-bottom: clamp(3.5rem, 6vw, 5.5rem); }
+.tr-title { font-size: var(--text-xl); letter-spacing: -0.018em; margin-bottom: 1.5rem; }
+
+/* Customer logos: white plates, four per row */
+.tr-logos { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.75rem 1.25rem; }
+.tr-plate { display: flex; align-items: center; justify-content: center; height: 84px; padding: 0 1.25rem; background: #ffffff; border: 1px solid var(--line); border-radius: var(--r-control); }
+.tr-plate img { width: 100%; max-width: 180px; height: 44px; object-fit: contain; }
+.tr-logos__note { margin-top: 0.6rem; font-size: var(--text-xs); line-height: 1.35; color: var(--haze); }
+
+/* Timeline: quiet year numeral, then a ruled date and title list */
+.tr-year { display: grid; grid-template-columns: 11rem minmax(0, 1fr); column-gap: 2rem; border-top: 1px solid var(--line-strong); }
+.tr-year + .tr-year { margin-top: 2rem; }
+.tr-year__num { padding-top: 0.7rem; font-size: var(--text-3xl); font-weight: 700; line-height: 1; letter-spacing: -0.03em; color: var(--haze); font-variant-numeric: tabular-nums; }
+.tr-list { list-style: none; margin: 0; padding: 0; }
+.tr-row { display: grid; grid-template-columns: 11.5rem minmax(0, 1fr); column-gap: 1.5rem; align-items: baseline; padding-block: 0.8rem; border-top: 1px solid var(--line); }
+.tr-row:first-child { border-top: 0; }
+.tr-row__date { color: var(--mist); white-space: nowrap; }
+.tr-row__title { font-size: var(--text-base); line-height: 1.3; letter-spacing: -0.005em; font-weight: 600; }
+.tr-row__customer { margin-top: 0.15rem; font-size: var(--text-sm); line-height: 1.35; color: var(--haze); }
+
+/* Registrations: one line of tags */
+.tr-tags { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.tr-tags .tag { max-width: 100%; }
+
+/* Testimonials, only rendered when testimonials.json has entries */
+.tr-quotes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.5rem; padding-top: 2.5rem; border-top: 1px solid var(--line); }
+
+@media (max-width: 1000px) {
+  .tr-year { grid-template-columns: 7rem minmax(0, 1fr); column-gap: 1.5rem; }
+  .tr-year__num { font-size: var(--text-2xl); padding-top: 0.85rem; }
+}
+
+@media (max-width: 760px) {
+  .tr-logos { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem 0.75rem; }
+  .tr-plate { padding: 0 0.9rem; }
+  .tr-year { grid-template-columns: 1fr; }
+  .tr-year__num { padding-block: 0.9rem 0.25rem; }
+  .tr-row { grid-template-columns: 1fr; row-gap: 0.25rem; }
+  .tr-row:first-child { border-top: 0; }
+  .tr-quotes { grid-template-columns: 1fr; }
+}

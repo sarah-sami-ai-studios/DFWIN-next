@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="{{ site.language }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>{% if pageTitle %}{{ pageTitle }}{% else %}{{ title }} | {{ site.name }}{% endif %}</title>
+<meta name="description" content="{{ description or site.description }}">
+<link rel="canonical" href="{{ page.url | abs }}">
+<meta name="theme-color" content="#011a39">
+{% if site.analytics.measurementId %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.measurementId }}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","{{ site.analytics.measurementId }}");</script>
+{% endif %}
+{% if noindex %}<meta name="robots" content="noindex">{% endif %}
+{% if site.verification.google %}<meta name="google-site-verification" content="{{ site.verification.google }}">{% endif %}
+{% if site.verification.bing %}<meta name="msvalidate.01" content="{{ site.verification.bing }}">{% endif %}
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:type" content="{{ ogType or 'website' }}">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description or site.description }}">
+<meta property="og:url" content="{{ page.url | abs }}">
+<meta property="og:image" content="{{ (ogImage or 'assets/img/og-default.jpg') | abs }}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="{{ 'favicon.svg' | rel }}" type="image/svg+xml">
+<link rel="alternate" type="text/plain" href="{{ 'llms.txt' | rel }}" title="Site summary for AI assistants">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Schibsted+Grotesk:wght@600;700;800&display=swap">
+<link rel="stylesheet" href="{{ 'assets/css/site.css' | rel }}">
+{% if css %}<link rel="stylesheet" href="{{ ('assets/css/pages/' + css + '.css') | rel }}">{% endif %}
+{% include "partials/schema-org.njk" ignore missing %}
+{% block head %}{% endblock %}
+</head>
+<body data-page="{{ page.fileSlug or 'home' }}" data-root="{{ '' | rel }}" data-quote-endpoint="{{ site.quote.endpoint }}" data-sales-email="{{ site.email.sales }}">
+<a class="skip-link" href="#main">Skip to content</a>
+{% include "partials/header.njk" %}
+<main id="main">
+{{ content | safe }}
+</main>
+{% if not hideCta %}{% include "partials/cta.njk" %}{% endif %}
+{% include "partials/footer.njk" %}
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="{{ 'assets/js/quote-list.js' | rel }}"></script>
+<script src="{{ 'assets/js/site.js' | rel }}"></script>
+{% if js %}<script src="{{ ('assets/js/' + js + '.js') | rel }}"></script>{% endif %}
+</body>
+</html>

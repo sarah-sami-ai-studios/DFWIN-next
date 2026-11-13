@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Royal Caribbean Group",
+    "note": "Minibar fridges, SeaPass RFID cards, luggage cages",
+    "logo": "assets/img/customers/royal-caribbean.png",
+    "logoWidth": 424,
+    "logoHeight": 176
+  },
+  {
+    "name": "Celebrity Cruises",
+    "note": "Cabin fridges for Solstice Class, Xcel and river ships",
+    "logo": "assets/img/customers/celebrity-cruises.png",
+    "logoWidth": 480,
+    "logoHeight": 99
+  },
+  {
+    "name": "Norwegian Cruise Line",
+    "note": "Luggage cages, embarkation cases",
+    "logo": "assets/img/customers/norwegian-cruise-line.png",
+    "logoWidth": 480,
+    "logoHeight": 71
+  },
+  {
+    "name": "Disney Cruise Line",
+    "note": "Luggage cages, drawer safes and minibar fridges",
+    "logo": "assets/img/customers/disney-cruise-line.png",
+    "logoWidth": 480,
+    "logoHeight": 159
+  },
+  {
+    "name": "MSC Cruises",
+    "note": "Luggage trolleys for US port facilities",
+    "logo": "assets/img/customers/msc-cruises.png",
+    "logoWidth": 480,
+    "logoHeight": 172
+  },
+  {
+    "name": "Meyer Group",
+    "note": "Registered supplier",
+    "logo": "assets/img/customers/meyer-werft.png",
+    "logoWidth": 480,
+    "logoHeight": 164
+  },
+  {
+    "name": "Piikkio Works",
+    "note": "Minibar fridges for prefabricated cabins",
+    "logo": "assets/img/customers/piikkio-works.png",
+    "logoWidth": 378,
+    "logoHeight": 133
+  },
+  {
+    "name": "Ellevi Group",
+    "note": "Minibar fridges",
+    "logo": "assets/img/customers/ellevi.png",
+    "logoWidth": 177,
+    "logoHeight": 72
+  }
+]

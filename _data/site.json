@@ -1,0 +1,38 @@
+{
+  "name": "DFWin International",
+  "legalName": "Hong Kong DFWin Int'l Co. Limited",
+  "shortName": "DFWin",
+  "tagline": "Engineered. Sourced. Delivered.",
+  "description": "DFWin International sources, engineers and ships hotel equipment, tableware, RFID and marine products for cruise lines, shipyards and hotels. Supplying the cruise industry since 2014.",
+  "url": "https://sarah-sami-ai-studios.github.io/DFWIN-next",
+  "language": "en",
+  "founded": "2012",
+  "email": {
+    "sales": "braydai@dfwin-intl.com",
+    "general": "info@dfwin-intl.com"
+  },
+  "offices": [
+    {
+      "city": "Hong Kong",
+      "role": "Head office",
+      "country": "HK"
+    },
+    {
+      "city": "Hialeah, Florida",
+      "role": "United States office",
+      "country": "US"
+    }
+  ],
+  "quote": {
+    "endpoint": "",
+    "responseTime": "one business day"
+  },
+  "social": {},
+  "verification": {
+    "google": "",
+    "bing": ""
+  },
+  "analytics": {
+    "measurementId": "G-W373V27LQF"
+  }
+}
