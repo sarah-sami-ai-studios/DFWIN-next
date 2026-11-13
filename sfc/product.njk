@@ -1,0 +1,137 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: products
+  size: 1
+  alias: product
+permalink: "products/{{ product.slug }}.html"
+css: product
+ogType: product
+eleventyComputed:
+  title: "{{ product.name | safe }} ({{ product.id }})"
+  description: "{{ product.description | truncate(150) | safe }}"
+  ogImage: "{{ product.image }}"
+---
+{% set productUrl = 'products/' + product.slug + '.html' %}
+{% set sectorSlug = product.sector | lower %}
+{% set pageProduct = product %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": product.name,
+  "sku": product.id,
+  "category": product.sector + " > " + product.category,
+  "description": product.description,
+  "image": product.image | abs,
+  "brand": { "@type": "Brand", "name": site.shortName },
+  "url": productUrl | abs
+} | json | safe }}</script>
+
+<div class="on-light band">
+<article class="product wrap">
+  <nav aria-label="Breadcrumb">
+    <ol class="crumbs">
+      <li><a href="{{ 'catalog.html' | rel }}">Catalog</a></li>
+      <li><a href="{{ ('catalog.html?sector=' + sectorSlug) | rel }}">{{ product.sector }}</a></li>
+      <li aria-current="page">{{ product.name }}</li>
+    </ol>
+  </nav>
+
+  <div class="product__layout">
+    <figure class="product__photo">
+      <img src="{{ product.image | rel }}" alt="{{ product.name }}" width="900" height="900" fetchpriority="high" decoding="async">
+    </figure>
+
+    <div class="product__info">
+      <ul class="product__tags" aria-label="Sector and category">
+        <li><a class="tag" href="{{ ('catalog.html?sector=' + sectorSlug) | rel }}">{{ product.sector }}</a></li>
+        <li><a class="tag" href="{{ ('catalog.html?sector=' + sectorSlug + '&category=' + (product.category | urlencode)) | rel }}">{{ product.category }}</a></li>
+      </ul>
+      <h1>{{ product.name }}</h1>
+      <p class="product__id"><span class="visually-hidden">Product ID </span><span class="data">{{ product.id }}</span></p>
+      <p class="product__description">{{ product.description }}</p>
+
+      <div class="product__buy">
+        <div class="field product__qty">
+          <label for="product-qty">Quantity</label>
+          <div class="stepper">
+            <button type="button" data-qty-step="-1" aria-label="Decrease quantity">{% icon "minus" %}</button>
+            <input id="product-qty" type="number" inputmode="numeric" min="1" max="999999" step="1" value="1" autocomplete="off">
+            <button type="button" data-qty-step="1" aria-label="Increase quantity">{% icon "plus" %}</button>
+          </div>
+        </div>
+        <button class="btn btn--primary product__add" type="button" data-quote-add="{{ product.id }}" data-name="{{ product.name }}" aria-pressed="false">Add to quote list</button>
+      </div>
+      <p class="product__next">
+        <a class="link-arrow" href="{{ 'quote.html' | rel }}">Request a quote {% icon "arrow-right" %}</a>
+        <span class="quiet">No payment and no commitment. We answer within {{ site.quote.responseTime }}.</span>
+      </p>
+
+      <section class="confirm" aria-labelledby="confirm-title">
+        <h2 id="confirm-title">What we confirm in your quote</h2>
+        <p>We do not publish list prices or fixed specifications. Each quote is prepared for your quantity and requirement, and states:</p>
+        <ul class="confirm__list">
+          <li>Unit price at your quantity</li>
+          <li>Minimum order quantity</li>
+          <li>Lead time</li>
+          <li>Material, finish and branding options</li>
+          <li>Shipping terms</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</article>
+
+{% set related = [] %}
+{% for other in products %}{% if other.id != product.id and other.category == product.category and related.length < 4 %}{% if related.push(other) %}{% endif %}{% endif %}{% endfor %}
+{% for other in products %}{% if other.id != product.id and other.sector == product.sector and other.category != product.category and related.length < 4 %}{% if related.push(other) %}{% endif %}{% endif %}{% endfor %}
+{% if related.length %}
+<section class="section section--tight section--ruled related" aria-labelledby="related-title">
+  <div class="wrap">
+    <div class="related__head">
+      <h2 id="related-title">Related products</h2>
+      <a class="link-arrow" href="{{ ('catalog.html?sector=' + sectorSlug) | rel }}">All {{ pageProduct.sector | lower }} products {% icon "arrow-right" %}</a>
+    </div>
+    <div class="product-grid related__grid">
+      {% for product in related %}
+      {% include "partials/product-card.njk" %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+</div>
+
+<script>
+/* Quantity stepper for this product. The "Add to quote list" button itself is
+   handled by site.js; this only carries the chosen quantity into the list. */
+document.addEventListener("DOMContentLoaded", function () {
+  var id = {{ pageProduct.id | json | safe }};
+  var input = document.getElementById("product-qty");
+  var add = document.querySelector(".product__add");
+  if (!input || !add || !window.QuoteList) return;
+
+  function clean(value) {
+    var n = parseInt(value, 10);
+    return isNaN(n) || n < 1 ? 1 : Math.min(n, 999999);
+  }
+  function save() {
+    input.value = String(clean(input.value));
+    if (window.QuoteList.has(id)) window.QuoteList.setQty(id, input.value);
+  }
+
+  var stored = window.QuoteList.items().filter(function (item) { return item.id === id; })[0];
+  if (stored) input.value = String(clean(stored.qty));
+
+  input.addEventListener("change", save);
+  document.querySelectorAll("[data-qty-step]").forEach(function (button) {
+    button.addEventListener("click", function () {
+      input.value = String(clean(clean(input.value) + Number(button.getAttribute("data-qty-step"))));
+      save();
+    });
+  });
+  /* site.js adds the product on the same click; set the quantity straight after. */
+  add.addEventListener("click", function () { window.setTimeout(save, 0); });
+});
+</script>
