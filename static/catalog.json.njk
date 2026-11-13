@@ -1,0 +1,31 @@
+---
+permalink: catalog.json
+eleventyExcludeFromCollections: true
+---
+{
+  "name": {{ (site.name + " product catalog") | json | safe }},
+  "publisher": {{ site.name | json | safe }},
+  "legalName": {{ site.legalName | json | safe }},
+  "description": {{ site.description | json | safe }},
+  "website": {{ '/' | abs | json | safe }},
+  "catalogUrl": {{ 'catalog.html' | abs | json | safe }},
+  "quoteUrl": {{ 'quote.html' | abs | json | safe }},
+  "salesEmail": {{ site.email.sales | json | safe }},
+  "generalEmail": {{ site.email.general | json | safe }},
+  "pricing": "Prices are not published. Request a quote with product IDs and quantities.",
+  "generated": {{ buildDate | json | safe }},
+  "count": {{ products.length }},
+  "products": [
+{%- for p in products %}
+    {
+      "id": {{ p.id | json | safe }},
+      "name": {{ p.name | json | safe }},
+      "sector": {{ p.sector | json | safe }},
+      "category": {{ p.category | json | safe }},
+      "description": {{ p.description | json | safe }},
+      "url": {{ ('products/' + p.slug + '.html') | abs | json | safe }},
+      "image": {{ p.image | abs | json | safe }}
+    }{% if not loop.last %},{% endif %}
+{%- endfor %}
+  ]
+}

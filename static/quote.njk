@@ -1,0 +1,211 @@
+---
+layout: layouts/base.njk
+title: Request a quote
+description: Send DFWin your product list or specification. We reply with unit price, minimum order quantity and lead time within one business day.
+permalink: quote.html
+css: quote
+js: quote
+hideCta: true
+---
+<section class="page-head quote-head">
+  <div class="wrap">
+    <h1>Request a quote</h1>
+    <p class="lede">Tell us what you need and for which ship or property. We reply with unit price, minimum order quantity and lead time within {{ site.quote.responseTime }}.</p>
+  </div>
+</section>
+
+<div class="on-light band">
+<div class="wrap quote-layout">
+  <div class="quote-main">
+
+    <div id="quote-compose">
+      {# ------------------------------------------------ quote list --- #}
+      <section class="quote-block" aria-labelledby="list-title">
+        <div class="quote-block__head">
+          <h2 id="list-title" tabindex="-1">Your quote list <span class="data list-count" id="list-count" hidden></span></h2>
+          <button class="text-button" type="button" id="list-clear" hidden>Clear list</button>
+        </div>
+
+        <div class="list-confirm" id="list-confirm" role="group" aria-labelledby="list-confirm-text" hidden>
+          <p id="list-confirm-text">Remove all products from your quote list?</p>
+          <div class="cluster">
+            <button class="btn btn--outline btn--small" type="button" id="list-confirm-yes">Yes, clear the list</button>
+            <button class="btn btn--primary btn--small" type="button" id="list-confirm-no">Keep the list</button>
+          </div>
+        </div>
+
+        <ul class="quote-items" id="quote-items" aria-labelledby="list-title"></ul>
+
+        <div class="list-empty" id="list-empty">
+          <p>Your quote list is empty. Add products from the catalog, or describe what you need in the form below.</p>
+          <a class="btn btn--outline" href="{{ 'catalog.html' | rel }}" id="list-empty-link">Browse the catalog {% icon "arrow-right" %}</a>
+        </div>
+        <p class="list-more" id="list-more" hidden><a class="link-arrow" href="{{ 'catalog.html' | rel }}">Add more products {% icon "arrow-right" %}</a></p>
+        <p class="visually-hidden" id="list-status" role="status" aria-live="polite"></p>
+
+        {# One row of the list. quote.js clones this for every product. #}
+        <template id="quote-item-template">
+          <li class="quote-item">
+            <a class="quote-item__thumb" data-part="thumb-link" tabindex="-1" aria-hidden="true"><img data-part="thumb" alt="" width="72" height="72" loading="lazy" decoding="async"></a>
+            <div class="quote-item__text">
+              <a class="quote-item__name" data-part="name"></a>
+              <span class="data quote-item__id" data-part="id"></span>
+            </div>
+            <div class="stepper" data-part="stepper">
+              <button type="button" data-part="minus">{% icon "minus" %}</button>
+              <input type="number" inputmode="numeric" min="1" max="999999" step="1" autocomplete="off" data-part="qty">
+              <button type="button" data-part="plus">{% icon "plus" %}</button>
+            </div>
+            <button class="quote-item__remove" type="button" data-part="remove">{% icon "trash" %}</button>
+          </li>
+        </template>
+      </section>
+
+      {# ------------------------------------------------------ form --- #}
+      <section class="quote-block" aria-labelledby="form-title">
+        <div class="quote-block__head">
+          <h2 id="form-title">Your details</h2>
+          <p class="quiet form-note"><span class="required" aria-hidden="true">*</span> Required</p>
+        </div>
+
+        <noscript>
+          <p class="form-noscript">This form needs JavaScript. You can email your request directly to <a href="mailto:{{ site.email.sales }}">{{ site.email.sales }}</a>.</p>
+        </noscript>
+
+        <form id="quote-form" novalidate>
+          <div class="form-grid">
+            <fieldset class="field span-2 segmented">
+              <legend>What do you need?</legend>
+              <div class="segmented__options">
+                <label><input type="radio" name="requestType" id="type-catalog" value="Quote for catalog products" checked><span>Quote for catalog products</span></label>
+                <label><input type="radio" name="requestType" id="type-custom" value="Have a product made or sourced"><span>Have a product made or sourced</span></label>
+                <label><input type="radio" name="requestType" id="type-question" value="General question"><span>General question</span></label>
+              </div>
+            </fieldset>
+
+            <div class="field">
+              <label for="company">Company <span class="required" aria-hidden="true">*</span></label>
+              <input id="company" name="company" type="text" autocomplete="organization" required aria-describedby="company-error" maxlength="120">
+              <p class="error" id="company-error">Enter your company name.</p>
+            </div>
+            <div class="field">
+              <label for="full-name">Full name <span class="required" aria-hidden="true">*</span></label>
+              <input id="full-name" name="name" type="text" autocomplete="name" required aria-describedby="full-name-error" maxlength="120">
+              <p class="error" id="full-name-error">Enter your full name.</p>
+            </div>
+            <div class="field">
+              <label for="email">Work email <span class="required" aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" inputmode="email" autocomplete="email" autocapitalize="none" spellcheck="false" required aria-describedby="email-error" maxlength="160">
+              <p class="error" id="email-error">Enter a work email like name@company.com.</p>
+            </div>
+            <div class="field">
+              <label for="phone">Phone <span class="optional">optional</span></label>
+              <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" aria-describedby="phone-error" maxlength="40">
+              <p class="error" id="phone-error">Enter a phone number with its country code, or leave this empty.</p>
+            </div>
+            <div class="field">
+              <label for="country">Country <span class="optional">optional</span></label>
+              <input id="country" name="country" type="text" autocomplete="country-name" maxlength="80">
+            </div>
+            <div class="field">
+              <label for="site-name">Vessel or property name <span class="optional">optional</span></label>
+              <input id="site-name" name="siteName" type="text" autocomplete="off" maxlength="120">
+            </div>
+            <div class="field">
+              <label for="needed-by">Needed by <span class="optional">optional</span></label>
+              <input id="needed-by" name="neededBy" type="date" autocomplete="off" aria-describedby="needed-by-hint needed-by-error">
+              <p class="hint" id="needed-by-hint">A delivery date, dry dock or opening date helps us plan.</p>
+              <p class="error" id="needed-by-error">Choose a date that is today or later, or leave this empty.</p>
+            </div>
+            <div class="field span-2">
+              <label for="details">Details <span class="required" id="details-required" aria-hidden="true">*</span><span class="optional" id="details-optional" hidden>optional</span></label>
+              <textarea id="details" name="details" rows="6" aria-describedby="details-hint details-error" maxlength="4000"></textarea>
+              <p class="hint" id="details-hint">Quantities, sizes, finish, branding, delivery port or anything else we should know. For a made-to-order product, describe it or name a reference item.</p>
+              <p class="error" id="details-error">Tell us what you need, or add products from the catalog to your quote list.</p>
+            </div>
+
+            {# Spam trap. Real visitors never see or reach this field. #}
+            <div class="hp-field" aria-hidden="true">
+              <label for="website">Leave this field empty</label>
+              <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button class="btn btn--primary" type="submit" id="quote-submit">Prepare my request {% icon "arrow-right" %}</button>
+            <p class="quiet">No payment and no commitment.</p>
+          </div>
+          <p class="form-summary-error" id="form-error" role="alert" hidden></p>
+        </form>
+      </section>
+    </div>
+
+    {# --------------------------------------------------- result states --- #}
+    <section class="quote-result" id="quote-result" aria-labelledby="result-title" hidden>
+      <h2 id="result-title" tabindex="-1"></h2>
+      <p class="quote-result__lede" id="result-lede"></p>
+
+      <div id="result-fallback">
+        <ol class="send-steps">
+          <li>
+            <h3>Send it from your email app</h3>
+            <p>This opens a new message to our sales team with your request already filled in. You press send.</p>
+            <a class="btn btn--primary" id="result-mailto" href="mailto:{{ site.email.sales }}">{% icon "envelope-simple" %} Open in your email app</a>
+            <p class="quote-result__note" id="result-truncated" hidden>Your request is long, so the email draft holds a shortened version. Copy the full request below and paste it into the message.</p>
+          </li>
+          <li>
+            <h3>Or copy it and send it yourself</h3>
+            <p>Send to <span class="data address" id="result-address">{{ site.email.sales }}</span></p>
+            <label class="visually-hidden" for="result-summary">Your request</label>
+            <textarea class="input summary" id="result-summary" readonly rows="12" spellcheck="false"></textarea>
+            <div class="cluster">
+              <button class="btn btn--outline" type="button" id="result-copy">{% icon "copy" %} Copy request</button>
+              <span class="copy-status" id="copy-status" role="status" aria-live="polite"></span>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <div class="quote-result__actions cluster">
+        <button class="btn btn--outline" type="button" id="result-edit">{% icon "arrow-left" %} Edit request</button>
+        <button class="text-button" type="button" id="result-new">Start a new request</button>
+      </div>
+    </section>
+  </div>
+
+  {# ------------------------------------------------------------- aside --- #}
+  <aside class="quote-aside" aria-label="How quoting works and direct contacts">
+    <section aria-labelledby="next-title">
+      <h2 id="next-title">What happens next</h2>
+      <ol class="next-steps">
+        <li><span class="data" aria-hidden="true">1</span><p><strong>We confirm the specification and quantity.</strong> If anything is unclear we ask before pricing.</p></li>
+        <li><span class="data" aria-hidden="true">2</span><p><strong>We return unit price, minimum order quantity and lead time.</strong> Usually within {{ site.quote.responseTime }}.</p></li>
+        <li><span class="data" aria-hidden="true">3</span><p><strong>You approve a sample or place the order.</strong> We proceed only on your approval.</p></li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="direct-title">
+      <h2 id="direct-title">Write to us directly</h2>
+      <dl class="contact-list">
+        <div><dt>Sales and quotes</dt><dd><a href="mailto:{{ site.email.sales }}">{{ site.email.sales }}</a></dd></div>
+        <div><dt>General</dt><dd><a href="mailto:{{ site.email.general }}">{{ site.email.general }}</a></dd></div>
+      </dl>
+    </section>
+
+    <section aria-labelledby="offices-title">
+      <h2 id="offices-title">Offices</h2>
+      <dl class="contact-list">
+        {% for office in site.offices %}
+        <div><dt>{{ office.role }}</dt><dd>{{ office.city }}</dd></div>
+        {% endfor %}
+      </dl>
+    </section>
+  </aside>
+</div>
+
+<script type="application/json" id="product-index">{
+{%- for p in products %}
+{{ p.id | json | safe }}:{{ { "name": p.name, "image": p.image, "slug": p.slug } | json | safe }}{% if not loop.last %},{% endif %}
+{%- endfor %}
+}</script>
+</div>

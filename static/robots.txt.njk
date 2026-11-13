@@ -1,0 +1,54 @@
+---
+permalink: robots.txt
+eleventyExcludeFromCollections: true
+---
+# robots.txt for {{ site.name }}
+# Policy: everything on this site is public and may be crawled. We want search
+# engines and AI assistants to find, quote and recommend these pages.
+# Crawlers follow the most specific group that names them, so every group below
+# says "Allow: /" on purpose. Lines starting with # are notes for people.
+
+# 1. Every crawler not named below (Google, Bing, DuckDuckGo, Yandex and others).
+#    Googlebot and Bingbot also supply Google AI Overviews, Gemini and Copilot.
+User-agent: *
+Allow: /
+
+# 2. AI search indexes. These build the indexes that ChatGPT search, Claude,
+#    Perplexity, Alexa and Meta AI use to find and cite pages.
+#    Blocking any of these removes the site from that assistant's answers.
+User-agent: OAI-SearchBot
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+User-agent: Amzn-SearchBot
+User-agent: Meta-WebIndexer
+User-agent: Applebot
+Allow: /
+
+# 3. Live fetchers. These open a page only when a person asks an assistant a
+#    question or pastes a link. Blocking them stops the assistant reading the
+#    page for that person.
+User-agent: ChatGPT-User
+User-agent: Claude-User
+User-agent: Perplexity-User
+User-agent: Amzn-User
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# 4. AI training crawlers and training controls. Allowed on purpose, so that
+#    future AI models know what {{ site.shortName }} supplies.
+#    Google-Extended and Applebot-Extended are not crawlers. They are switches
+#    that control whether pages already crawled may be used for Gemini and
+#    Apple AI models. Neither one affects search ranking.
+#    TO OPT OUT OF TRAINING LATER: change "Allow: /" in this group only to
+#    "Disallow: /". Leave groups 1 to 3 alone so the site stays visible in
+#    search and in AI answers.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Amazonbot
+User-agent: Meta-ExternalAgent
+Allow: /
+
+Sitemap: {{ 'sitemap.xml' | abs }}
