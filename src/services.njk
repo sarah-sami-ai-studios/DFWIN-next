@@ -1,0 +1,77 @@
+---
+layout: layouts/base.njk
+title: How we work
+description: How DFWin International works in three steps. We engineer the product, connect it with manufacturing, and coordinate delivery to your ship, yard or hotel.
+permalink: services.html
+css: services
+js: services
+ctaTitle: "Tell us what you need made."
+chapters:
+  - title: Engineer the solution
+    line: We turn a drawing, a sample or a brief into a specification a factory can build.
+    list: [Product development, Engineering, New product introduction]
+    proof: 352 stainless steel luggage cages built for Quantum of the Seas, 2014.
+    image: assets/img/work-engineer.webp
+    alt: Steel caliper resting on a dimensioned technical drawing
+    width: 1400
+    height: 1050
+  - title: Connect with manufacturing
+    line: We find and audit the right supplier, then manage production and quality through to a finished order.
+    list: [Global sourcing, Supplier qualification and audit, Production and quality assurance]
+    proof: New supplier partnerships in Viet Nam, 2026.
+    image: assets/img/work-manufacture.webp
+    alt: Fabricator working on metal sections in a workshop
+    width: 1400
+    height: 1050
+  - title: Coordinate the journey
+    line: We plan the international supply chain, ship the order, and support installation on site when the ship is in dry dock.
+    list: [Supply chain planning, Logistics and delivery, On-site dry dock support]
+    proof: On site in Singapore for the Celebrity Solstice dry dock, 2026.
+    image: assets/img/work-deliver.webp
+    alt: Container ship alongside gantry cranes at a port
+    width: 1400
+    height: 1050
+---
+<section class="page-head">
+  <div class="wrap">
+    <h1>From a drawing to a delivered order</h1>
+    <p class="lede">We engineer the product, find the factory to make it, and bring it to your ship, yard or hotel.</p>
+  </div>
+</section>
+
+{# The page is a scroll story. With JavaScript and motion allowed, the photo
+   stage stays in view and swaps as each step reaches the middle of the screen
+   (see assets/js/services.js). Without either, it is a plain three-step list. #}
+<section class="on-light band">
+<div class="wrap">
+  <div class="story" data-story>
+    <div class="story__stage" aria-hidden="true">
+      {% for c in chapters %}
+      <figure class="story__shot{% if c.tile %} story__shot--tile{% endif %}{% if loop.first %} is-active{% endif %}" data-story-shot>
+        <img src="{{ c.image | rel }}" alt="" width="{{ c.width }}" height="{{ c.height }}" decoding="async">
+      </figure>
+      {% endfor %}
+    </div>
+
+    <ol class="journey">
+      {% for c in chapters %}
+      <li class="chapter{% if loop.index % 2 == 0 %} chapter--flip{% endif %}" data-story-chapter>
+        <figure class="chapter__photo{% if c.tile %} chapter__photo--tile{% endif %}">
+          <img src="{{ c.image | rel }}" alt="{{ c.alt }}" width="{{ c.width }}" height="{{ c.height }}" loading="lazy" decoding="async">
+        </figure>
+        <div class="chapter__text">
+          <span class="chapter__num" aria-hidden="true">{{ loop.index }}</span>
+          <h2>{{ c.title }}</h2>
+          <p class="chapter__line">{{ c.line }}</p>
+          <ul class="chapter__list">
+            {% for item in c.list %}<li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+          <p class="chapter__proof">{{ c.proof }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</div>
+</section>
