@@ -1,0 +1,76 @@
+---
+layout: layouts/base.njk
+title: Product catalog
+description: Search DFWin's catalog of hotel carts, towels, tableware, minibar fridges, RFID wristbands, mooring ropes and life jackets, then request a quote.
+permalink: catalog.html
+css: catalog
+js: catalog
+ctaTitle: Need something that is not listed? We source it.
+---
+<section class="page-head catalog-head">
+  <div class="wrap">
+    <h1>Product catalog</h1>
+    <p class="lede"><span class="data">{{ products.length }}</span> products for hotel operations, ships and guest access. Add what you need to your quote list and we reply with pricing and lead times.</p>
+  </div>
+</section>
+
+<noscript><style>.filter-bar, .catalog-status { display: none; }</style></noscript>
+
+<div class="filter-bar on-light" id="catalog-filters" role="search" aria-label="Filter the catalog">
+  <div class="wrap filter-bar__row">
+    <div class="filter-search">
+      <label class="visually-hidden" for="catalog-search">Search products by name, category or product ID</label>
+      {% icon "magnifying-glass" %}
+      <input class="input" id="catalog-search" type="search" name="q" placeholder="Search products or IDs" autocomplete="off" spellcheck="false" enterkeyhint="search">
+    </div>
+
+    <div class="filter-sectors" role="group" aria-label="Sector">
+      <button class="chip" type="button" data-sector="" aria-pressed="true">All <small>{{ products.length }}</small></button>
+      {% for sector in sectors %}
+      <button class="chip" type="button" data-sector="{{ sector.key }}" data-sector-slug="{{ sector.slug }}" aria-pressed="false">{{ sector.title }} <small>{{ (products | where("sector", sector.key)).length }}</small></button>
+      {% endfor %}
+    </div>
+
+    <div class="filter-category">
+      <label class="visually-hidden" for="catalog-category">Category</label>
+      <select class="input" id="catalog-category" name="category">
+        <option value="">All categories</option>
+        {% for sector in sectors %}
+        {% for category, items in products | where("sector", sector.key) | groupby("category") %}
+        <option value="{{ category }}" data-sector="{{ sector.key }}">{{ category }} ({{ items.length }})</option>
+        {% endfor %}
+        {% endfor %}
+      </select>
+    </div>
+  </div>
+</div>
+
+<section class="catalog-body on-light">
+  <div class="wrap">
+    <div class="catalog-status">
+      <p class="catalog-count" id="catalog-count" aria-live="polite" aria-atomic="true">Showing all <span class="data">{{ products.length }}</span> products</p>
+      <button class="catalog-clear" type="button" data-clear-filters hidden>{% icon "x" %} Clear filters</button>
+    </div>
+
+    <h2 class="visually-hidden">Products</h2>
+    <div class="product-grid catalog-grid" id="catalog-grid">
+      {% for product in products %}
+      {% include "partials/product-card.njk" %}
+      {% endfor %}
+    </div>
+
+    <div class="catalog-empty" id="catalog-empty" hidden>
+      <h2 id="catalog-empty-title">No products match your search</h2>
+      <p>The catalog shows a sample of what we supply. DFWin also sources products that are not listed here, so send us the item and the quantity and we will price it for you.</p>
+      <div class="cluster">
+        <a class="btn btn--primary" href="{{ 'quote.html' | rel }}">Request a quote {% icon "arrow-right" %}</a>
+        <button class="btn btn--outline" type="button" data-clear-filters>Clear filters</button>
+      </div>
+    </div>
+
+    <aside class="range-note" aria-label="About this catalog">
+      <p class="range-note__lead">This catalog is a sample of our range.</p>
+      <p>We also supply electric kettles, air filters, outdoor furniture, carpet, glassware and souvenirs, and we source or have products made to your specification. <a href="{{ 'quote.html' | rel }}">Request a quote</a> for anything you do not see.</p>
+    </aside>
+  </div>
+</section>
