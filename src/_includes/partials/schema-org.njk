@@ -1,0 +1,101 @@
+{#- Structured data (schema.org JSON-LD) for search engines and AI assistants.
+    Everything here is generated from src/_data/. Truth rules apply: no ratings,
+    no reviews, no prices, nothing that is not in the data files.
+    Optional fields appear only when the data exists: site.social (sameAs),
+    site.areaServed (list of place names). -#}
+{%- set homeUrl = '/' | abs -%}
+{%- set orgId = homeUrl + '#organization' -%}
+{%- set siteId = homeUrl + '#website' -%}
+{%- set isHome = page.url == '/' -%}
+{%- set topics = [] -%}
+{%- for p in products -%}
+  {%- if topics.indexOf(p.category) == -1 -%}{%- set _ = topics.push(p.category) -%}{%- endif -%}
+{%- endfor -%}
+{%- set profiles = [] -%}
+{%- for network, link in site.social -%}
+  {%- if link -%}{%- set _ = profiles.push(link) -%}{%- endif -%}
+{%- endfor -%}
+{%- set crumbProduct = null -%}
+{%- for p in products -%}
+  {%- if page.url == '/products/' + p.slug + '.html' -%}{%- set crumbProduct = p -%}{%- endif -%}
+{%- endfor -%}
+{%- macro str(value) -%}{{ value | json | replace("</", "<\\/") | safe }}{%- endmacro -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": {{ str(orgId) }},
+      "name": {{ str(site.name) }},
+      "legalName": {{ str(site.legalName) }},
+      "alternateName": {{ str(site.shortName) }},
+      "url": {{ str(homeUrl) }},
+      "logo": {{ str('assets/img/logo-dfwin.png' | abs) }},
+      "description": {{ str(site.description) }},
+      "email": {{ str(site.email.general) }},
+      "foundingDate": {{ str(site.founded) }},
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "email": {{ str(site.email.sales) }},
+        "url": {{ str('quote.html' | abs) }}
+      },
+      "address": [
+        {%- for office in site.offices %}
+        {%- set parts = office.city.split(', ') %}
+        {
+          "@type": "PostalAddress",
+          "name": {{ str(office.role) }},
+          "addressLocality": {{ str(parts[0]) }},
+          {%- if parts[1] %}
+          "addressRegion": {{ str(parts[1]) }},
+          {%- endif %}
+          "addressCountry": {{ str(office.country) }}
+        }{% if not loop.last %},{% endif %}
+        {%- endfor %}
+      ]
+      {%- if site.areaServed and site.areaServed.length %},
+      "areaServed": {{ str(site.areaServed) }}
+      {%- endif %}
+      {%- if profiles.length %},
+      "sameAs": {{ str(profiles) }}
+      {%- endif %},
+      "knowsAbout": {{ str(topics) }}
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ str(siteId) }},
+      "name": {{ str(site.name) }},
+      "url": {{ str(homeUrl) }},
+      "description": {{ str(site.description) }},
+      "inLanguage": {{ str(site.language) }},
+      "publisher": { "@id": {{ str(orgId) }} }
+      {%- if isHome %},
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": {{ str(('catalog.html' | abs) + '?q={search_term_string}') }}
+        },
+        "query-input": "required name=search_term_string"
+      }
+      {%- endif %}
+    }
+    {%- if not isHome and not noindex %},
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": {{ str(homeUrl) }} },
+        {%- if crumbProduct %}
+        { "@type": "ListItem", "position": 2, "name": "Catalog", "item": {{ str('catalog.html' | abs) }} },
+        { "@type": "ListItem", "position": 3, "name": {{ str(crumbProduct.name) }}, "item": {{ str(page.url | abs) }} }
+        {%- else %}
+        { "@type": "ListItem", "position": 2, "name": {{ str(title or site.name) }}, "item": {{ str(page.url | abs) }} }
+        {%- endif %}
+      ]
+    }
+    {%- endif %}
+  ]
+}
+</script>

@@ -1,0 +1,32 @@
+{# Site footer. Link columns come from src/_data/nav.json, contact details from site.json #}
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="{{ 'assets/img/logo-dfwin.png' | rel }}" alt="{{ site.shortName }}" width="520" height="203" loading="lazy">
+        <p>Sourcing, engineering and delivery of hotel equipment, tableware, RFID and marine products for cruise lines, shipyards and hotels.</p>
+      </div>
+      {% for column in nav.footer %}
+      <nav aria-label="{{ column.title }}">
+        <h2>{{ column.title }}</h2>
+        <ul>
+          {% for link in column.links %}<li><a href="{{ link.url | rel }}">{{ link.label }}</a></li>{% endfor %}
+        </ul>
+      </nav>
+      {% endfor %}
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="{{ 'quote.html' | rel }}">Request a quote</a></li>
+          <li><a href="mailto:{{ site.email.sales }}">{{ site.email.sales }}</a></li>
+          <li><a href="mailto:{{ site.email.general }}">{{ site.email.general }}</a></li>
+          {% for office in site.offices %}<li>{{ office.city }}</li>{% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <span>&copy; {{ year }} {{ site.legalName }}</span>
+      <span>{{ site.tagline }}</span>
+    </div>
+  </div>
+</footer>

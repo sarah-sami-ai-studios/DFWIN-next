@@ -1,0 +1,14 @@
+{# Closing call to action shown on every page unless the page sets hideCta: true #}
+<section class="cta-band" aria-labelledby="cta-title">
+  <svg class="cta-band__arc" viewBox="0 0 900 420" aria-hidden="true"><path class="arc" d="M20 400C60 150 420 10 880 120"/></svg>
+  <div class="wrap">
+    <div>
+      <h2 id="cta-title">{{ ctaTitle or "Send us your list. We reply with pricing and lead times." }}</h2>
+      <p>{{ ctaText or "No payment and no commitment. A quote request reaches our sales team directly, and we answer within " + site.quote.responseTime + "." }}</p>
+    </div>
+    <div class="cluster">
+      <a class="btn btn--primary" href="{{ 'quote.html' | rel }}">Request a quote {% icon "arrow-right" %}</a>
+      <a class="btn btn--outline" href="{{ 'catalog.html' | rel }}">Browse the catalog</a>
+    </div>
+  </div>
+</section>
