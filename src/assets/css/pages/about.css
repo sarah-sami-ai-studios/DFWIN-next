@@ -1,0 +1,33 @@
+/* About page. Shared tokens and components come from site.css. */
+
+/* One wide photo, cropped to a band so the ship sits in frame */
+.ab-photo { aspect-ratio: 3 / 1; }
+.ab-photo img { object-position: 62% 60%; }
+
+/* Mission on the left, facts on a ruled list on the right */
+.ab-body { padding-block: clamp(2.5rem, 5vw, 4.5rem) clamp(3.5rem, 6vw, 5.5rem); }
+.ab-split { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: clamp(2rem, 6vw, 6rem); align-items: start; }
+.ab-mission { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.1rem; }
+.ab-mission li { font: 600 var(--text-2xl)/1.15 var(--font-display); letter-spacing: -0.022em; text-wrap: balance; max-width: 20em; }
+
+.ab-facts { border-bottom: 1px solid var(--line); }
+.ab-facts > div { display: grid; grid-template-columns: 12.5rem minmax(0, 1fr); column-gap: 1rem; align-items: baseline; padding-block: 0.8rem; border-top: 1px solid var(--line); }
+.ab-facts dt { font-size: var(--text-sm); color: var(--haze); }
+.ab-facts dd { font-weight: 500; overflow-wrap: anywhere; }
+.ab-facts dd span { display: block; }
+.ab-facts a { color: var(--white); text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 0.2em; user-select: text; transition: text-decoration-color var(--fast); }
+.ab-facts a:hover { text-decoration-color: var(--signal); }
+
+@media (max-width: 1000px) {
+  .ab-facts > div { grid-template-columns: 1fr; row-gap: 0.15rem; }
+}
+
+@media (max-width: 760px) {
+  .ab-photo { aspect-ratio: 16 / 9; }
+  .ab-split { grid-template-columns: 1fr; }
+  .ab-facts > div { grid-template-columns: 11rem minmax(0, 1fr); }
+}
+
+@media (max-width: 460px) {
+  .ab-facts > div { grid-template-columns: 1fr; }
+}
