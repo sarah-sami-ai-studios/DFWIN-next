@@ -1,0 +1,23 @@
+name: Catalog test build
+on:
+  push:
+    branches: [catalog-update-test]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Validate output
+        run: node scripts/validate-catalog.mjs
+      - uses: actions/upload-artifact@v7
+        with:
+          name: catalog-test-site
+          path: _site
