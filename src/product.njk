@@ -13,7 +13,7 @@ eleventyComputed:
   ogImage: "{{ product.image }}"
 ---
 {% set productUrl = 'products/' + product.slug + '.html' %}
-{% set sectorSlug = product.sector | lower %}
+{% set sectorSlug = product.sector | lower | replace(' ', '-') %}
 {% set pageProduct = product %}
 <script type="application/ld+json">{{ {
   "@context": "https://schema.org",
@@ -51,6 +51,18 @@ eleventyComputed:
       <p class="product__id"><span class="visually-hidden">Product ID </span><span class="data">{{ product.id }}</span></p>
       <p class="product__description">{{ product.description }}</p>
 
+      {% if product.specifications.length %}
+      <section class="confirm" aria-labelledby="spec-title">
+        <h2 id="spec-title">Catalog specifications</h2>
+        <dl>
+        {% for spec in product.specifications %}
+          <dt><strong>{{ spec.name }}</strong></dt>
+          <dd style="white-space: pre-line; overflow-wrap: anywhere;">{{ spec.value }}{% if spec.unit %} {{ spec.unit }}{% endif %}</dd>
+        {% endfor %}
+        </dl>
+        <p>Specifications are subject to confirmation with your quote.</p>
+      </section>
+      {% endif %}
       <div class="product__buy">
         <div class="field product__qty">
           <label for="product-qty">Quantity</label>
@@ -69,7 +81,7 @@ eleventyComputed:
 
       <section class="confirm" aria-labelledby="confirm-title">
         <h2 id="confirm-title">What we confirm in your quote</h2>
-        <p>We do not publish list prices or fixed specifications. Each quote is prepared for your quantity and requirement, and states:</p>
+        <p>We do not publish list prices. Final specifications are confirmed in your quote. Each quote is prepared for your quantity and requirement, and states:</p>
         <ul class="confirm__list">
           <li>Unit price at your quantity</li>
           <li>Minimum order quantity</li>

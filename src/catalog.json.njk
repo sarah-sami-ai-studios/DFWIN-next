@@ -27,6 +27,7 @@ eleventyExcludeFromCollections: true
       "description": {{ p.description | json | safe }},
       "keywords": {{ p.keywords | json | safe }},
       "status": {{ p.status | json | safe }},
+      "specifications": {{ p.specifications | json | safe }},
       "productType": "sourcing-request",
       "rfqEligible": true,
       "url": {{ ('products/' + p.slug + '.html') | abs | json | safe }},
