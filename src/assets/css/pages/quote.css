@@ -179,3 +179,10 @@ a.quote-item__name[href]:hover { text-decoration: underline; }
   .quote-item__remove { grid-column: 3; grid-row: 2; }
   .quote-item__text { grid-column: 2 / -1; }
 }
+
+/* Separate inquiry experience; no catalog basket */
+.inquiry-choices { display:flex;flex-wrap:wrap;gap:0.75rem; }
+.inquiry-choices .btn[aria-pressed="true"] { background:var(--navy-950);color:var(--white);border-color:var(--navy-950); }
+.inquiry-form .field input,.inquiry-form .field textarea { width:100%; }
+.inquiry-form .field label { display:block;margin-bottom:0.4rem; }
+.inquiry-form .form-grid { margin-bottom:1.25rem; }

@@ -13,6 +13,8 @@ eleventyExcludeFromCollections: true
   "salesEmail": {{ site.email.sales | json | safe }},
   "generalEmail": {{ site.email.general | json | safe }},
   "pricing": "Prices are not published. Request a quote with product IDs and quantities.",
+  "agentInstructions": {{ "See /agent-guide.json for machine-readable submission guidance. RFQs are nonbinding and subject to human review." | json | safe }},
+  "agentGuideUrl": {{ "agent-guide.json" | abs | json | safe }},
   "generated": {{ buildDate | json | safe }},
   "count": {{ products.length }},
   "products": [
@@ -23,6 +25,10 @@ eleventyExcludeFromCollections: true
       "sector": {{ p.sector | json | safe }},
       "category": {{ p.category | json | safe }},
       "description": {{ p.description | json | safe }},
+      "keywords": {{ p.keywords | json | safe }},
+      "status": {{ p.status | json | safe }},
+      "productType": "sourcing-request",
+      "rfqEligible": true,
       "url": {{ ('products/' + p.slug + '.html') | abs | json | safe }},
       "image": {{ p.image | abs | json | safe }}
     }{% if not loop.last %},{% endif %}

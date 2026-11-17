@@ -16,6 +16,7 @@
 
   var MAILTO_BODY_LIMIT = 1800; // long mailto: links are cut off by some email apps
   var QTY_MAX = 999999;
+  var pendingRequestId = null;
 
   var body = document.body;
   var root = body.getAttribute("data-root") || "";
@@ -245,9 +246,9 @@
 
   /** Everything the visitor entered, as one plain object. */
   function collect() {
-    var type = form.querySelector('input[name="requestType"]:checked');
+    var type = form.querySelector('input[name="requestType"]');
     return {
-      requestType: type ? type.value : "",
+      requestType: type ? type.value : "Quote for catalog products",
       company: value("company"),
       name: value("full-name"),
       email: value("email"),
@@ -286,7 +287,7 @@
     var text = truncated
       ? summary.slice(0, MAILTO_BODY_LIMIT).replace(/\s+\S*$/, "") + "\n\n[Shortened. The full request is pasted below.]\n"
       : summary;
-    var subject = "Quote request from " + data.company;
+    var subject = (data.requestType === "Quote for catalog products" ? "Quote request" : "Customer inquiry") + " from " + data.company;
     return {
       href: "mailto:" + salesEmail + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(text.replace(/\n/g, "\r\n")),
       truncated: truncated
@@ -318,10 +319,10 @@
       resultLede.textContent = "It has not been sent yet. Send it to our sales team in one of the two ways below.";
     } else if (state === "error") {
       resultTitle.textContent = "We could not send your request";
-      resultLede.textContent = "The connection failed, so nothing was sent. Your request is saved below. Please send it by email instead.";
+      resultLede.textContent = "We could not confirm receipt. Your details are preserved. Please contact our team by email instead; if you already received a reference number, mention it to avoid a duplicate.";
     } else {
       resultTitle.textContent = "Request sent";
-      resultLede.textContent = "Thank you, " + data.name + ". Our sales team will reply to " + data.email + ".";
+      resultLede.textContent = "Thank you, " + data.name + ". Your reference is " + (data.confirmedReference || "confirmed") + ". Our team will reply to " + data.email + ".";
     }
     resultFallback.hidden = !showFallback;
     resultEdit.hidden = state === "sent";
@@ -360,22 +361,105 @@
     }
   }
 
+  /* Cross-origin Apps Script responses cannot be read using no-cors fetch.
+   * Submit through a hidden form, then independently verify receipt through a
+   * JSONP status check. A timeout is NOT evidence the request failed.
+   */
+  function makeRequestId() {
+    if (window.crypto && crypto.randomUUID) return crypto.randomUUID();
+    var bytes = new Uint8Array(16);
+    if (!window.crypto || !crypto.getRandomValues) throw new Error("Secure random IDs unavailable");
+    crypto.getRandomValues(bytes);
+    return Array.from(bytes, function (b) { return b.toString(16).padStart(2, "0"); }).join("");
+  }
+
+  function statusCheck(requestId) {
+    return new Promise(function (resolve, reject) {
+      var callback = "dfwStatus_" + Math.random().toString(36).slice(2);
+      var script = document.createElement("script");
+      var done = false;
+      var timer = setTimeout(function () { finish(new Error("Status check timed out")); }, 9000);
+      function finish(err, data) {
+        if (done) return;
+        done = true;
+        clearTimeout(timer);
+        delete window[callback];
+        script.remove();
+        if (err) reject(err); else resolve(data);
+      }
+      window[callback] = function (data) { finish(null, data); };
+      script.onerror = function () { finish(new Error("Status check unavailable")); };
+      script.src = endpoint + "?action=status&requestId=" + encodeURIComponent(requestId) + "&callback=" + callback;
+      document.head.appendChild(script);
+    });
+  }
+
+  function postForm(payload) {
+    var iframe = document.createElement("iframe");
+    var targetName = "dfw_submit_" + Math.random().toString(36).slice(2);
+    iframe.name = targetName;
+    iframe.title = "Inquiry submission";
+    iframe.hidden = true;
+    var post = document.createElement("form");
+    post.method = "POST";
+    post.action = endpoint;
+    post.target = targetName;
+    post.style.display = "none";
+    var input = document.createElement("input");
+    input.name = "payload";
+    input.value = JSON.stringify(payload);
+    post.appendChild(input);
+    document.body.appendChild(iframe);
+    document.body.appendChild(post);
+    post.submit();
+    setTimeout(function () { post.remove(); iframe.remove(); }, 60000);
+  }
+
   function send(data, summary) {
     setBusy(true);
-    var payload = Object.assign({}, data, { summary: summary, page: window.location.href, sentAt: new Date().toISOString() });
-    return fetch(endpoint, {
-      method: "POST",
-      mode: "no-cors",
-      headers: { "Content-Type": "text/plain;charset=UTF-8" },
-      body: JSON.stringify(payload)
-    }).then(function () {
-      /* The POST completed. Only now is it true to say the request was sent. */
-      QuoteList.clear();
-      resetForm();
-      showResult("sent", data, summary);
-    }).catch(function () {
-      showResult("error", data, summary);
-    }).then(function () { setBusy(false); });
+    if (!pendingRequestId) pendingRequestId = makeRequestId();
+    var isCatalog = data.requestType === "Quote for catalog products";
+    var inquiryType = isCatalog && data.items.length ? "Catalog RFQ" :
+      (data.requestType === "Have a product made or sourced" ? "New Product Development" : "General Inquiry");
+    var extra = [data.details, data.country && "Country: " + data.country,
+      data.siteName && "Vessel/property: " + data.siteName,
+      data.neededBy && "Needed by: " + data.neededBy].filter(Boolean).join("\n");
+    var payload = {
+      requestId: pendingRequestId,
+      inquiryType: inquiryType,
+      customer: { name: data.name, company: data.company, email: data.email, phone: data.phone },
+      products: data.items.map(function (item) { return { id: item.id, name: item.name, quantity: item.qty }; }),
+      notes: extra,
+      subject: data.requestType,
+      message: extra || data.requestType,
+      website: value("website")
+    };
+    try { postForm(payload); }
+    catch (err) { setBusy(false); showResult("error", data, summary); return; }
+    var attempts = 0;
+    function poll() {
+      attempts++;
+      statusCheck(pendingRequestId).then(function (answer) {
+        if (answer && answer.found && answer.referenceNumber) {
+          data.confirmedReference = answer.referenceNumber;
+          pendingRequestId = null;
+          QuoteList.clear();
+          resetForm();
+          showResult("sent", data, summary);
+          if (typeof window.gtag === "function") window.gtag("event", "generate_lead", { inquiry_type: inquiryType });
+          setBusy(false);
+        } else if (attempts < 7) {
+          setTimeout(poll, 2200);
+        } else {
+          setBusy(false);
+          showResult("error", data, summary);
+        }
+      }).catch(function () {
+        if (attempts < 7) setTimeout(poll, 2200);
+        else { setBusy(false); showResult("error", data, summary); }
+      });
+    }
+    setTimeout(poll, 1400);
   }
 
   form.addEventListener("submit", function (event) {
@@ -383,7 +467,14 @@
     if (value("website")) return; // spam trap was filled in: a bot, not a buyer
 
     var invalid = Object.keys(rules).filter(function (id) { return !validateField(id); });
+    if (!QuoteList.items().length) {
+      formError.textContent = "Please add at least one catalog product before requesting a quotation.";
+      formError.hidden = false;
+      $("list-empty-link").focus();
+      return;
+    }
     if (invalid.length) {
+      $("manual-email-option").hidden = false;
       formError.textContent = invalid.length === 1
         ? "One field needs your attention before we can prepare the request."
         : invalid.length + " fields need your attention before we can prepare the request.";
@@ -392,11 +483,21 @@
       return;
     }
     formError.hidden = true;
+    $("manual-email-option").hidden = true;
 
     var data = collect();
     var summary = buildSummary(data);
     if (endpoint) send(data, summary);
     else showResult("ready", data, summary);
+  });
+
+  form.addEventListener("input", function () { pendingRequestId = null; });
+  listEl.addEventListener("change", function () { pendingRequestId = null; });
+  listEl.addEventListener("click", function () { pendingRequestId = null; });
+
+  $("manual-email-option").addEventListener("click", function () {
+    var data = collect();
+    showResult("ready", data, buildSummary(data));
   });
 
   /* Copy request. The clipboard call stays inside the click handler, and if the

@@ -15,6 +15,14 @@
     {
       "label": "About",
       "url": "about.html"
+    },
+    {
+      "label": "General Company Inquiries",
+      "url": "general-inquiry.html"
+    },
+    {
+      "label": "Discuss New Product Opportunities",
+      "url": "new-product-inquiry.html"
     }
   ],
   "footer": [
