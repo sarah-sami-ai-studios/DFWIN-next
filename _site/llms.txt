@@ -1,0 +1,49 @@
+# DFWin International
+
+> DFWin International sources, engineers and ships hotel equipment, tableware, RFID and marine products for cruise lines, shipyards and hotels. Supplying the cruise industry since 2014.
+
+Key facts, all taken from the company's own published information:
+
+- Legal name: Hong Kong DFWin Int'l Co. Limited
+- Founded: 2012
+- Offices: Hong Kong (Head office), Hialeah, Florida (United States office)
+- Supplying cruise lines since: 2014
+- Stainless steel luggage cages delivered for Quantum of the Seas: 352
+- SOLAS approved life jackets supplied in a single order: 2,000
+- Royal Caribbean International ships fitted with our turbocharger filters: 21
+- Catalog: 58 products across Technology, Hospitality, Marine
+- Prices are not published. Buyers request a quote and get a reply within one business day.
+- Sales contact: braydai@dfwin-intl.com. General contact: info@dfwin-intl.com
+
+Product IDs look like HOSP-0017, MARI-0004 or TECH-0001. Quote them when asking for a price.
+
+## Main pages
+
+- [Home](https://sarah-sami-ai-studios.github.io/DFWIN-next/): What DFWin supplies and who it supplies.
+- [Product catalog](https://sarah-sami-ai-studios.github.io/DFWIN-next/catalog.html): All 58 products with search and filters. Search by adding ?q=term to the address.
+- [Request a quote](https://sarah-sami-ai-studios.github.io/DFWIN-next/quote.html): Send a list of products and quantities to the sales team.
+- [Services](https://sarah-sami-ai-studios.github.io/DFWIN-next/services.html): Sourcing, engineering and delivery services.
+- [Track record](https://sarah-sami-ai-studios.github.io/DFWIN-next/track-record.html): Dated contracts, supplier registrations and events.
+- [About](https://sarah-sami-ai-studios.github.io/DFWIN-next/about.html): Company background and offices.
+
+## Product categories
+
+- [Technology](https://sarah-sami-ai-studios.github.io/DFWIN-next/catalog.html#technology): RFID wristbands, key cards and fobs for access, payment and guest identification. Categories: RFID Wristbands, Key Cards, Key Fobs.
+- [Hospitality](https://sarah-sami-ai-studios.github.io/DFWIN-next/catalog.html#hospitality): Carts, trolleys, linens, tableware and in-room equipment for hotels, resorts and cruise ship hotel operations. Categories: Carts, Melamine Dinnerware, Trash Bins, Drinkware, Trolleys, Towels & Linens, Stanchions & Barriers, Hotel Safes, Lighting, Chinaware, Flatware, Hair Dryers, Refrigeration.
+- [Marine](https://sarah-sami-ai-studios.github.io/DFWIN-next/catalog.html#marine): Mooring ropes, life jackets and deck lighting for ship operators and yards. Categories: Mooring Ropes, Life Jackets & Safety, Marine Lighting.
+
+## How to request a quote
+
+- [Quote request form](https://sarah-sami-ai-studios.github.io/DFWIN-next/quote.html): List the product IDs and quantities you need. The sales team replies within one business day.
+- [Email the sales team](mailto:braydai@dfwin-intl.com): Send product IDs, quantities and the delivery port or address.
+
+## Contact
+
+- [Sales](mailto:braydai@dfwin-intl.com): Quotes and product questions.
+- [General enquiries](mailto:info@dfwin-intl.com): Everything else.
+
+## Optional
+
+- [Full text for AI assistants](https://sarah-sami-ai-studios.github.io/DFWIN-next/llms-full.txt): Company summary, track record and the complete catalog in one markdown file.
+- [Catalog data feed](https://sarah-sami-ai-studios.github.io/DFWIN-next/catalog.json): Every product as JSON (id, name, sector, category, description, url, image).
+- [Sitemap](https://sarah-sami-ai-studios.github.io/DFWIN-next/sitemap.xml): Every page on the site.

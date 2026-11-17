@@ -212,3 +212,15 @@
     if (sector) update({ sector: sector, category: "" });
   });
 })();
+
+/* DFWin catalog interest metrics: no personal data sent. */
+(function () {
+ var search=document.getElementById("catalog-search"), grid=document.getElementById("catalog-grid");
+ if(!search||!grid) return;
+ var timer; search.addEventListener("input",function(){ clearTimeout(timer);timer=setTimeout(function(){
+ var q=search.value.trim();if(q.length<2||typeof window.gtag!=="function")return;
+ var visible=grid.querySelectorAll("[data-product]:not([hidden])").length;
+ window.gtag("event","catalog_search",{search_term:q,result_count:visible});
+ if(visible===0)window.gtag("event","catalog_no_results",{search_term:q});
+ },900); });
+})();

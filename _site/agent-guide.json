@@ -1,0 +1,14 @@
+{
+  "name": "DFWin procurement agent discovery",
+  "version": "1.0-draft",
+  "catalog": "https://sarah-sami-ai-studios.github.io/DFWIN-next/catalog.json",
+  "humanCatalog": "https://sarah-sami-ai-studios.github.io/DFWIN-next/catalog.html",
+  "humanCatalogRFQ": "https://sarah-sami-ai-studios.github.io/DFWIN-next/quote.html",
+  "humanNewProductInquiry": "https://sarah-sami-ai-studios.github.io/DFWIN-next/new-product-inquiry.html",
+  "contact": "braydai@dfwin-intl.com",
+  "capabilities": ["product-discovery", "nonbinding-rfq-intake", "custom-sourcing-inquiry"],
+  "automatedSubmission": {"status":"not-yet-enabled", "reason":"Server-side authenticated JSON API and anti-abuse validation require a separately deployed backend. Do not POST to the browser form receiver as an API."},
+  "requiredRFQFields": ["company", "contactName", "email", "productIdsOrDescription", "quantity"],
+  "optionalRFQFields": ["specifications", "deliveryLocation", "neededBy", "notes"],
+  "terms": "Discovery and requests only. No automated purchase orders or binding acceptance."
+}

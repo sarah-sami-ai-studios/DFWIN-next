@@ -37,7 +37,7 @@ hideCta: true
         <ul class="quote-items" id="quote-items" aria-labelledby="list-title"></ul>
 
         <div class="list-empty" id="list-empty">
-          <p>Your quote list is empty. Add products from the catalog, or describe what you need in the form below.</p>
+          <p>Your quote list is empty. Browse the catalog to select products before requesting a quotation.</p>
           <a class="btn btn--outline" href="{{ 'catalog.html' | rel }}" id="list-empty-link">Browse the catalog {% icon "arrow-right" %}</a>
         </div>
         <p class="list-more" id="list-more" hidden><a class="link-arrow" href="{{ 'catalog.html' | rel }}">Add more products {% icon "arrow-right" %}</a></p>
@@ -74,15 +74,7 @@ hideCta: true
 
         <form id="quote-form" novalidate>
           <div class="form-grid">
-            <fieldset class="field span-2 segmented">
-              <legend>What do you need?</legend>
-              <div class="segmented__options">
-                <label><input type="radio" name="requestType" id="type-catalog" value="Quote for catalog products" checked><span>Quote for catalog products</span></label>
-                <label><input type="radio" name="requestType" id="type-custom" value="Have a product made or sourced"><span>Have a product made or sourced</span></label>
-                <label><input type="radio" name="requestType" id="type-question" value="General question"><span>General question</span></label>
-              </div>
-            </fieldset>
-
+            <input type="hidden" name="requestType" value="Quote for catalog products">
             <div class="field">
               <label for="company">Company <span class="required" aria-hidden="true">*</span></label>
               <input id="company" name="company" type="text" autocomplete="organization" required aria-describedby="company-error" maxlength="120">
@@ -136,6 +128,7 @@ hideCta: true
             <p class="quiet">No payment and no commitment.</p>
           </div>
           <p class="form-summary-error" id="form-error" role="alert" hidden></p>
+          <button type="button" class="btn btn--outline" id="manual-email-option" hidden>Send by email instead</button>
         </form>
       </section>
     </div>

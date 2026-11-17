@@ -1,0 +1,214 @@
+# DFWin International: full site text for AI assistants
+
+> DFWin International sources, engineers and ships hotel equipment, tableware, RFID and marine products for cruise lines, shipyards and hotels. Supplying the cruise industry since 2014.
+
+This file is generated from the same data as the website on 2026-11-17. Every fact below comes from the company's own published information. If something is not stated here (prices, lead times, dimensions, certifications), it is not published: ask the sales team.
+
+## Company
+
+- Name: DFWin International
+- Legal name: Hong Kong DFWin Int'l Co. Limited
+- Founded: 2012
+- Head office: Hong Kong
+- United States office: Hialeah, Florida
+- Website: https://sarah-sami-ai-studios.github.io/DFWIN-next/
+- Sales email: braydai@dfwin-intl.com
+- General email: info@dfwin-intl.com
+
+## What DFWin does
+
+DFWin International sources, engineers and ships hotel equipment, tableware, RFID and marine products for cruise lines, shipyards and hotels. Supplying the cruise industry since 2014.
+
+Product sectors:
+
+- Technology: RFID wristbands, key cards and fobs for access, payment and guest identification.
+- Hospitality: Carts, trolleys, linens, tableware and in-room equipment for hotels, resorts and cruise ship hotel operations.
+- Marine: Mooring ropes, life jackets and deck lighting for ship operators and yards.
+
+More detail: https://sarah-sami-ai-studios.github.io/DFWIN-next/services.html
+
+## Verified figures
+
+- Supplying cruise lines since: 2014
+- Stainless steel luggage cages delivered for Quantum of the Seas: 352
+- SOLAS approved life jackets supplied in a single order: 2,000
+- Royal Caribbean International ships fitted with our turbocharger filters: 21
+
+## Track record
+
+Dated items from DFWin's published news, newest first. Source page: https://sarah-sami-ai-studios.github.io/DFWIN-next/track-record.html
+
+- October 29, 2026 (Sourcing): New supplier partnerships in Viet Nam. DFWin International continues to expand its global sourcing network to support customers across hospitality, marine, technology and specialty product categories.
+- October 29, 2026 (Contract, MSC Cruises): MSC deploys DFWin luggage trolleys at its newest US port facilities. A new supply partnership puts DFWin luggage trolley products to work in MSC's newest US terminals.
+- September 26, 2026 (Contract, Royal Caribbean Group): Minibar fridges for Celebrity's first river cruise ship. Royal Caribbean Group awarded DFWin the minibar fridge supply for Celebrity's first river vessel.
+- September 6, 2026 (Contract, Royal Caribbean Group): Minibar fridges for the seventh Oasis-class ship. DFWin will supply cabin minibar fridges for the seventh ship in the Oasis class.
+- March 30, 2026 (Event): Silver Sponsor of the 2026 MHA Conference. DFWin sponsored the Marine Hotel Association conference, held March 29 to 31 at the Naples Grande Beach Resort.
+- March 5, 2026 (Dry dock, Celebrity Cruises): On-site support in Singapore for the Celebrity Solstice dry dock. Our team supported installation on site during the Celebrity Solstice dry dock in Singapore.
+- December 5, 2025 (Contract, Norwegian Cruise Line): Norwegian Cruise Line awards luggage cage program. NCL awarded DFWin a luggage cage order. DFWin has supplied luggage cages to cruise lines since 2014.
+- August 22, 2025 (Contract, Celebrity Cruises): Minibar fridges for the Celebrity Solstice Class refurbishment. DFWin supplies minibar fridges for the Solstice Class cabin refurbishment program.
+- June 4, 2025 (Contract, Royal Caribbean Group): Royal Caribbean Group selects DFWin for minibar fridges. Royal Caribbean Group awarded DFWin a minibar fridge supply contract.
+- May 25, 2025 (Contract, Disney Cruise Line): Luggage cages for Disney Adventure and Disney Destiny. Disney Cruise Line selected DFWin luggage cages for two of its newest ships.
+- February 9, 2025 (Event): Sponsor of CLIA Cruise Week Europe 2025. DFWin sponsored CLIA Cruise Week Europe in Rotterdam.
+- February 6, 2025 (Contract, Piikkio Works): Minibar fridge contract from Piikkio Works. The Finnish cabin manufacturer awarded DFWin a minibar fridge contract.
+- December 20, 2024 (Registration, Meyer Group): Registered supplier of Meyer Group. DFWin became a registered supplier to the Meyer Group shipyards.
+- 2024 (Contract, Royal Caribbean Group): SeaPass cards for the Royal Caribbean and Celebrity fleets. DFWin supplies RFID and magstripe SeaPass cards across the Royal Caribbean International and Celebrity Cruises fleets.
+- 2024 (Contract, Disney Cruise Line): Drawer safes and minibar fridges for Disney Adventure. Disney Cruise Line selected DFWin drawer safes and minibar fridges for Disney Adventure.
+
+## Customers
+
+DFWin has been awarded work by, or is a registered supplier to, the companies below. These are factual statements from DFWin's published news. They are not endorsements.
+
+- Royal Caribbean Group: Minibar fridges, SeaPass RFID cards, luggage cages
+- Celebrity Cruises: Cabin fridges for Solstice Class, Xcel and river ships
+- Norwegian Cruise Line: Luggage cages, embarkation cases
+- Disney Cruise Line: Luggage cages, drawer safes and minibar fridges
+- MSC Cruises: Luggage trolleys for US port facilities
+- Meyer Group: Registered supplier
+- Piikkio Works: Minibar fridges for prefabricated cabins
+- Ellevi Group: Minibar fridges
+
+## How to request a quote
+
+1. Find the products you need in the catalog: https://sarah-sami-ai-studios.github.io/DFWIN-next/catalog.html (search with https://sarah-sami-ai-studios.github.io/DFWIN-next/catalog.html?q=your+search+term).
+2. Note each product ID and the quantity.
+3. Send the request with the form at https://sarah-sami-ai-studios.github.io/DFWIN-next/quote.html or by email to braydai@dfwin-intl.com.
+4. The sales team replies within one business day.
+
+Prices are not published on the website.
+
+## Contact
+
+- Sales and quotes: braydai@dfwin-intl.com
+- General enquiries: info@dfwin-intl.com
+
+## Complete catalog
+
+58 products. The same list as JSON: https://sarah-sami-ai-studios.github.io/DFWIN-next/catalog.json
+
+### Technology
+
+RFID wristbands, key cards and fobs for access, payment and guest identification.
+
+#### Technology: RFID Wristbands
+
+- TECH-0001: RFID Wrist Bands. Adjustable RFID wristbands for guest access, onboard payment and identification on cruise ships and at resorts. Colour, print and branding are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/technology-rfid-wrist-bands.html
+
+#### Technology: Key Cards
+
+- TECH-0002: Hotel Key Card. Printed key cards for guest room and cabin door access, issued at check-in or embarkation. Artwork and encoding requirements are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/technology-hotel-key-card.html
+
+#### Technology: Key Fobs
+
+- TECH-0003: RFID Key Fob. Key fobs with an RFID tag and a split ring, used for crew access, lockers and back-of-house doors in hotels and on ships. Branding is confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/technology-rfid-key-fob.html
+
+### Hospitality
+
+Carts, trolleys, linens, tableware and in-room equipment for hotels, resorts and cruise ship hotel operations.
+
+#### Hospitality: Carts
+
+- HOSP-0011: Laundry Cage. Wheeled wire cage for moving bagged laundry and linen between cabins, decks and the laundry on ships and in hotels. Size and finish are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-laundry-cage.html
+- HOSP-0016: Compact Housekeeping Carts. Compact housekeeping carts with a fabric bag body, for narrow cabin corridors and small service areas where a full-size cart does not fit. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-compact-housekeeping-carts.html
+- HOSP-0017: Luggage Cages Series 2. Wheeled luggage cages for moving guest bags between the terminal and the ship on embarkation and debarkation days. DFWin has supplied luggage cages to cruise lines since 2014. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-luggage-cages-series-2.html
+- HOSP-0023: Bellman Carts. Bellman carts with a hanging rail and carpeted deck for moving guest luggage through hotel lobbies and ship terminals. Frame finish and carpet colour are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-bellman-carts.html
+- HOSP-0024: Flat Truck. Flatbed platform truck with a push handle for moving cartons, stores and luggage through service corridors, loading areas and provision rooms. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-flat-truck.html
+- HOSP-0030: Linen Cart. Barred metal linen cart with shelves and castors for moving clean and soiled linen between housekeeping stores, laundries and guest floors. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-linen-cart.html
+- HOSP-0031: Speed Rack 7 Shelves. Open-frame rack on castors with seven runner levels for holding trays in galleys, bakeries and banquet kitchens. Tray size and spacing are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-speed-rack-7-shelves.html
+- HOSP-0035: Linen Cart 2A. A variation of our barred metal linen cart with shelves, for housekeeping and laundry teams on ships and in hotels. Dimensions are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-linen-cart-2a.html
+- HOSP-0039: Slim Housekeeping Cart 1. Slim housekeeping cart with linen bags and supply drawers, for narrow cabin corridors on ships and tight hotel floors. Layout and finish are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-slim-housekeeping-cart-1.html
+- HOSP-0043: Portable Utility Cart 2. Soft-sided rolling utility case with a telescopic handle and outer pockets, for carrying tools, supplies or amenities between rooms, decks and venues. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-portable-utility-cart-2.html
+- HOSP-0045: Three Tier Cart. Three-tier metal service cart on castors with a push handle, for galley, restaurant and housekeeping work. Shelf size and finish are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-three-tier-cart.html
+- HOSP-0056: Speed Rack 3 Shelves. Low metal rack on castors with three levels and a flat top, used as a mobile work and holding station in galleys and pantries. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-speed-rack-3-shelves.html
+
+#### Hospitality: Melamine Dinnerware
+
+- HOSP-0012: Melamine Green Edge Series 1. Melamine plates and bowls with a green rim, suited to buffet, pool deck and casual dining service. The piece selection is confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-melamine-green-edge-series-1.html
+- HOSP-0037: Melamine White 1. White melamine plates and bowls for buffet, poolside and casual dining, a practical choice for outdoor and high-turnover service. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-melamine-white-1.html
+- HOSP-0047: Melamine White Series 2. A second white melamine range for buffets, crew mess and outdoor dining. Send the piece list you need and we quote plates, bowls and serving pieces together. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-melamine-white-series-2.html
+- HOSP-0048: Melamine. Melamine dinnerware for restaurants, buffets and deck service on ships and at resorts. Shapes, colours and decoration are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-melamine.html
+
+#### Hospitality: Trash Bins
+
+- HOSP-0013: Trash Bins Series 1. Rectangular lidded waste bins in a dark finish for guest rooms, cabins and public areas. Size, finish and quantities are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-trash-bins-series-1.html
+- HOSP-0014: Trash Bins Series 2. Round open-top waste bins with a brushed metal look for guest rooms, bathrooms and corridors. Tell us the sizes you need and we quote the set. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-trash-bins-series-2.html
+- HOSP-0033: Trash Bins Series 1A. A variation of our Series 1 rectangular lidded bin for cabins, guest rooms and offices. Send your preferred size and finish and we confirm both in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-trash-bins-series-1a.html
+
+#### Hospitality: Drinkware
+
+- HOSP-0015: Color Changing Plastic Mugs. Lidded plastic travel mugs with printed artwork that changes colour, used as bar souvenirs and retail items on cruise ships and at resorts. Artwork is confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-color-changing-plastic-mugs.html
+- HOSP-0028: Light Up Glass. Clear drinking glass with built-in lights that glow in changing colours, used for bar promotions, themed nights and souvenir drinks on ships and at resorts. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-light-up-glass.html
+- HOSP-0053: Light Changing Glass. Glass tumbler with a printed tree design whose blossoms change colour, sold as a souvenir or used for speciality drinks in bars and lounges. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-light-changing-glass.html
+- HOSP-0054: Light Changing Cups. Small glass cups with a printed blossom design that changes colour, shown as a pair. Suited to gift shops and bar service on ships and at resorts. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-light-changing-cups.html
+
+#### Hospitality: Trolleys
+
+- HOSP-0018: Two Tier Trolley. Two-shelf metal service trolley on castors for galleys, pantries and room service. Shelf size and finish are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-two-tier-trolley.html
+- HOSP-0019: Three Shelf Trolley. Three-shelf utility trolley with side bins and moulded handles, used to clear tables and move supplies in restaurants, buffets and crew mess areas. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-three-shelf-trolley.html
+- HOSP-0055: Bus Trolley. Enclosed trolley with roll-down fronts for clearing tables and moving service ware out of guest view in restaurants and buffets. Finish is confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-bus-trolley.html
+- HOSP-0058: Butler Trolley. Cabinet-style butler trolley on castors with doors and inner shelves, for suite service, corridor pantries and in-room dining setups. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-butler-trolley.html
+
+#### Hospitality: Towels & Linens
+
+- HOSP-0020: Plush Bath Towels. White bath towels for hotel rooms and cruise cabins, supplied folded for housekeeping stock. Size and any woven or embroidered branding are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-plush-bath-towels.html
+- HOSP-0021: Plush Bath Towels Series 2. White towels with a banded border, shown as a stacked set of bath, hand and face sizes for guest bathrooms. The set make-up is confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-plush-bath-towels-series-2.html
+- HOSP-0022: Plush Bath Towels Series. Stacks of white bath towels for housekeeping stores in hotels and on ships, ordered in bulk for regular room turnover. Sizes and quantities are quoted to your stock levels. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-plush-bath-towels-series.html
+- HOSP-0032: Plush Towels Series. White towels supplied in matching stacks for cabin and guest room bathrooms. Order one size or a mix, and we confirm packing in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-plush-towels-series.html
+- HOSP-0036: Plush Towels. Folded white towels for everyday guest room and cabin use. A plain design that suits most bathroom schemes, with size and branding confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-plush-towels.html
+- HOSP-0038: Pool Towel 1. Striped pool towels for pool decks, beach clubs and spa areas at resorts and on cruise ships. Stripe colour, size and branding are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-pool-towel-1.html
+- HOSP-0044: Plush Hand Towels. White hand towels for guest bathrooms, spas and public washrooms in hotels and on board. Supplied in bulk for housekeeping, with size confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-plush-hand-towels.html
+- HOSP-0046: Plush Wash Cloth. White wash cloths for cabin and guest room bathrooms, usually ordered alongside matching hand and bath towels. Quantities and packing are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-plush-wash-cloth.html
+- HOSP-0050: Plush Towels 6-Piece Set. A six-piece white towel set in three sizes for guest rooms and suites. Useful where rooms are stocked by the set, with packing confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-plush-towels-6-piece-set.html
+- HOSP-0051: Plush Towel Set of 3. A three-towel white set for a guest bathroom or cabin. Supplied as sets so housekeeping can stock rooms quickly, with sizes confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-plush-towel-set-3-x.html
+- HOSP-0057: Plush Towels Double Stack. White towels shown in two folded stacks, supplied in bulk for hotel and cruise ship linen rooms. Tell us the sizes and counts you need per room. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-plush-towels-double-stack-x.html
+
+#### Hospitality: Stanchions & Barriers
+
+- HOSP-0025: Barricade. Freestanding metal crowd barrier for managing queues at terminals, gangways and event spaces. Sections stand on their own feet and can be placed side by side. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-barricade.html
+- HOSP-0041: Fold-Up Stanchion. Stanchion post with a retractable belt that folds for storage, used to form queues at embarkation, reception desks and venue entrances. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-fold-up-stanchion.html
+
+#### Hospitality: Hotel Safes
+
+- HOSP-0026: Hotel Safe. In-room safe with a digital keypad for guest valuables in hotel rooms and cruise cabins. Size, door style and locking options are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-hotel-safe.html
+
+#### Hospitality: Lighting
+
+- HOSP-0027: LED Lights. LED spot lamps for guest rooms, corridors, restaurants and back-of-house areas in hotels. Tell us the fitting type and quantity and we quote a matching lamp. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-led-lights.html
+
+#### Hospitality: Chinaware
+
+- HOSP-0029: Chinaware Yuanfeng 01. White round chinaware plates from the Yuanfeng range in a run of sizes, for main dining rooms, buffets and banquet service. Logo decoration can be quoted on request. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-chinaware-yuanfeng-01.html
+- HOSP-0034: Chinaware Yuanhui 02. White chinaware sauce boat from the Yuanhui range for restaurant and room service table settings. Tell us which other pieces you need and we quote them together. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-chinaware-yuanhui-02.html
+- HOSP-0052: Chinaware Yuanhua 02. White chinaware teapot with lid from the Yuanhua range, for breakfast, afternoon tea and in-room service. Tell us the other pieces you need and we quote the set. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-chinaware-yuanhua-02.html
+
+#### Hospitality: Flatware
+
+- HOSP-0040: Flatware. Polished metal forks, knives and spoons for dining rooms, buffets and room service. Pattern, piece list and any logo marking are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-flatware.html
+
+#### Hospitality: Hair Dryers
+
+- HOSP-0042: Hair Dryer. Hair dryer with a coiled cord for guest bathrooms and cabins. Mounting, plug type and voltage for your property or vessel are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-hair-dryer.html
+
+#### Hospitality: Refrigeration
+
+- HOSP-0049: Mini Bar Fridge. Compact minibar fridge with a glass door for hotel rooms and cruise cabins. DFWin supplies cabin minibar fridges to cruise lines and cabin builders, to the specification of each project. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/hospitality-mini-bar-fridge.html
+
+### Marine
+
+Mooring ropes, life jackets and deck lighting for ship operators and yards.
+
+#### Marine: Mooring Ropes
+
+- MARI-0004: Mooring Rope JIUMAX. Braided mooring rope from the JIUMAX line for berthing and securing vessels alongside. Tell us the diameter and length you need and we confirm availability in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/marine-mooring-rope-jiumax.html
+- MARI-0006: Mooring Rope Flex. Plaited mooring rope from the Flex line, used for dock lines and for securing ships at berth. Diameter and length are quoted to the requirement of your vessel. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/marine-mooring-rope-flex.html
+- MARI-0007: Mooring Rope KARAT MAXI. Mooring rope from the KARAT MAXI line for ship operators and yards handling berthing and tie-up. Send the size and length you need and we quote to match. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/marine-mooring-rope-karat-maxi.html
+- MARI-0009: Mooring Rope Super Line. Braided mooring rope from the Super Line range for mooring decks and dockside line handling. We quote by diameter and coil length to suit your vessel. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/marine-mooring-rope-super-line.html
+
+#### Marine: Life Jackets & Safety
+
+- MARI-0005: Life Jackets. Life jackets for passenger and crew muster stations and lifeboat stowage on ships. Approval requirements for your vessel and flag are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/marine-life-jackets.html
+- MARI-0010: Life Jacket Light. Compact flashing light that attaches to a life jacket so a person in the water can be located in the dark. Supplied with life jackets or separately. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/marine-life-jacket-light.html
+
+#### Marine: Marine Lighting
+
+- MARI-0008: LED Lights. LED spot lamps for cabin, corridor and public area light fittings on board. Base type, light colour and quantity are confirmed in your quote. https://sarah-sami-ai-studios.github.io/DFWIN-next/products/marine-led-lights.html
+

@@ -14,11 +14,17 @@ ctaTitle: Talk to the team that would run your order.
 </section>
 
 <div class="on-light band">
-<div class="wrap">
-  <figure class="media ab-photo">
-    <img src="{{ 'assets/img/hero-ship.webp' | rel }}" alt="Cruise ship under way on a calm sea" width="2400" height="1350" decoding="async">
-  </figure>
-</div>
+<section class="ab-customers" aria-labelledby="about-customers-title">
+  <div class="wrap">
+    <h2 id="about-customers-title">Companies we have supplied and supported</h2>
+    <p class="quiet">Selected customer and supplier relationships from DFWin's published track record.</p>
+    <ul class="tr-logos">
+      {% for customer in customers %}
+      <li><div class="tr-plate"><img src="{{ customer.logo | rel }}" alt="{{ customer.name }}" width="{{ customer.logoWidth }}" height="{{ customer.logoHeight }}" loading="lazy" decoding="async"></div><p class="tr-logos__note">{{ customer.note }}</p></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
 
 <section class="ab-body">
   <div class="wrap ab-split">

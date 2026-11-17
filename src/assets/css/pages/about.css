@@ -31,3 +31,14 @@
 @media (max-width: 460px) {
   .ab-facts > div { grid-template-columns: 1fr; }
 }
+
+/* Customer logos restored from existing Track Record customer data. */
+.ab-customers { padding-block: clamp(2rem, 4vw, 3.5rem); }
+.ab-customers h2 { margin-bottom: .5rem; }
+.ab-customers .quiet { margin-bottom: 1.5rem; }
+.tr-logos { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:1.75rem 1.25rem; }
+.tr-plate { display:flex; align-items:center; justify-content:center; height:84px; padding:0 1.25rem; background:#fff; border:1px solid var(--line); border-radius:var(--r-control); }
+.tr-plate img { width:100%; max-width:180px; height:44px; object-fit:contain; }
+.tr-logos__note { margin-top:.6rem; font-size:var(--text-xs); line-height:1.35; color:var(--haze); }
+@media(max-width:800px){.tr-logos{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:440px){.tr-logos{grid-template-columns:1fr;}}
