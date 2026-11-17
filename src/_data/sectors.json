@@ -22,5 +22,13 @@
     "summary": "Mooring ropes, life jackets and deck lighting for ship operators and yards.",
     "image": "assets/img/sector-marine.webp",
     "tagline": "Mooring, safety and deck equipment."
+  },
+  {
+    "key": "Outdoor Furniture",
+    "slug": "outdoor-furniture",
+    "title": "Outdoor Furniture",
+    "summary": "Outdoor furniture for hospitality and cruise environments.",
+    "image": "assets/img/sector-outdoor.webp",
+    "tagline": "Outdoor hospitality furnishings."
   }
 ]

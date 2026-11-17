@@ -1,60 +1,72 @@
 [
   {
     "id": "TECH-0001",
-    "name": "RFID Wrist Bands",
+    "name": "Silicone RFID Wristband",
     "sector": "Technology",
     "category": "RFID Wristbands",
     "slug": "technology-rfid-wrist-bands",
     "image": "assets/img/products/technology-rfid-wrist-bands.webp",
-    "source_image": "Technology__RFID Wrist Bands 1.png",
-    "description": "Adjustable RFID wristbands for guest access, onboard payment and identification on cruise ships and at resorts. Colour, print and branding are confirmed in your quote.",
+    "source_image": "DFWin_202610_P44-01.png",
+    "description": "Silicone RFID Wristband. See catalog specifications.",
     "keywords": [
-      "RFID",
-      "access",
-      "control",
-      "cruise",
-      "wristband",
-      "wristbands"
+      "Silicone RFID Wristband",
+      "Wristband",
+      "RFID Solutions"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Silicone. Waterproof, flexible and adjustable. 18g. 1–2 color logo and chip personalization. −30 to 75°C. Diagram shows 76mm, 119mm, 231.5mm and 244.5mm dimensions. Chip options: MIFARE Ultralight EV1 (384/1024bit), Ultralight C (1536bit), Classic EV1 1K (1024Byte), DESFire EV1/EV2/EV3 (2K/4K/8K Byte), Plus EV1/EV2 (2K/4K Byte). 13.56MHz or customized frequency. Data retention 10 years.",
+        "unit": ""
+      }
+    ]
   },
   {
     "id": "TECH-0002",
-    "name": "Hotel Key Card",
+    "name": "Hotel RFID Key Cards",
     "sector": "Technology",
     "category": "Key Cards",
     "slug": "technology-hotel-key-card",
     "image": "assets/img/products/technology-hotel-key-card.webp",
-    "source_image": "Technology__Hotel Key Card.png",
-    "description": "Printed key cards for guest room and cabin door access, issued at check-in or embarkation. Artwork and encoding requirements are confirmed in your quote.",
+    "source_image": "DFWin_202610_P42-01.png",
+    "description": "Hotel RFID Key Cards. See catalog specifications.",
     "keywords": [
-      "access",
-      "cabin",
-      "door",
-      "key card",
-      "keycard",
-      "rfid",
-      "seapass"
+      "Hotel RFID Key Cards",
+      "RFID Key Card",
+      "RFID Solutions"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "85.47–85.72(L)×53.92–54.03(W)×0.82±0.02(T)mm. PVC/RPVC/PETG. Matt/glossy/semi-glossy. Full-color offset or silkscreen. Loco/Hico magnetic stripe. Surface/chip personalization. −25 to 50°C. Chip options: MIFARE Ultralight EV1 (384/1024bit), Ultralight C (1536bit), Classic EV1 1K (1024Byte), DESFire EV1/EV2/EV3 (2K/4K/8K Byte), Plus EV1/EV2 (2K/4K Byte). 13.56MHz or customized frequency. Data retention 10 years.",
+        "unit": ""
+      }
+    ]
   },
   {
     "id": "TECH-0003",
-    "name": "RFID Key Fob",
+    "name": "ABS RFID Keyfob",
     "sector": "Technology",
     "category": "Key Fobs",
     "slug": "technology-rfid-key-fob",
     "image": "assets/img/products/technology-rfid-key-fob.webp",
-    "source_image": "Technology__RFID Key Fob 1.png",
-    "description": "Key fobs with an RFID tag and a split ring, used for crew access, lockers and back-of-house doors in hotels and on ships. Branding is confirmed in your quote.",
+    "source_image": "DFWin_202610_P43-01.png",
+    "description": "ABS RFID Keyfob. See catalog specifications.",
     "keywords": [
-      "access",
-      "crew",
-      "fob",
-      "key fob",
-      "rfid"
+      "ABS RFID Keyfob",
+      "Key Fob",
+      "RFID Solutions"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "54×34×5mm;7g. ABS. Black, blue, red, white or custom color. 1–2 color logo. Chip data personalization. −25 to 55°C. Chip options: MIFARE Ultralight EV1 (384/1024bit), Ultralight C (1536bit), Classic EV1 1K (1024Byte), DESFire EV1/EV2/EV3 (2K/4K/8K Byte), Plus EV1/EV2 (2K/4K Byte). 13.56MHz or customized frequency. Data retention 10 years.",
+        "unit": ""
+      }
+    ]
   },
   {
     "id": "MARI-0004",
@@ -66,13 +78,14 @@
     "source_image": "Marine__Mooring Rope JIUMAX.png",
     "description": "Braided mooring rope from the JIUMAX line for berthing and securing vessels alongside. Tell us the diameter and length you need and we confirm availability in your quote.",
     "keywords": [
-      "dock",
-      "line",
-      "marine",
       "mooring",
-      "rope"
+      "line",
+      "rope",
+      "dock",
+      "marine"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "MARI-0005",
@@ -84,7 +97,8 @@
     "source_image": "Marine__Life Jackets 1.png",
     "description": "Life jackets for passenger and crew muster stations and lifeboat stowage on ships. Approval requirements for your vessel and flag are confirmed in your quote.",
     "keywords": [],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "MARI-0006",
@@ -94,19 +108,20 @@
     "slug": "marine-mooring-rope-flex",
     "image": "assets/img/products/marine-mooring-rope-flex.webp",
     "source_image": "Marine__Mooring Rope Flex.png",
-    "description": "Plaited mooring rope from the Flex line, used for dock lines and for securing ships at berth. Diameter and length are quoted to the requirement of your vessel.",
+    "description": "Marine mooring rope product. Product specifications require supplier confirmation.",
     "keywords": [
-      "dock",
-      "line",
-      "marine",
       "mooring",
-      "rope"
+      "line",
+      "rope",
+      "dock",
+      "marine"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "MARI-0007",
-    "name": "Mooring Rope KARAT MAXI",
+    "name": "Mooring Rope - KARAT MAXI",
     "sector": "Marine",
     "category": "Mooring Ropes",
     "slug": "marine-mooring-rope-karat-maxi",
@@ -114,13 +129,14 @@
     "source_image": "Marine__Mooring Rope - KARAT MAXI.png",
     "description": "Mooring rope from the KARAT MAXI line for ship operators and yards handling berthing and tie-up. Send the size and length you need and we quote to match.",
     "keywords": [
-      "dock",
-      "line",
-      "marine",
       "mooring",
-      "rope"
+      "line",
+      "rope",
+      "dock",
+      "marine"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "MARI-0008",
@@ -132,7 +148,8 @@
     "source_image": "Marine__LED Lights 1.png",
     "description": "LED spot lamps for cabin, corridor and public area light fittings on board. Base type, light colour and quantity are confirmed in your quote.",
     "keywords": [],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "MARI-0009",
@@ -144,13 +161,14 @@
     "source_image": "Marine__Mooring Rope Super Line.png",
     "description": "Braided mooring rope from the Super Line range for mooring decks and dockside line handling. We quote by diameter and coil length to suit your vessel.",
     "keywords": [
-      "dock",
-      "line",
-      "marine",
       "mooring",
-      "rope"
+      "line",
+      "rope",
+      "dock",
+      "marine"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "MARI-0010",
@@ -162,7 +180,8 @@
     "source_image": "Marine__Life Jacket Light 1.png",
     "description": "Compact flashing light that attaches to a life jacket so a person in the water can be located in the dark. Supplied with life jackets or separately.",
     "keywords": [],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "HOSP-0011",
@@ -171,163 +190,67 @@
     "category": "Carts",
     "slug": "hospitality-laundry-cage",
     "image": "assets/img/products/hospitality-laundry-cage.webp",
-    "source_image": "Hospitality__Laundry Cage 1.png",
-    "description": "Wheeled wire cage for moving bagged laundry and linen between cabins, decks and the laundry on ships and in hotels. Size and finish are confirmed in your quote.",
+    "source_image": "DFWin_202610_P09-01.png",
+    "description": "Laundry Cage. See catalog specifications.",
     "keywords": [
-      "cage",
-      "cart",
-      "carts",
-      "housekeeping",
-      "laundry",
-      "luggage",
-      "rack",
-      "truck",
-      "utility"
+      "Laundry Cage",
+      "Trolleys",
+      "Hospitality"
     ],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0012",
-    "name": "Melamine Green Edge Series 1",
-    "sector": "Hospitality",
-    "category": "Melamine Dinnerware",
-    "slug": "hospitality-melamine-green-edge-series-1",
-    "image": "assets/img/products/hospitality-melamine-green-edge-series-1.webp",
-    "source_image": "Hospitality__Melamine Green Edge Series 1 - 1.png",
-    "description": "Melamine plates and bowls with a green rim, suited to buffet, pool deck and casual dining service. The piece selection is confirmed in your quote.",
-    "keywords": [
-      "bowls",
-      "dinnerware",
-      "dishware",
-      "plates",
-      "tableware"
-    ],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0013",
-    "name": "Trash Bins Series 1",
-    "sector": "Hospitality",
-    "category": "Trash Bins",
-    "slug": "hospitality-trash-bins-series-1",
-    "image": "assets/img/products/hospitality-trash-bins-series-1.webp",
-    "source_image": "Hospitality__Trash Bins Series 1 1.png",
-    "description": "Rectangular lidded waste bins in a dark finish for guest rooms, cabins and public areas. Size, finish and quantities are confirmed in your quote.",
-    "keywords": [],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0014",
-    "name": "Trash Bins Series 2",
-    "sector": "Hospitality",
-    "category": "Trash Bins",
-    "slug": "hospitality-trash-bins-series-2",
-    "image": "assets/img/products/hospitality-trash-bins-series-2.webp",
-    "source_image": "Hospitality__Trash Bins Series 2 - 1.png",
-    "description": "Round open-top waste bins with a brushed metal look for guest rooms, bathrooms and corridors. Tell us the sizes you need and we quote the set.",
-    "keywords": [],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0015",
-    "name": "Color Changing Plastic Mugs",
-    "sector": "Hospitality",
-    "category": "Drinkware",
-    "slug": "hospitality-color-changing-plastic-mugs",
-    "image": "assets/img/products/hospitality-color-changing-plastic-mugs.webp",
-    "source_image": "Hospitality__Color Changing Plastic Mugs 1.png",
-    "description": "Lidded plastic travel mugs with printed artwork that changes colour, used as bar souvenirs and retail items on cruise ships and at resorts. Artwork is confirmed in your quote.",
-    "keywords": [
-      "beverage",
-      "cups",
-      "drinking",
-      "glasses",
-      "mugs",
-      "vessels"
-    ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Unique design for long-lasting work in harsh environments\nFoldable and stackable to save storage space\n304 stainless steel\nDarcor 5\" casters: swivelX2 with brake, fixedX2\n1723(H)x879(W)x680(D)mm",
+        "unit": ""
+      }
+    ]
   },
   {
     "id": "HOSP-0016",
-    "name": "Compact Housekeeping Carts",
+    "name": "Compact Housekeeping Cart",
     "sector": "Hospitality",
     "category": "Carts",
     "slug": "hospitality-compact-housekeeping-carts",
     "image": "assets/img/products/hospitality-compact-housekeeping-carts.webp",
-    "source_image": "Hospitality__Compact Housekeeping Carts 1.png",
-    "description": "Compact housekeeping carts with a fabric bag body, for narrow cabin corridors and small service areas where a full-size cart does not fit.",
+    "source_image": "DFWin_202610_P11-01.png",
+    "description": "Compact Housekeeping Cart. See catalog specifications.",
     "keywords": [
-      "cage",
-      "cart",
-      "carts",
-      "housekeeping",
-      "laundry",
-      "luggage",
-      "rack",
-      "truck",
-      "utility"
+      "Compact Housekeeping Cart",
+      "Trolleys",
+      "Hospitality"
     ],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0017",
-    "name": "Luggage Cages Series 2",
-    "sector": "Hospitality",
-    "category": "Carts",
-    "slug": "hospitality-luggage-cages-series-2",
-    "image": "assets/img/products/hospitality-luggage-cages-series-2.webp",
-    "source_image": "Hospitality__Luggage Cages Series 2 - 1.png",
-    "description": "Wheeled luggage cages for moving guest bags between the terminal and the ship on embarkation and debarkation days. DFWin has supplied luggage cages to cruise lines since 2014.",
-    "keywords": [
-      "cage",
-      "cart",
-      "carts",
-      "housekeeping",
-      "laundry",
-      "luggage",
-      "rack",
-      "truck",
-      "utility"
-    ],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0018",
-    "name": "Two Tier Trolley",
-    "sector": "Hospitality",
-    "category": "Trolleys",
-    "slug": "hospitality-two-tier-trolley",
-    "image": "assets/img/products/hospitality-two-tier-trolley.webp",
-    "source_image": "Hospitality__Two Tier Trolley 1.png",
-    "description": "Two-shelf metal service trolley on castors for galleys, pantries and room service. Shelf size and finish are confirmed in your quote.",
-    "keywords": [
-      "cart",
-      "carts",
-      "service",
-      "trolley",
-      "trolleys",
-      "wheeled"
-    ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Designed for small working space\nAll-aluminum frame makes the product both light and robust\nElegant soft fabric upholster\nVertical ergonomic handles suitable for operator of different\nheight\nFoldable top cover that does not block the sight\nTop vertical and front horizontal storage compartments\nEasy to maneuver\nPowder coated aluminum\nColson or darcor 5\" casters: swivel X 2 with brakes, fixed X 2\nProvide off shelf standard and customized design products",
+        "unit": ""
+      }
+    ]
   },
   {
     "id": "HOSP-0019",
-    "name": "Three Shelf Trolley",
+    "name": "3-Shelf Service Trolley",
     "sector": "Hospitality",
     "category": "Trolleys",
     "slug": "hospitality-three-shelf-trolley",
     "image": "assets/img/products/hospitality-three-shelf-trolley.webp",
-    "source_image": "Hospitality__Three Shelf Trolley.png",
-    "description": "Three-shelf utility trolley with side bins and moulded handles, used to clear tables and move supplies in restaurants, buffets and crew mess areas.",
+    "source_image": "DFWin_202610_P13-01.png",
+    "description": "3-Shelf Service Trolley. See catalog specifications.",
     "keywords": [
-      "cart",
-      "carts",
-      "service",
-      "trolley",
-      "trolleys",
-      "wheeled"
+      "3-Shelf Service Trolley",
+      "Trolleys",
+      "Hospitality"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "frame.\nFeatures PP plastic shelf boards and handles\nfor lightweight strength.\nEquipped with honeycomb aluminum side\nwalls for added stability.\nIncludes 5\" ergonomic casters with stainless\nsteel brackets for smooth mobility.\nWeight: 21 kg.\nLoad capacity: 180-200 kg.\nSilicone rubber pads to minimize noise during operation.\nPlastic trash bins for convenient waste management.\n965(H) x 900(L) x 530(W) mm",
+        "unit": ""
+      }
+    ]
   },
   {
     "id": "HOSP-0020",
@@ -339,15 +262,16 @@
     "source_image": "Hospitality__Plush Bath Towels.png",
     "description": "White bath towels for hotel rooms and cruise cabins, supplied folded for housekeeping stock. Size and any woven or embroidered branding are confirmed in your quote.",
     "keywords": [
-      "bath",
-      "linen",
-      "linens",
-      "textile",
       "towel",
       "towels",
-      "washcloth"
+      "bath",
+      "washcloth",
+      "linen",
+      "linens",
+      "textile"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "HOSP-0021",
@@ -359,15 +283,16 @@
     "source_image": "Hospitality__Plush Bath Towels Series 2 - 1.png",
     "description": "White towels with a banded border, shown as a stacked set of bath, hand and face sizes for guest bathrooms. The set make-up is confirmed in your quote.",
     "keywords": [
-      "bath",
-      "linen",
-      "linens",
-      "textile",
       "towel",
       "towels",
-      "washcloth"
+      "bath",
+      "washcloth",
+      "linen",
+      "linens",
+      "textile"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "HOSP-0022",
@@ -379,71 +304,16 @@
     "source_image": "Hospitality__Plush Bath Towels Series 3.png",
     "description": "Stacks of white bath towels for housekeeping stores in hotels and on ships, ordered in bulk for regular room turnover. Sizes and quantities are quoted to your stock levels.",
     "keywords": [
-      "bath",
-      "linen",
-      "linens",
-      "textile",
       "towel",
       "towels",
-      "washcloth"
+      "bath",
+      "washcloth",
+      "linen",
+      "linens",
+      "textile"
     ],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0023",
-    "name": "Bellman Carts",
-    "sector": "Hospitality",
-    "category": "Carts",
-    "slug": "hospitality-bellman-carts",
-    "image": "assets/img/products/hospitality-bellman-carts.webp",
-    "source_image": "Hospitality__Bellman Carts 1.png",
-    "description": "Bellman carts with a hanging rail and carpeted deck for moving guest luggage through hotel lobbies and ship terminals. Frame finish and carpet colour are confirmed in your quote.",
-    "keywords": [
-      "cage",
-      "cart",
-      "carts",
-      "housekeeping",
-      "laundry",
-      "luggage",
-      "rack",
-      "truck",
-      "utility"
-    ],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0024",
-    "name": "Flat Truck",
-    "sector": "Hospitality",
-    "category": "Carts",
-    "slug": "hospitality-flat-truck",
-    "image": "assets/img/products/hospitality-flat-truck.webp",
-    "source_image": "Hospitality__Flat Truck 1.png",
-    "description": "Flatbed platform truck with a push handle for moving cartons, stores and luggage through service corridors, loading areas and provision rooms.",
-    "keywords": [
-      "cage",
-      "cart",
-      "carts",
-      "housekeeping",
-      "laundry",
-      "luggage",
-      "rack",
-      "truck",
-      "utility"
-    ],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0025",
-    "name": "Barricade",
-    "sector": "Hospitality",
-    "category": "Stanchions & Barriers",
-    "slug": "hospitality-barricade",
-    "image": "assets/img/products/hospitality-barricade.webp",
-    "source_image": "Hospitality__Barricade.png",
-    "description": "Freestanding metal crowd barrier for managing queues at terminals, gangways and event spaces. Sections stand on their own feet and can be placed side by side.",
-    "keywords": [],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "HOSP-0026",
@@ -452,15 +322,20 @@
     "category": "Hotel Safes",
     "slug": "hospitality-hotel-safe",
     "image": "assets/img/products/hospitality-hotel-safe.webp",
-    "source_image": "Hospitality__Hotel Safe 1.png",
-    "description": "In-room safe with a digital keypad for guest valuables in hotel rooms and cruise cabins. Size, door style and locking options are confirmed in your quote.",
+    "source_image": "DFWin_202610_P07-01.png",
+    "description": "Hotel Safe. See catalog specifications.",
     "keywords": [
-      "in-room",
-      "locker",
-      "safe",
-      "security"
+      "Hotel Safe",
+      "Hospitality"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "355×260×190 mm. Digital keypad and LED display. Two 20mm motorized locking bolts. Private code, master code, key and override access. 4×1.5V batteries. Last 240 opening records traceable.",
+        "unit": ""
+      }
+    ]
   },
   {
     "id": "HOSP-0027",
@@ -472,7 +347,8 @@
     "source_image": "Hospitality__LED Lights 1.png",
     "description": "LED spot lamps for guest rooms, corridors, restaurants and back-of-house areas in hotels. Tell us the fitting type and quantity and we quote a matching lamp.",
     "keywords": [],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "HOSP-0028",
@@ -484,34 +360,15 @@
     "source_image": "Hospitality__Light Up Glass 1.jpg",
     "description": "Clear drinking glass with built-in lights that glow in changing colours, used for bar promotions, themed nights and souvenir drinks on ships and at resorts.",
     "keywords": [
-      "beverage",
       "cups",
-      "drinking",
-      "glasses",
       "mugs",
+      "glasses",
+      "beverage",
+      "drinking",
       "vessels"
     ],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0029",
-    "name": "Chinaware Yuanfeng 01",
-    "sector": "Hospitality",
-    "category": "Chinaware",
-    "slug": "hospitality-chinaware-yuanfeng-01",
-    "image": "assets/img/products/hospitality-chinaware-yuanfeng-01.webp",
-    "source_image": "Hospitality__Chinaware - Yuanfeng 01 - 1.png",
-    "description": "White round chinaware plates from the Yuanfeng range in a run of sizes, for main dining rooms, buffets and banquet service. Logo decoration can be quoted on request.",
-    "keywords": [
-      "bowls",
-      "ceramic",
-      "china",
-      "dinnerware",
-      "plates",
-      "porcelain",
-      "tableware"
-    ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "HOSP-0030",
@@ -520,42 +377,44 @@
     "category": "Carts",
     "slug": "hospitality-linen-cart",
     "image": "assets/img/products/hospitality-linen-cart.webp",
-    "source_image": "Hospitality__Linen Cart 1.png",
-    "description": "Barred metal linen cart with shelves and castors for moving clean and soiled linen between housekeeping stores, laundries and guest floors.",
+    "source_image": "DFWin_202610_P10-01.png",
+    "description": "Linen Cart. See catalog specifications.",
     "keywords": [
-      "cage",
-      "cart",
-      "carts",
-      "housekeeping",
-      "laundry",
-      "luggage",
-      "rack",
-      "truck",
-      "utility"
+      "Linen Cart",
+      "Trolleys",
+      "Hospitality"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Main Frame: 304 SST square tube (30x30x1.5mm) for strength\nand durability.\nVertical Closure: 304 SST round tube (19x1.0mm) for added\nstability and sleek finish.\nFoldable Shelves: 2 mm aluminum sheets, offering lightweight\nfunctionality and easy storage.\nCasters: 6\" Colson ergonomic casters.\n1780(H) x 1530(W) x 560(D) mm",
+        "unit": ""
+      }
+    ]
   },
   {
     "id": "HOSP-0031",
-    "name": "Speed Rack 7 Shelves",
+    "name": "Stainless Steel Cooks Speed Rack – 7 Shelves",
     "sector": "Hospitality",
     "category": "Carts",
     "slug": "hospitality-speed-rack-7-shelves",
     "image": "assets/img/products/hospitality-speed-rack-7-shelves.webp",
-    "source_image": "Hospitality__Speed Rack 7 Shelves.png",
-    "description": "Open-frame rack on castors with seven runner levels for holding trays in galleys, bakeries and banquet kitchens. Tray size and spacing are confirmed in your quote.",
+    "source_image": "DFWin_202610_P21-01.png",
+    "description": "Stainless Steel Cooks Speed Rack – 7 Shelves. See catalog specifications.",
     "keywords": [
-      "cage",
-      "cart",
-      "carts",
-      "housekeeping",
-      "laundry",
-      "luggage",
-      "rack",
-      "truck",
-      "utility"
+      "Stainless Steel Cooks Speed Rack – 7 Shelves",
+      "Trolleys",
+      "Hospitality"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "The 7-shelves speed rack is used to place food trays in the kitchen\nMore flexible and convenient for mobility\n316 Stainless Steel, 2mm thickness\n4 corner non-marking bumpers protect walls and other equipment from\nscratches\nColson 5\" casters:\nSwivel x 2 with brake, fixed x 2\nErgonomically friendly and durable stainless steel precision swivel raceway\nfor maximum roll and swivel ease\n7 Shelves:\n1728H x 546W x 673D mm",
+        "unit": ""
+      }
+    ]
   },
   {
     "id": "HOSP-0032",
@@ -567,69 +426,16 @@
     "source_image": "Hospitality__Plush Towels Series 3.png",
     "description": "White towels supplied in matching stacks for cabin and guest room bathrooms. Order one size or a mix, and we confirm packing in your quote.",
     "keywords": [
-      "bath",
-      "linen",
-      "linens",
-      "textile",
       "towel",
       "towels",
-      "washcloth"
+      "bath",
+      "washcloth",
+      "linen",
+      "linens",
+      "textile"
     ],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0033",
-    "name": "Trash Bins Series 1A",
-    "sector": "Hospitality",
-    "category": "Trash Bins",
-    "slug": "hospitality-trash-bins-series-1a",
-    "image": "assets/img/products/hospitality-trash-bins-series-1a.webp",
-    "source_image": "Hospitality__Trash Bins Series 1A - 1.png",
-    "description": "A variation of our Series 1 rectangular lidded bin for cabins, guest rooms and offices. Send your preferred size and finish and we confirm both in your quote.",
-    "keywords": [],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0034",
-    "name": "Chinaware Yuanhui 02",
-    "sector": "Hospitality",
-    "category": "Chinaware",
-    "slug": "hospitality-chinaware-yuanhui-02",
-    "image": "assets/img/products/hospitality-chinaware-yuanhui-02.webp",
-    "source_image": "Hospitality__Chinaware - yuanhui 02 - 1.png",
-    "description": "White chinaware sauce boat from the Yuanhui range for restaurant and room service table settings. Tell us which other pieces you need and we quote them together.",
-    "keywords": [
-      "bowls",
-      "ceramic",
-      "china",
-      "dinnerware",
-      "plates",
-      "porcelain",
-      "tableware"
-    ],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0035",
-    "name": "Linen Cart 2A",
-    "sector": "Hospitality",
-    "category": "Carts",
-    "slug": "hospitality-linen-cart-2a",
-    "image": "assets/img/products/hospitality-linen-cart-2a.webp",
-    "source_image": "Hospitality__Linen Cart 2a - 1.png",
-    "description": "A variation of our barred metal linen cart with shelves, for housekeeping and laundry teams on ships and in hotels. Dimensions are confirmed in your quote.",
-    "keywords": [
-      "cage",
-      "cart",
-      "carts",
-      "housekeeping",
-      "laundry",
-      "luggage",
-      "rack",
-      "truck",
-      "utility"
-    ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "HOSP-0036",
@@ -641,53 +447,39 @@
     "source_image": "Hospitality__Plush Towels 5.png",
     "description": "Folded white towels for everyday guest room and cabin use. A plain design that suits most bathroom schemes, with size and branding confirmed in your quote.",
     "keywords": [
-      "bath",
-      "linen",
-      "linens",
-      "textile",
       "towel",
       "towels",
-      "washcloth"
+      "bath",
+      "washcloth",
+      "linen",
+      "linens",
+      "textile"
     ],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0037",
-    "name": "Melamine White 1",
-    "sector": "Hospitality",
-    "category": "Melamine Dinnerware",
-    "slug": "hospitality-melamine-white-1",
-    "image": "assets/img/products/hospitality-melamine-white-1.webp",
-    "source_image": "Hospitality__Melamine White 1 - 1.png",
-    "description": "White melamine plates and bowls for buffet, poolside and casual dining, a practical choice for outdoor and high-turnover service.",
-    "keywords": [
-      "bowls",
-      "dinnerware",
-      "dishware",
-      "plates",
-      "tableware"
-    ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "HOSP-0038",
-    "name": "Pool Towel 1",
+    "name": "Pool Towel",
     "sector": "Hospitality",
     "category": "Towels & Linens",
     "slug": "hospitality-pool-towel-1",
     "image": "assets/img/products/hospitality-pool-towel-1.webp",
-    "source_image": "Hospitality__Pool Towel 1 1.png",
-    "description": "Striped pool towels for pool decks, beach clubs and spa areas at resorts and on cruise ships. Stripe colour, size and branding are confirmed in your quote.",
+    "source_image": "DFWin_202610_P30-01.png",
+    "description": "Pool Towel. See catalog specifications.",
     "keywords": [
-      "bath",
-      "linen",
-      "linens",
-      "textile",
-      "towel",
-      "towels",
-      "washcloth"
+      "Pool Towel",
+      "Consumables",
+      "Hospitality"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Luxe XL 36×70in jacquard wave, 600 GSM. Ringspun combed 24/2 two-ply yarn. 100% absorbent cotton loops with fadeproof polyester stripes.",
+        "unit": ""
+      }
+    ]
   },
   {
     "id": "HOSP-0039",
@@ -699,41 +491,41 @@
     "source_image": "Hospitality__Slim Housekeeping Cart 1 1.png",
     "description": "Slim housekeeping cart with linen bags and supply drawers, for narrow cabin corridors on ships and tight hotel floors. Layout and finish are confirmed in your quote.",
     "keywords": [
-      "cage",
       "cart",
       "carts",
+      "cage",
+      "luggage",
       "housekeeping",
       "laundry",
-      "luggage",
       "rack",
       "truck",
       "utility"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "HOSP-0040",
-    "name": "Flatware",
+    "name": "Flatware – Silverware",
     "sector": "Hospitality",
     "category": "Flatware",
     "slug": "hospitality-flatware",
     "image": "assets/img/products/hospitality-flatware.webp",
-    "source_image": "Hospitality__Flatware 1.png",
-    "description": "Polished metal forks, knives and spoons for dining rooms, buffets and room service. Pattern, piece list and any logo marking are confirmed in your quote.",
-    "keywords": [],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0041",
-    "name": "Fold-Up Stanchion",
-    "sector": "Hospitality",
-    "category": "Stanchions & Barriers",
-    "slug": "hospitality-fold-up-stanchion",
-    "image": "assets/img/products/hospitality-fold-up-stanchion.webp",
-    "source_image": "Hospitality__Fold up Stanchion 1.png",
-    "description": "Stanchion post with a retractable belt that folds for storage, used to form queues at embarkation, reception desks and venue entrances.",
-    "keywords": [],
-    "status": "Active"
+    "source_image": "DFWin_202610_P38-01.png",
+    "description": "Flatware – Silverware. See catalog specifications.",
+    "keywords": [
+      "Flatware – Silverware",
+      "Silverware",
+      "F&B Products"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "304 stainless steel; knives 420 steel. Hand-polished finish. Designs shown as a collection without individual model numbers.",
+        "unit": ""
+      }
+    ]
   },
   {
     "id": "HOSP-0042",
@@ -742,32 +534,21 @@
     "category": "Hair Dryers",
     "slug": "hospitality-hair-dryer",
     "image": "assets/img/products/hospitality-hair-dryer.webp",
-    "source_image": "Hospitality__Hair Dryer 1.png",
-    "description": "Hair dryer with a coiled cord for guest bathrooms and cabins. Mounting, plug type and voltage for your property or vessel are confirmed in your quote.",
-    "keywords": [],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0043",
-    "name": "Portable Utility Cart 2",
-    "sector": "Hospitality",
-    "category": "Carts",
-    "slug": "hospitality-portable-utility-cart-2",
-    "image": "assets/img/products/hospitality-portable-utility-cart-2.webp",
-    "source_image": "Hospitality__Portable Utility Cart 2 1.png",
-    "description": "Soft-sided rolling utility case with a telescopic handle and outer pockets, for carrying tools, supplies or amenities between rooms, decks and venues.",
+    "source_image": "DFWin_202610_P25-01.png",
+    "description": "Hair Dryer. See catalog specifications.",
     "keywords": [
-      "cage",
-      "cart",
-      "carts",
-      "housekeeping",
-      "laundry",
-      "luggage",
-      "rack",
-      "truck",
-      "utility"
+      "Hair Dryer",
+      "Hairdryer",
+      "Hospitality"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Quiet long-life motor. Overheating protection. UL certified power plug. Voltage 110V–220V. Black: 55.5×37.5×35cm; White:49.5×32.5×45cm (dimensions as printed; verify whether packaging dimensions).",
+        "unit": ""
+      }
+    ]
   },
   {
     "id": "HOSP-0044",
@@ -779,37 +560,16 @@
     "source_image": "Hospitality__Plush Hand Towels.png",
     "description": "White hand towels for guest bathrooms, spas and public washrooms in hotels and on board. Supplied in bulk for housekeeping, with size confirmed in your quote.",
     "keywords": [
-      "bath",
-      "linen",
-      "linens",
-      "textile",
       "towel",
       "towels",
-      "washcloth"
+      "bath",
+      "washcloth",
+      "linen",
+      "linens",
+      "textile"
     ],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0045",
-    "name": "Three Tier Cart",
-    "sector": "Hospitality",
-    "category": "Carts",
-    "slug": "hospitality-three-tier-cart",
-    "image": "assets/img/products/hospitality-three-tier-cart.webp",
-    "source_image": "Hospitality__Three Tier Cart 1.png",
-    "description": "Three-tier metal service cart on castors with a push handle, for galley, restaurant and housekeeping work. Shelf size and finish are confirmed in your quote.",
-    "keywords": [
-      "cage",
-      "cart",
-      "carts",
-      "housekeeping",
-      "laundry",
-      "luggage",
-      "rack",
-      "truck",
-      "utility"
-    ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "HOSP-0046",
@@ -821,74 +581,42 @@
     "source_image": "Hospitality__Plush Wash Cloth.png",
     "description": "White wash cloths for cabin and guest room bathrooms, usually ordered alongside matching hand and bath towels. Quantities and packing are confirmed in your quote.",
     "keywords": [
-      "bath",
-      "linen",
-      "linens",
-      "textile",
       "towel",
       "towels",
-      "washcloth"
+      "bath",
+      "washcloth",
+      "linen",
+      "linens",
+      "textile"
     ],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0047",
-    "name": "Melamine White Series 2",
-    "sector": "Hospitality",
-    "category": "Melamine Dinnerware",
-    "slug": "hospitality-melamine-white-series-2",
-    "image": "assets/img/products/hospitality-melamine-white-series-2.webp",
-    "source_image": "Hospitality__Melamine White Series 2 - 1.png",
-    "description": "A second white melamine range for buffets, crew mess and outdoor dining. Send the piece list you need and we quote plates, bowls and serving pieces together.",
-    "keywords": [
-      "bowls",
-      "dinnerware",
-      "dishware",
-      "plates",
-      "tableware"
-    ],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0048",
-    "name": "Melamine",
-    "sector": "Hospitality",
-    "category": "Melamine Dinnerware",
-    "slug": "hospitality-melamine",
-    "image": "assets/img/products/hospitality-melamine.webp",
-    "source_image": "Hospitality__Melamine 1.png",
-    "description": "Melamine dinnerware for restaurants, buffets and deck service on ships and at resorts. Shapes, colours and decoration are confirmed in your quote.",
-    "keywords": [
-      "bowls",
-      "dinnerware",
-      "dishware",
-      "plates",
-      "tableware"
-    ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "HOSP-0049",
-    "name": "Mini Bar Fridge",
+    "name": "Minibar Fridge",
     "sector": "Hospitality",
     "category": "Refrigeration",
     "slug": "hospitality-mini-bar-fridge",
     "image": "assets/img/products/hospitality-mini-bar-fridge.webp",
-    "source_image": "Hospitality__Mini Bar Fridge 1.png",
-    "description": "Compact minibar fridge with a glass door for hotel rooms and cruise cabins. DFWin supplies cabin minibar fridges to cruise lines and cabin builders, to the specification of each project.",
+    "source_image": "DFWin_202610_P06-01.png",
+    "description": "Minibar Fridge. See catalog specifications.",
     "keywords": [
-      "bar",
-      "cooler",
-      "fridge",
-      "mini",
-      "minibar",
-      "refrigerator"
+      "Minibar Fridge",
+      "Hospitality"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Cooling: compressor, thermoelectric or absorption. Power: 110V/60Hz or 220V/50Hz (or 60Hz). Capacity: 30L, 35L, 65L. Options: door lock, glass door with stainless steel frame. Custom design available.",
+        "unit": ""
+      }
+    ]
   },
   {
     "id": "HOSP-0050",
-    "name": "Plush Towels 6-Piece Set",
+    "name": "Plush Towels 6 piece set",
     "sector": "Hospitality",
     "category": "Towels & Linens",
     "slug": "hospitality-plush-towels-6-piece-set",
@@ -896,19 +624,20 @@
     "source_image": "Hospitality__Plush Towels 6 piece set.png",
     "description": "A six-piece white towel set in three sizes for guest rooms and suites. Useful where rooms are stocked by the set, with packing confirmed in your quote.",
     "keywords": [
-      "bath",
-      "linen",
-      "linens",
-      "textile",
       "towel",
       "towels",
-      "washcloth"
+      "bath",
+      "washcloth",
+      "linen",
+      "linens",
+      "textile"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "HOSP-0051",
-    "name": "Plush Towel Set of 3",
+    "name": "Plush Towel Set 3 x",
     "sector": "Hospitality",
     "category": "Towels & Linens",
     "slug": "hospitality-plush-towel-set-3-x",
@@ -916,35 +645,16 @@
     "source_image": "Hospitality__Plush Towel Set 3 x 2.png",
     "description": "A three-towel white set for a guest bathroom or cabin. Supplied as sets so housekeeping can stock rooms quickly, with sizes confirmed in your quote.",
     "keywords": [
-      "bath",
-      "linen",
-      "linens",
-      "textile",
       "towel",
       "towels",
-      "washcloth"
+      "bath",
+      "washcloth",
+      "linen",
+      "linens",
+      "textile"
     ],
-    "status": "Active"
-  },
-  {
-    "id": "HOSP-0052",
-    "name": "Chinaware Yuanhua 02",
-    "sector": "Hospitality",
-    "category": "Chinaware",
-    "slug": "hospitality-chinaware-yuanhua-02",
-    "image": "assets/img/products/hospitality-chinaware-yuanhua-02.webp",
-    "source_image": "Hospitality__Chinaware - yuanhua 02 - 1.png",
-    "description": "White chinaware teapot with lid from the Yuanhua range, for breakfast, afternoon tea and in-room service. Tell us the other pieces you need and we quote the set.",
-    "keywords": [
-      "bowls",
-      "ceramic",
-      "china",
-      "dinnerware",
-      "plates",
-      "porcelain",
-      "tableware"
-    ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "HOSP-0053",
@@ -956,14 +666,15 @@
     "source_image": "Hospitality__Light Changing Glass 1.png",
     "description": "Glass tumbler with a printed tree design whose blossoms change colour, sold as a souvenir or used for speciality drinks in bars and lounges.",
     "keywords": [
-      "beverage",
       "cups",
-      "drinking",
-      "glasses",
       "mugs",
+      "glasses",
+      "beverage",
+      "drinking",
       "vessels"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "HOSP-0054",
@@ -975,59 +686,65 @@
     "source_image": "Hospitality__Light Changing Cups 1.png",
     "description": "Small glass cups with a printed blossom design that changes colour, shown as a pair. Suited to gift shops and bar service on ships and at resorts.",
     "keywords": [
-      "beverage",
       "cups",
-      "drinking",
-      "glasses",
       "mugs",
+      "glasses",
+      "beverage",
+      "drinking",
       "vessels"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "HOSP-0055",
-    "name": "Bus Trolley",
+    "name": "Bussing Trolley",
     "sector": "Hospitality",
     "category": "Trolleys",
     "slug": "hospitality-bus-trolley",
     "image": "assets/img/products/hospitality-bus-trolley.webp",
-    "source_image": "Hospitality__Bus Trolley 1.png",
-    "description": "Enclosed trolley with roll-down fronts for clearing tables and moving service ware out of guest view in restaurants and buffets. Finish is confirmed in your quote.",
+    "source_image": "DFWin_202610_P15-01.png",
+    "description": "Bussing Trolley. See catalog specifications.",
     "keywords": [
-      "cart",
-      "carts",
-      "service",
-      "trolley",
-      "trolleys",
-      "wheeled"
+      "Bussing Trolley",
+      "Trolleys",
+      "Hospitality"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Shelves: Durable plastic with a reinforced aluminum frame.\nSide and Back Panels: 3mm honeycomb aluminum with a\nDoors: PP roller shutter design for easy access and secure\nstorage.\nCasters: 5\" ergonomic casters with stainless steel brackets\nfor smooth maneuverability.\nHandles: Equipped with two vertical handles for convenient\noperation by people of different heights.\n900(W) x 533(D) x 1340(H) mm",
+        "unit": ""
+      }
+    ]
   },
   {
     "id": "HOSP-0056",
-    "name": "Speed Rack 3 Shelves",
+    "name": "Stainless Steel Cooks Speed Rack – 3 Shelves",
     "sector": "Hospitality",
     "category": "Carts",
     "slug": "hospitality-speed-rack-3-shelves",
     "image": "assets/img/products/hospitality-speed-rack-3-shelves.webp",
-    "source_image": "Hospitality__Speed Rack 3 Shelves.png",
-    "description": "Low metal rack on castors with three levels and a flat top, used as a mobile work and holding station in galleys and pantries.",
+    "source_image": "DFWin_202610_P20-01.png",
+    "description": "Stainless Steel Cooks Speed Rack – 3 Shelves. See catalog specifications.",
     "keywords": [
-      "cage",
-      "cart",
-      "carts",
-      "housekeeping",
-      "laundry",
-      "luggage",
-      "rack",
-      "truck",
-      "utility"
+      "Stainless Steel Cooks Speed Rack – 3 Shelves",
+      "Trolleys",
+      "Hospitality"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "The 3-shelves speed rack is used to place food trays in the kitchen\nMore flexible and convenient for mobility\n316 Stainless Steel, 2mm thickness\nColson 5\" casters:\nSwivel x 2 with brake, fixed x 2\nErgonomically friendly and durable stainless steel precision swivel raceway\nfor maximum roll and swivel ease\n3 Shelves: 915H x 546W x 673D mm",
+        "unit": ""
+      }
+    ]
   },
   {
     "id": "HOSP-0057",
-    "name": "Plush Towels Double Stack",
+    "name": "Plush Towels Double Stack x",
     "sector": "Hospitality",
     "category": "Towels & Linens",
     "slug": "hospitality-plush-towels-double-stack-x",
@@ -1035,15 +752,16 @@
     "source_image": "Hospitality__Plush Towels Double Stack x 6.png",
     "description": "White towels shown in two folded stacks, supplied in bulk for hotel and cruise ship linen rooms. Tell us the sizes and counts you need per room.",
     "keywords": [
-      "bath",
-      "linen",
-      "linens",
-      "textile",
       "towel",
       "towels",
-      "washcloth"
+      "bath",
+      "washcloth",
+      "linen",
+      "linens",
+      "textile"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": []
   },
   {
     "id": "HOSP-0058",
@@ -1052,16 +770,4463 @@
     "category": "Trolleys",
     "slug": "hospitality-butler-trolley",
     "image": "assets/img/products/hospitality-butler-trolley.webp",
-    "source_image": "Hospitality__Butler Trolley 1.jpg",
-    "description": "Cabinet-style butler trolley on castors with doors and inner shelves, for suite service, corridor pantries and in-room dining setups.",
+    "source_image": "DFWin_202610_P14-01.png",
+    "description": "Butler Trolley. See catalog specifications.",
     "keywords": [
-      "cart",
-      "carts",
-      "service",
-      "trolley",
-      "trolleys",
-      "wheeled"
+      "Butler Trolley",
+      "Trolleys",
+      "Hospitality"
     ],
-    "status": "Active"
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Simple and light luxury fashion design\nCan be pushed into the rooms for room services, does not\noccupy the guest passage\nThe movable layer in the middle realizes diversified storage\nThe perfect combination of wooden fireproof board and stain-\nless steel, coupled with silent casters, makes room service\nsmoother and improves work efficiency\nThe panel color can be changed according to the customer's\ndecoration style",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0059",
+    "name": "Luggage Cage",
+    "sector": "Hospitality",
+    "category": "Trolleys",
+    "slug": "hospitality-luggage-cage-p08-01",
+    "image": "assets/img/products/hospitality-luggage-cage-p08-01.webp",
+    "source_image": "DFWin_202610_P08-01.png",
+    "description": "Luggage Cage",
+    "keywords": [
+      "Luggage Cage",
+      "Trolleys",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Foldable design to save storage space\nEquipped with tarp to protect luggage from harsh weather\nHeavy-duty frame design that can carry up to 15 luggage cases\n304 brushed stainless steel\nColson 8\" casters:\nSwivel x 2 (1 with brake), fixed x 2\nErgonomically friendly and durable stainless steel precision swivel raceway\nfor maximum roll and swivel ease\n1422L x 815W x 1595H mm",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0060",
+    "name": "Portable Utility Cart",
+    "sector": "Hospitality",
+    "category": "Trolleys",
+    "slug": "hospitality-portable-utility-cart-p12-01",
+    "image": "assets/img/products/hospitality-portable-utility-cart-p12-01.webp",
+    "source_image": "DFWin_202610_P12-01.png",
+    "description": "Portable Utility Cart",
+    "keywords": [
+      "Portable Utility Cart",
+      "Trolleys",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Storage Features:\n1 front zippered pocket for secure storage.\n3 waterproof bottle holders.\n1 side compartment accessory pocket for quick access to essentials.\n3 adjustable dividers to organize larger items.\n6 interior webbed pockets for neatly storing small tools or supplies.\n1 dedicated ball jar storage pocket for added convenience.\nMaterial: Durable Oxford fabric for long-lasting use.\nWheels: 4\" smooth-rolling wheels for effortless mobility.\n670(H) x 360(W) x 425(D) mm",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0061",
+    "name": "Bellman Cart (BC7505)",
+    "sector": "Hospitality",
+    "category": "Trolleys",
+    "slug": "hospitality-bellman-cart-bc7505-p16-01",
+    "image": "assets/img/products/hospitality-bellman-cart-bc7505-p16-01.webp",
+    "source_image": "DFWin_202610_P16-01.png",
+    "description": "Bellman Cart (BC7505)",
+    "keywords": [
+      "Bellman Cart",
+      "Trolleys",
+      "Hospitality",
+      "BC7505"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "1050(L)×610(W)×1800(H)mm. Titanium gold finish, red carpet, reinforced steel undercarriage, wrap-around bumper, 304 stainless steel frame. Colson 8in polyurethane casters: 2 swivel with brakes and 2 fixed.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "BC7505",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0062",
+    "name": "Bellman Cart (BC7507)",
+    "sector": "Hospitality",
+    "category": "Trolleys",
+    "slug": "hospitality-bellman-cart-bc7507-p16-02",
+    "image": "assets/img/products/hospitality-bellman-cart-bc7507-p16-02.webp",
+    "source_image": "DFWin_202610_P16-02.png",
+    "description": "Bellman Cart (BC7507)",
+    "keywords": [
+      "Bellman Cart",
+      "Trolleys",
+      "Hospitality",
+      "BC7507"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "1100(L)×650(W)×1800(H)mm. Titanium gold finish, red carpet, reinforced steel undercarriage, wrap-around bumper, 304 stainless steel frame. Colson 8in polyurethane casters: 2 swivel with brakes and 2 fixed.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "BC7507",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0063",
+    "name": "Bellman Cart (BC7501C)",
+    "sector": "Hospitality",
+    "category": "Trolleys",
+    "slug": "hospitality-bellman-cart-bc7501c-p16-03",
+    "image": "assets/img/products/hospitality-bellman-cart-bc7501c-p16-03.webp",
+    "source_image": "DFWin_202610_P16-03.png",
+    "description": "Bellman Cart (BC7501C)",
+    "keywords": [
+      "Bellman Cart",
+      "Trolleys",
+      "Hospitality",
+      "BC7501C"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "1050(L)×610(W)×1860(H)mm. Titanium gold finish, red carpet, reinforced steel undercarriage, wrap-around bumper, 304 stainless steel frame. Colson 8in polyurethane casters: 2 swivel with brakes and 2 fixed.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "BC7501C",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0064",
+    "name": "3-Tier Galley Trolley",
+    "sector": "Hospitality",
+    "category": "Trolleys",
+    "slug": "hospitality-3-tier-galley-trolley-p17-01",
+    "image": "assets/img/products/hospitality-3-tier-galley-trolley-p17-01.webp",
+    "source_image": "DFWin_202610_P17-01.png",
+    "description": "3-Tier Galley Trolley",
+    "keywords": [
+      "3-Tier Galley Trolley",
+      "Trolleys",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "The unique marine-edge design prevents dishes from spilling\nonto the floor\nAdopt argon arc welding and 304 stainless steel material,\nmake the cart generous, reliable and durable\n4 corner non-marking bumpers protect walls and other equip-\nment from scratches\nColson 5\" casters:\nSwivel X 2 with brakes, fixed X 2\nErgonomically friendly and durable stainless steel preci-\nsion swivel raceway for maximum roll and swivel ease\nProvide both standard off shelf and customized design products",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0065",
+    "name": "2-Tier Galley Trolley",
+    "sector": "Hospitality",
+    "category": "Trolleys",
+    "slug": "hospitality-2-tier-galley-trolley-p18-01",
+    "image": "assets/img/products/hospitality-2-tier-galley-trolley-p18-01.webp",
+    "source_image": "DFWin_202610_P18-01.png",
+    "description": "2-Tier Galley Trolley",
+    "keywords": [
+      "2-Tier Galley Trolley",
+      "Trolleys",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "The unique marine-edge design prevents dishes from spilling\nonto the floor\nAdopt argon arc welding and 304 stainless steel material, make\nthe cart generous, reliable and durable\nColson 5\" casters:\nSwivel X 2 with brakes\nErgonomically friendly and durable stainless steel precision\nswivel raceway for maximum roll and swivel ease\nProvide both standard off shelf ( L945 X W648 X H905 mm )\nand customized products",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0066",
+    "name": "Platform Truck",
+    "sector": "Hospitality",
+    "category": "Trolleys",
+    "slug": "hospitality-platform-truck-p19-01",
+    "image": "assets/img/products/hospitality-platform-truck-p19-01.webp",
+    "source_image": "DFWin_202610_P19-01.png",
+    "description": "Platform Truck",
+    "keywords": [
+      "Platform Truck",
+      "Trolleys",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Adopt argon arc welding and 304 stainless steel material, make the\ncart generous, reliable and durable\n2 corner non-marking bumpers protect walls and other\nequipment from scratches\nColson 5\" casters:\nSwivel X 2 with brakes, fixed X 2\nErgonomically friendly and durable stainless steel precision\nswivel raceway for maximum roll and swivel ease\nProvide both off shelf standard and customized design products",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0067",
+    "name": "Open Top Trash Can (TC832012)",
+    "sector": "Hospitality",
+    "category": "Trash Bins",
+    "slug": "hospitality-open-top-trash-can-tc832012-p22-01",
+    "image": "assets/img/products/hospitality-open-top-trash-can-tc832012-p22-01.webp",
+    "source_image": "DFWin_202610_P22-01.png",
+    "description": "Open Top Trash Can (TC832012)",
+    "keywords": [
+      "Open Top Trash Can",
+      "Trash Bins",
+      "Hospitality",
+      "TC832012"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "6L:225×162×300;10L:270×194×335;12L:270×194×380;20L:355×225×430;30L:335×225×630;40L:420×255×630mm. Removable lid, plastic bag stabilizer, skid-resistant base, single bin.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "TC832012",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0068",
+    "name": "Trash Bin with Diamond Pattern (TC805011)",
+    "sector": "Hospitality",
+    "category": "Trash Bins",
+    "slug": "hospitality-trash-bin-with-diamond-pattern-tc805011-p22-02",
+    "image": "assets/img/products/hospitality-trash-bin-with-diamond-pattern-tc805011-p22-02.webp",
+    "source_image": "DFWin_202610_P22-02.png",
+    "description": "Trash Bin with Diamond Pattern (TC805011)",
+    "keywords": [
+      "Trash Bin with Diamond Pattern",
+      "Trash Bins",
+      "Hospitality",
+      "TC805011"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "36L:458×305×815mm. Half-round design, diamond pattern, sloped/curved top. 304 stainless steel body and stainless steel liner.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "TC805011",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0069",
+    "name": "Stateroom Trash Bin – Square (TC923312)",
+    "sector": "Hospitality",
+    "category": "Trash Bins",
+    "slug": "hospitality-stateroom-trash-bin-square-tc923312-p22-03",
+    "image": "assets/img/products/hospitality-stateroom-trash-bin-square-tc923312-p22-03.webp",
+    "source_image": "DFWin_202610_P22-03.png",
+    "description": "Stateroom Trash Bin – Square (TC923312)",
+    "keywords": [
+      "Stateroom Trash Bin – Square",
+      "Trash Bins",
+      "Hospitality",
+      "TC923312"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "9L:225×165×275mm. Swivel lid, plastic bag stabilizer, skid-resistant base, single bin. Bathroom use.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "TC923312",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0070",
+    "name": "Trash Bin with Disinfectant Wipe Dispenser (TC915411)",
+    "sector": "Hospitality",
+    "category": "Trash Bins",
+    "slug": "hospitality-trash-bin-with-disinfectant-wipe-dispenser-tc915411-p22-04",
+    "image": "assets/img/products/hospitality-trash-bin-with-disinfectant-wipe-dispenser-tc915411-p22-04.webp",
+    "source_image": "DFWin_202610_P22-04.png",
+    "description": "Trash Bin with Disinfectant Wipe Dispenser (TC915411)",
+    "keywords": [
+      "Trash Bin with Disinfectant Wipe Dispenser",
+      "Trash Bins",
+      "Hospitality",
+      "TC915411"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "15L:D250×H820mm;25L:D338×H910mm. 304 stainless steel body. Plastic liner(L)/stainless liner(M). Back door, spring-lid front opening.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "TC915411",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0071",
+    "name": "Step Trash Can (TC831212)",
+    "sector": "Hospitality",
+    "category": "Trash Bins",
+    "slug": "hospitality-step-trash-can-tc831212-p23-01",
+    "image": "assets/img/products/hospitality-step-trash-can-tc831212-p23-01.webp",
+    "source_image": "DFWin_202610_P23-01.png",
+    "description": "Step Trash Can (TC831212)",
+    "keywords": [
+      "Step Trash Can",
+      "Trash Bins",
+      "Hospitality",
+      "TC831212"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "6L:300×170×326mm. Soft-close lid, foot pedal at narrow edge, plastic bag stabilizer, brushed stainless steel.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "TC831212",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0072",
+    "name": "Trash and Recycling Can (TC931122)",
+    "sector": "Hospitality",
+    "category": "Trash Bins",
+    "slug": "hospitality-trash-and-recycling-can-tc931122-p23-02",
+    "image": "assets/img/products/hospitality-trash-and-recycling-can-tc931122-p23-02.webp",
+    "source_image": "DFWin_202610_P23-02.png",
+    "description": "Trash and Recycling Can (TC931122)",
+    "keywords": [
+      "Trash and Recycling Can",
+      "Trash Bins",
+      "Hospitality",
+      "TC931122"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "10L+10L:363×305×454mm;20L+20L:429×337×657mm. Bi-force soft close, stay-open lid, fingerprint resistant, independent twin liners, brushed stainless steel.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "TC931122",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0073",
+    "name": "Step Trash Can (TC821112)",
+    "sector": "Hospitality",
+    "category": "Trash Bins",
+    "slug": "hospitality-step-trash-can-tc821112-p23-03",
+    "image": "assets/img/products/hospitality-step-trash-can-tc821112-p23-03.webp",
+    "source_image": "DFWin_202610_P23-03.png",
+    "description": "Step Trash Can (TC821112)",
+    "keywords": [
+      "Step Trash Can",
+      "Trash Bins",
+      "Hospitality",
+      "TC821112"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "20L:279×373×475mm;30L:279×373×665mm;45L:287×428×753mm. Slim vertical design, soft-close and stay-open lid, foot pedal, bag stabilizer, fingerprint resistant brushed stainless steel.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "TC821112",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0074",
+    "name": "Trash and Recycling Can (TC921122)",
+    "sector": "Hospitality",
+    "category": "Trash Bins",
+    "slug": "hospitality-trash-and-recycling-can-tc921122-p23-04",
+    "image": "assets/img/products/hospitality-trash-and-recycling-can-tc921122-p23-04.webp",
+    "source_image": "DFWin_202610_P23-04.png",
+    "description": "Trash and Recycling Can (TC921122)",
+    "keywords": [
+      "Trash and Recycling Can",
+      "Trash Bins",
+      "Hospitality",
+      "TC921122"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "12L+12L:404×320×408mm;15L+15L:402×322×508mm;30L+30L:530×372×665mm. Rectangular design, soft-close and stay-open lid, independent compartments/pedals, brushed stainless steel.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "TC921122",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0075",
+    "name": "Open Top Trash Can (TC812011)",
+    "sector": "Hospitality",
+    "category": "Trash Bins",
+    "slug": "hospitality-open-top-trash-can-tc812011-p24-01",
+    "image": "assets/img/products/hospitality-open-top-trash-can-tc812011-p24-01.webp",
+    "source_image": "DFWin_202610_P24-01.png",
+    "description": "Open Top Trash Can (TC812011)",
+    "keywords": [
+      "Open Top Trash Can",
+      "Trash Bins",
+      "Hospitality",
+      "TC812011"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "9L:D200×H300mm. Round open top, single bucket, skid-resistant and noise-reducing base.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "TC812011",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0076",
+    "name": "Step Trash Can (TC831112)",
+    "sector": "Hospitality",
+    "category": "Trash Bins",
+    "slug": "hospitality-step-trash-can-tc831112-p24-02",
+    "image": "assets/img/products/hospitality-step-trash-can-tc831112-p24-02.webp",
+    "source_image": "DFWin_202610_P24-02.png",
+    "description": "Step Trash Can (TC831112)",
+    "keywords": [
+      "Step Trash Can",
+      "Trash Bins",
+      "Hospitality",
+      "TC831112"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "6L:233×235×326mm;10L:273×305×365mm;12L:273×305×408mm. Bi-force soft-close, stay-open lid, fingerprint resistant, foot-operated pedal, single bin.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "TC831112",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0077",
+    "name": "Trash and Recycling Can (TC932022)",
+    "sector": "Hospitality",
+    "category": "Trash Bins",
+    "slug": "hospitality-trash-and-recycling-can-tc932022-p24-03",
+    "image": "assets/img/products/hospitality-trash-and-recycling-can-tc932022-p24-03.webp",
+    "source_image": "DFWin_202610_P24-03.png",
+    "description": "Trash and Recycling Can (TC932022)",
+    "keywords": [
+      "Trash and Recycling Can",
+      "Trash Bins",
+      "Hospitality",
+      "TC932022"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "10L+10L:355×225×430mm;20L+20L:420×225×630mm. Open top, removable lid, plastic bag stabilizer, skid-resistant base.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "TC932022",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0078",
+    "name": "Electric Kettle with Tray",
+    "sector": "Hospitality",
+    "category": "Electric Kettle",
+    "slug": "hospitality-electric-kettle-with-tray-p26-01",
+    "image": "assets/img/products/hospitality-electric-kettle-with-tray-p26-01.webp",
+    "source_image": "DFWin_202610_P26-01.png",
+    "description": "Electric Kettle with Tray",
+    "keywords": [
+      "Electric Kettle with Tray",
+      "Electric Kettle",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Double wall, anti-scald, 304 SST inner body. Capacity 0.8L or 1.0L. 220–240V/50–60Hz or 110–120V/60Hz. Automatic shut-off. Black/white. Black ABS tray with 3-compartment drawer, 26.7×19×8cm.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0079",
+    "name": "Portable Stanchion",
+    "sector": "Hospitality",
+    "category": "Barricade",
+    "slug": "hospitality-portable-stanchion-p27-01",
+    "image": "assets/img/products/hospitality-portable-stanchion-p27-01.webp",
+    "source_image": "DFWin_202610_P27-01.png",
+    "description": "Portable Stanchion",
+    "keywords": [
+      "Portable Stanchion",
+      "Barricade",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "304 or 316 stainless steel. Three foldable feet. 13-foot retractable belt. Weight 5kg. Size printed as 736(H)×986(H)mm; dimensional axes require confirmation.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0080",
+    "name": "Stainless Steel Barricade",
+    "sector": "Hospitality",
+    "category": "Barricade",
+    "slug": "hospitality-stainless-steel-barricade-p28-01",
+    "image": "assets/img/products/hospitality-stainless-steel-barricade-p28-01.webp",
+    "source_image": "DFWin_202610_P28-01.png",
+    "description": "Stainless Steel Barricade",
+    "keywords": [
+      "Stainless Steel Barricade",
+      "Barricade",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Unique hook design for flexible installation and firm connection\nFull welding, sturdy and durable\n304 stainless steel\nDiameter of frame tube: 38mm\nDiameter of middle tube: 19mm\n1.0mm thickness\nMirror finish with customer's logo\n1830x350x1030mm\nDEWin",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0081",
+    "name": "Bath Towel Set",
+    "sector": "Hospitality",
+    "category": "Towels & Linens",
+    "slug": "hospitality-bath-towel-set-p29-01",
+    "image": "assets/img/products/hospitality-bath-towel-set-p29-01.webp",
+    "source_image": "DFWin_202610_P29-01.png",
+    "description": "Bath Towel Set",
+    "keywords": [
+      "Bath Towel Set",
+      "Consumables",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "100% Turkish long-staple ringspun combed cotton. 600 GSM. Set of six: 2 bath towels 28×56in; 2 hand towels 16×28in; 2 washcloths 13×13in. Sewn-in hanger loop on all sizes.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0082",
+    "name": "Square Plate (B631)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-square-plate-b631-p32-01",
+    "image": "assets/img/products/hospitality-square-plate-b631-p32-01.webp",
+    "source_image": "DFWin_202610_P32-01.png",
+    "description": "Square Plate (B631)",
+    "keywords": [
+      "Square Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B631"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "7in;L179×W179×H25mm; 56 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B631",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0083",
+    "name": "Square Plate (B689)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-square-plate-b689-p32-02",
+    "image": "assets/img/products/hospitality-square-plate-b689-p32-02.webp",
+    "source_image": "DFWin_202610_P32-02.png",
+    "description": "Square Plate (B689)",
+    "keywords": [
+      "Square Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B689"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "6in;L151×W151×H26mm; 88 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B689",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0084",
+    "name": "Square Plate (B682)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-square-plate-b682-p32-03",
+    "image": "assets/img/products/hospitality-square-plate-b682-p32-03.webp",
+    "source_image": "DFWin_202610_P32-03.png",
+    "description": "Square Plate (B682)",
+    "keywords": [
+      "Square Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B682"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "9in;L227×W225×H15mm; 48 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B682",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0085",
+    "name": "Bowl (C319)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-bowl-c319-p32-04",
+    "image": "assets/img/products/hospitality-bowl-c319-p32-04.webp",
+    "source_image": "DFWin_202610_P32-04.png",
+    "description": "Bowl (C319)",
+    "keywords": [
+      "Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C319"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "6.5in;L155×W165×H65mm; 48 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C319",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0086",
+    "name": "Bowl (C322)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-bowl-c322-p32-05",
+    "image": "assets/img/products/hospitality-bowl-c322-p32-05.webp",
+    "source_image": "DFWin_202610_P32-05.png",
+    "description": "Bowl (C322)",
+    "keywords": [
+      "Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C322"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "4.7in;L120×W120×H43mm; 30 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C322",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0087",
+    "name": "Bowl (C362)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-bowl-c362-p32-06",
+    "image": "assets/img/products/hospitality-bowl-c362-p32-06.webp",
+    "source_image": "DFWin_202610_P32-06.png",
+    "description": "Bowl (C362)",
+    "keywords": [
+      "Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C362"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "4.5in;Ø114×H54mm; 108 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C362",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0088",
+    "name": "Bowl (C406)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-bowl-c406-p32-07",
+    "image": "assets/img/products/hospitality-bowl-c406-p32-07.webp",
+    "source_image": "DFWin_202610_P32-07.png",
+    "description": "Bowl (C406)",
+    "keywords": [
+      "Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C406"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "7in;L171×W140×H74mm; 36 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C406",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0089",
+    "name": "Bowl (C407)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-bowl-c407-p32-08",
+    "image": "assets/img/products/hospitality-bowl-c407-p32-08.webp",
+    "source_image": "DFWin_202610_P32-08.png",
+    "description": "Bowl (C407)",
+    "keywords": [
+      "Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C407"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "7in;L170×W158×H80mm; 36 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C407",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0090",
+    "name": "Bowl (C300)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-bowl-c300-p32-09",
+    "image": "assets/img/products/hospitality-bowl-c300-p32-09.webp",
+    "source_image": "DFWin_202610_P32-09.png",
+    "description": "Bowl (C300)",
+    "keywords": [
+      "Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C300"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "4.7in;L120×W120×H43mm; 60 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C300",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0091",
+    "name": "Flower Plate (D258)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-flower-plate-d258-p32-10",
+    "image": "assets/img/products/hospitality-flower-plate-d258-p32-10.webp",
+    "source_image": "DFWin_202610_P32-10.png",
+    "description": "Flower Plate (D258)",
+    "keywords": [
+      "Flower Plate",
+      "Melamine – White",
+      "Hospitality",
+      "D258"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "7in;L178×W178×H16mm; 120 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "D258",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0092",
+    "name": "Handled Bowl (C356)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-handled-bowl-c356-p32-11",
+    "image": "assets/img/products/hospitality-handled-bowl-c356-p32-11.webp",
+    "source_image": "DFWin_202610_P32-11.png",
+    "description": "Handled Bowl (C356)",
+    "keywords": [
+      "Handled Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C356"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "5.8in;L146×W132×H41mm; 96 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C356",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0093",
+    "name": "Bowl (C353)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-bowl-c353-p32-12",
+    "image": "assets/img/products/hospitality-bowl-c353-p32-12.webp",
+    "source_image": "DFWin_202610_P32-12.png",
+    "description": "Bowl (C353)",
+    "keywords": [
+      "Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C353"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "7in;Ø177×H62mm; 80 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C353",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0094",
+    "name": "Round Plate (B011)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-round-plate-b011-p33-01",
+    "image": "assets/img/products/hospitality-round-plate-b011-p33-01.webp",
+    "source_image": "DFWin_202610_P33-01.png",
+    "description": "Round Plate (B011)",
+    "keywords": [
+      "Round Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B011"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "17in;Ø432×H42mm; 12 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B011",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0095",
+    "name": "Round Plate (B010)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-round-plate-b010-p33-02",
+    "image": "assets/img/products/hospitality-round-plate-b010-p33-02.webp",
+    "source_image": "DFWin_202610_P33-02.png",
+    "description": "Round Plate (B010)",
+    "keywords": [
+      "Round Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B010"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "16in;Ø406×H40mm; 12 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B010",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0096",
+    "name": "Round Plate (B010)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-round-plate-b010-p33-03",
+    "image": "assets/img/products/hospitality-round-plate-b010-p33-03.webp",
+    "source_image": "DFWin_202610_P33-03.png",
+    "description": "Round Plate (B010)",
+    "keywords": [
+      "Round Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B010"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "14in;Ø356×H35mm; 18 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B010",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0097",
+    "name": "Round Plate (B008)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-round-plate-b008-p33-04",
+    "image": "assets/img/products/hospitality-round-plate-b008-p33-04.webp",
+    "source_image": "DFWin_202610_P33-04.png",
+    "description": "Round Plate (B008)",
+    "keywords": [
+      "Round Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B008"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "13in;Ø330×H33mm; 18 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B008",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0098",
+    "name": "Round Plate (B007)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-round-plate-b007-p33-05",
+    "image": "assets/img/products/hospitality-round-plate-b007-p33-05.webp",
+    "source_image": "DFWin_202610_P33-05.png",
+    "description": "Round Plate (B007)",
+    "keywords": [
+      "Round Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B007"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "12in;Ø305×H30mm; 24 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B007",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0099",
+    "name": "Round Plate (B006)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-round-plate-b006-p33-06",
+    "image": "assets/img/products/hospitality-round-plate-b006-p33-06.webp",
+    "source_image": "DFWin_202610_P33-06.png",
+    "description": "Round Plate (B006)",
+    "keywords": [
+      "Round Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B006"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "11in;Ø279×H28mm; 24 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B006",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0100",
+    "name": "Round Plate (B005)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-round-plate-b005-p33-07",
+    "image": "assets/img/products/hospitality-round-plate-b005-p33-07.webp",
+    "source_image": "DFWin_202610_P33-07.png",
+    "description": "Round Plate (B005)",
+    "keywords": [
+      "Round Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B005"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "10in;Ø254×H25mm; 36 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B005",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0101",
+    "name": "Round Plate (B004)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-round-plate-b004-p33-08",
+    "image": "assets/img/products/hospitality-round-plate-b004-p33-08.webp",
+    "source_image": "DFWin_202610_P33-08.png",
+    "description": "Round Plate (B004)",
+    "keywords": [
+      "Round Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B004"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "9in;Ø229×H23mm; 48 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B004",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0102",
+    "name": "Round Plate (B003)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-round-plate-b003-p33-09",
+    "image": "assets/img/products/hospitality-round-plate-b003-p33-09.webp",
+    "source_image": "DFWin_202610_P33-09.png",
+    "description": "Round Plate (B003)",
+    "keywords": [
+      "Round Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B003"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "8in;Ø203×H20mm; 48 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B003",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0103",
+    "name": "Round Plate (B002)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-round-plate-b002-p33-10",
+    "image": "assets/img/products/hospitality-round-plate-b002-p33-10.webp",
+    "source_image": "DFWin_202610_P33-10.png",
+    "description": "Round Plate (B002)",
+    "keywords": [
+      "Round Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B002"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "7in;Ø178×H18mm; 120 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B002",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0104",
+    "name": "Round Plate (B001)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-round-plate-b001-p33-11",
+    "image": "assets/img/products/hospitality-round-plate-b001-p33-11.webp",
+    "source_image": "DFWin_202610_P33-11.png",
+    "description": "Round Plate (B001)",
+    "keywords": [
+      "Round Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B001"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "6in;Ø152×H15mm; 108 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B001",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0105",
+    "name": "Square Plate (B077)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-square-plate-b077-p33-12",
+    "image": "assets/img/products/hospitality-square-plate-b077-p33-12.webp",
+    "source_image": "DFWin_202610_P33-12.png",
+    "description": "Square Plate (B077)",
+    "keywords": [
+      "Square Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B077"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "16in;L406×W406×H48mm; 12 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B077",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0106",
+    "name": "Square Plate (B076)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-square-plate-b076-p33-13",
+    "image": "assets/img/products/hospitality-square-plate-b076-p33-13.webp",
+    "source_image": "DFWin_202610_P33-13.png",
+    "description": "Square Plate (B076)",
+    "keywords": [
+      "Square Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B076"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "14in;L356×W356×H42mm; 12 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B076",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0107",
+    "name": "Square Plate (B075)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-square-plate-b075-p33-14",
+    "image": "assets/img/products/hospitality-square-plate-b075-p33-14.webp",
+    "source_image": "DFWin_202610_P33-14.png",
+    "description": "Square Plate (B075)",
+    "keywords": [
+      "Square Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B075"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "13in;L330×W330×H39mm; 18 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B075",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0108",
+    "name": "Square Plate (B074)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-square-plate-b074-p33-15",
+    "image": "assets/img/products/hospitality-square-plate-b074-p33-15.webp",
+    "source_image": "DFWin_202610_P33-15.png",
+    "description": "Square Plate (B074)",
+    "keywords": [
+      "Square Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B074"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "12in;L305×W305×H37mm; 18 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B074",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0109",
+    "name": "Square Plate (B074)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-square-plate-b074-p33-16",
+    "image": "assets/img/products/hospitality-square-plate-b074-p33-16.webp",
+    "source_image": "DFWin_202610_P33-16.png",
+    "description": "Square Plate (B074)",
+    "keywords": [
+      "Square Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B074"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "12in;L279×W279×H34mm; 24 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B074",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0110",
+    "name": "Square Plate (B072)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-square-plate-b072-p33-17",
+    "image": "assets/img/products/hospitality-square-plate-b072-p33-17.webp",
+    "source_image": "DFWin_202610_P33-17.png",
+    "description": "Square Plate (B072)",
+    "keywords": [
+      "Square Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B072"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "10in;L229×W229×H31mm; 24 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B072",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0111",
+    "name": "Square Plate (B071)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-square-plate-b071-p33-18",
+    "image": "assets/img/products/hospitality-square-plate-b071-p33-18.webp",
+    "source_image": "DFWin_202610_P33-18.png",
+    "description": "Square Plate (B071)",
+    "keywords": [
+      "Square Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B071"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "9in;L229×W229×H28mm; 36 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B071",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0112",
+    "name": "Square Plate (B070)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-square-plate-b070-p33-19",
+    "image": "assets/img/products/hospitality-square-plate-b070-p33-19.webp",
+    "source_image": "DFWin_202610_P33-19.png",
+    "description": "Square Plate (B070)",
+    "keywords": [
+      "Square Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B070"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "8in;L203×W203×H26mm; 48 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B070",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0113",
+    "name": "Square Plate (B069)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-square-plate-b069-p33-20",
+    "image": "assets/img/products/hospitality-square-plate-b069-p33-20.webp",
+    "source_image": "DFWin_202610_P33-20.png",
+    "description": "Square Plate (B069)",
+    "keywords": [
+      "Square Plate",
+      "Melamine – White",
+      "Hospitality",
+      "B069"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "7in;L178×W178×H23mm; 72 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B069",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0114",
+    "name": "Wide-Rim Bowl (C323)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-wide-rim-bowl-c323-p33-21",
+    "image": "assets/img/products/hospitality-wide-rim-bowl-c323-p33-21.webp",
+    "source_image": "DFWin_202610_P33-21.png",
+    "description": "Wide-Rim Bowl (C323)",
+    "keywords": [
+      "Wide-Rim Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C323"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "7.3in;Ø185×H42mm; 80 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C323",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0115",
+    "name": "Angled Bowl (C127)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-angled-bowl-c127-p33-22",
+    "image": "assets/img/products/hospitality-angled-bowl-c127-p33-22.webp",
+    "source_image": "DFWin_202610_P33-22.png",
+    "description": "Angled Bowl (C127)",
+    "keywords": [
+      "Angled Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C127"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "16in;L178×W176×H125mm; 36 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C127",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0116",
+    "name": "Angled Bowl (C126)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-angled-bowl-c126-p33-23",
+    "image": "assets/img/products/hospitality-angled-bowl-c126-p33-23.webp",
+    "source_image": "DFWin_202610_P33-23.png",
+    "description": "Angled Bowl (C126)",
+    "keywords": [
+      "Angled Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C126"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "14in;L152×W151×H105mm; 48 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C126",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0117",
+    "name": "Angled Bowl (C125)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-angled-bowl-c125-p33-24",
+    "image": "assets/img/products/hospitality-angled-bowl-c125-p33-24.webp",
+    "source_image": "DFWin_202610_P33-24.png",
+    "description": "Angled Bowl (C125)",
+    "keywords": [
+      "Angled Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C125"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "13in;L127×W126×H87mm; 72 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C125",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0118",
+    "name": "Angled Bowl (C124)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-angled-bowl-c124-p33-25",
+    "image": "assets/img/products/hospitality-angled-bowl-c124-p33-25.webp",
+    "source_image": "DFWin_202610_P33-25.png",
+    "description": "Angled Bowl (C124)",
+    "keywords": [
+      "Angled Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C124"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "12in;L102×W100×H70mm; 108 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C124",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0119",
+    "name": "Bowl (C024)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-bowl-c024-p33-26",
+    "image": "assets/img/products/hospitality-bowl-c024-p33-26.webp",
+    "source_image": "DFWin_202610_P33-26.png",
+    "description": "Bowl (C024)",
+    "keywords": [
+      "Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C024"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "8in;L199×W199×H70mm; 36 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C024",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0120",
+    "name": "Bowl (C023)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-bowl-c023-p33-27",
+    "image": "assets/img/products/hospitality-bowl-c023-p33-27.webp",
+    "source_image": "DFWin_202610_P33-27.png",
+    "description": "Bowl (C023)",
+    "keywords": [
+      "Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C023"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "7in;L174×W174×H65mm; 48 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C023",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0121",
+    "name": "Bowl (C022)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-bowl-c022-p33-28",
+    "image": "assets/img/products/hospitality-bowl-c022-p33-28.webp",
+    "source_image": "DFWin_202610_P33-28.png",
+    "description": "Bowl (C022)",
+    "keywords": [
+      "Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C022"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "6in;L149×W149×H60mm; 72 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C022",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0122",
+    "name": "Bowl (C021)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-bowl-c021-p33-29",
+    "image": "assets/img/products/hospitality-bowl-c021-p33-29.webp",
+    "source_image": "DFWin_202610_P33-29.png",
+    "description": "Bowl (C021)",
+    "keywords": [
+      "Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C021"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "5in;L125×W125×H56mm; 72 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C021",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0123",
+    "name": "Bowl (C020)",
+    "sector": "Hospitality",
+    "category": "Melamine – White",
+    "slug": "hospitality-bowl-c020-p33-30",
+    "image": "assets/img/products/hospitality-bowl-c020-p33-30.webp",
+    "source_image": "DFWin_202610_P33-30.png",
+    "description": "Bowl (C020)",
+    "keywords": [
+      "Bowl",
+      "Melamine – White",
+      "Hospitality",
+      "C020"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "4.5in;L112×W112×H50mm; 108 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C020",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0124",
+    "name": "Deep Bowl (C336)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-deep-bowl-c336-p34-01",
+    "image": "assets/img/products/hospitality-deep-bowl-c336-p34-01.webp",
+    "source_image": "DFWin_202610_P34-01.png",
+    "description": "Deep Bowl (C336)",
+    "keywords": [
+      "Deep Bowl",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "C336"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "156×H88mm; 64 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C336",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0125",
+    "name": "Bowl (C476)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-bowl-c476-p34-02",
+    "image": "assets/img/products/hospitality-bowl-c476-p34-02.webp",
+    "source_image": "DFWin_202610_P34-02.png",
+    "description": "Bowl (C476)",
+    "keywords": [
+      "Bowl",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "C476"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "119×H62mm; 108 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C476",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0126",
+    "name": "Bowl (C477)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-bowl-c477-p34-03",
+    "image": "assets/img/products/hospitality-bowl-c477-p34-03.webp",
+    "source_image": "DFWin_202610_P34-03.png",
+    "description": "Bowl (C477)",
+    "keywords": [
+      "Bowl",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "C477"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "153×H70mm; 60 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C477",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0127",
+    "name": "Bowl (C478)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-bowl-c478-p34-04",
+    "image": "assets/img/products/hospitality-bowl-c478-p34-04.webp",
+    "source_image": "DFWin_202610_P34-04.png",
+    "description": "Bowl (C478)",
+    "keywords": [
+      "Bowl",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "C478"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "241×H92mm; 28 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C478",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0128",
+    "name": "Square Bowl (D075)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-square-bowl-d075-p34-05",
+    "image": "assets/img/products/hospitality-square-bowl-d075-p34-05.webp",
+    "source_image": "DFWin_202610_P34-05.png",
+    "description": "Square Bowl (D075)",
+    "keywords": [
+      "Square Bowl",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "D075"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L104×W104×H33mm; 216 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "D075",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0129",
+    "name": "Square Bowl (D076)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-square-bowl-d076-p34-06",
+    "image": "assets/img/products/hospitality-square-bowl-d076-p34-06.webp",
+    "source_image": "DFWin_202610_P34-06.png",
+    "description": "Square Bowl (D076)",
+    "keywords": [
+      "Square Bowl",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "D076"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L126×W126×H36mm; 144 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "D076",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0130",
+    "name": "Small Bowl (D055)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-small-bowl-d055-p34-07",
+    "image": "assets/img/products/hospitality-small-bowl-d055-p34-07.webp",
+    "source_image": "DFWin_202610_P34-07.png",
+    "description": "Small Bowl (D055)",
+    "keywords": [
+      "Small Bowl",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "D055"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "110×H25mm; 144 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "D055",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0131",
+    "name": "Small Bowl (D056)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-small-bowl-d056-p34-08",
+    "image": "assets/img/products/hospitality-small-bowl-d056-p34-08.webp",
+    "source_image": "DFWin_202610_P34-08.png",
+    "description": "Small Bowl (D056)",
+    "keywords": [
+      "Small Bowl",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "D056"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "120×H27mm; 144 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "D056",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0132",
+    "name": "Wide-Rim Bowl (C142)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-wide-rim-bowl-c142-p34-09",
+    "image": "assets/img/products/hospitality-wide-rim-bowl-c142-p34-09.webp",
+    "source_image": "DFWin_202610_P34-09.png",
+    "description": "Wide-Rim Bowl (C142)",
+    "keywords": [
+      "Wide-Rim Bowl",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "C142"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "330×H73mm; 16 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C142",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0133",
+    "name": "Wide-Rim Bowl (C143)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-wide-rim-bowl-c143-p34-10",
+    "image": "assets/img/products/hospitality-wide-rim-bowl-c143-p34-10.webp",
+    "source_image": "DFWin_202610_P34-10.png",
+    "description": "Wide-Rim Bowl (C143)",
+    "keywords": [
+      "Wide-Rim Bowl",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "C143"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "254×H78mm; 24 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C143",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0134",
+    "name": "Wide-Rim Bowl (C144)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-wide-rim-bowl-c144-p34-11",
+    "image": "assets/img/products/hospitality-wide-rim-bowl-c144-p34-11.webp",
+    "source_image": "DFWin_202610_P34-11.png",
+    "description": "Wide-Rim Bowl (C144)",
+    "keywords": [
+      "Wide-Rim Bowl",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "C144"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "279×H82mm; 24 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C144",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0135",
+    "name": "Square Plate (B097)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-square-plate-b097-p34-12",
+    "image": "assets/img/products/hospitality-square-plate-b097-p34-12.webp",
+    "source_image": "DFWin_202610_P34-12.png",
+    "description": "Square Plate (B097)",
+    "keywords": [
+      "Square Plate",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B097"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L229×W229×H38mm; 36 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B097",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0136",
+    "name": "Square Plate (B098)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-square-plate-b098-p34-13",
+    "image": "assets/img/products/hospitality-square-plate-b098-p34-13.webp",
+    "source_image": "DFWin_202610_P34-13.png",
+    "description": "Square Plate (B098)",
+    "keywords": [
+      "Square Plate",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B098"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L254×W254×H42mm; 18 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B098",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0137",
+    "name": "Square Plate (B099)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-square-plate-b099-p34-14",
+    "image": "assets/img/products/hospitality-square-plate-b099-p34-14.webp",
+    "source_image": "DFWin_202610_P34-14.png",
+    "description": "Square Plate (B099)",
+    "keywords": [
+      "Square Plate",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B099"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L280×W280×H46mm; 18 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B099",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0138",
+    "name": "Deep Round Plate (B355)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-deep-round-plate-b355-p34-15",
+    "image": "assets/img/products/hospitality-deep-round-plate-b355-p34-15.webp",
+    "source_image": "DFWin_202610_P34-15.png",
+    "description": "Deep Round Plate (B355)",
+    "keywords": [
+      "Deep Round Plate",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B355"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "229×H42mm; 72 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B355",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0139",
+    "name": "Deep Round Plate (B356)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-deep-round-plate-b356-p34-16",
+    "image": "assets/img/products/hospitality-deep-round-plate-b356-p34-16.webp",
+    "source_image": "DFWin_202610_P34-16.png",
+    "description": "Deep Round Plate (B356)",
+    "keywords": [
+      "Deep Round Plate",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B356"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "254×H45mm; 36 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B356",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0140",
+    "name": "Deep Round Plate (B357)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-deep-round-plate-b357-p34-17",
+    "image": "assets/img/products/hospitality-deep-round-plate-b357-p34-17.webp",
+    "source_image": "DFWin_202610_P34-17.png",
+    "description": "Deep Round Plate (B357)",
+    "keywords": [
+      "Deep Round Plate",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B357"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "279×H49mm; 24 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B357",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0141",
+    "name": "Deep Round Plate (B564)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-deep-round-plate-b564-p34-18",
+    "image": "assets/img/products/hospitality-deep-round-plate-b564-p34-18.webp",
+    "source_image": "DFWin_202610_P34-18.png",
+    "description": "Deep Round Plate (B564)",
+    "keywords": [
+      "Deep Round Plate",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B564"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "198×H43mm; 108 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B564",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0142",
+    "name": "Deep Round Plate (B565)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-deep-round-plate-b565-p34-19",
+    "image": "assets/img/products/hospitality-deep-round-plate-b565-p34-19.webp",
+    "source_image": "DFWin_202610_P34-19.png",
+    "description": "Deep Round Plate (B565)",
+    "keywords": [
+      "Deep Round Plate",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B565"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "249×H42mm; 44 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B565",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0143",
+    "name": "Deep Round Plate (B566)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-deep-round-plate-b566-p34-20",
+    "image": "assets/img/products/hospitality-deep-round-plate-b566-p34-20.webp",
+    "source_image": "DFWin_202610_P34-20.png",
+    "description": "Deep Round Plate (B566)",
+    "keywords": [
+      "Deep Round Plate",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B566"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "300×H50mm; 28 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B566",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0144",
+    "name": "Round Plate (B564)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-round-plate-b564-p34-21",
+    "image": "assets/img/products/hospitality-round-plate-b564-p34-21.webp",
+    "source_image": "DFWin_202610_P34-21.png",
+    "description": "Round Plate (B564)",
+    "keywords": [
+      "Round Plate",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B564"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "178×H17mm; 96 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B564",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0145",
+    "name": "Round Plate (B565)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-round-plate-b565-p34-22",
+    "image": "assets/img/products/hospitality-round-plate-b565-p34-22.webp",
+    "source_image": "DFWin_202610_P34-22.png",
+    "description": "Round Plate (B565)",
+    "keywords": [
+      "Round Plate",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B565"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "229×H22mm; 48 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B565",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0146",
+    "name": "Round Plate (B566)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-round-plate-b566-p34-23",
+    "image": "assets/img/products/hospitality-round-plate-b566-p34-23.webp",
+    "source_image": "DFWin_202610_P34-23.png",
+    "description": "Round Plate (B566)",
+    "keywords": [
+      "Round Plate",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B566"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "279×H27mm; 36 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B566",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0147",
+    "name": "Oval Platter (B378)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-oval-platter-b378-p34-24",
+    "image": "assets/img/products/hospitality-oval-platter-b378-p34-24.webp",
+    "source_image": "DFWin_202610_P34-24.png",
+    "description": "Oval Platter (B378)",
+    "keywords": [
+      "Oval Platter",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B378"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "244×H183mm; 48 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B378",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0148",
+    "name": "Oval Platter (B379)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-oval-platter-b379-p34-25",
+    "image": "assets/img/products/hospitality-oval-platter-b379-p34-25.webp",
+    "source_image": "DFWin_202610_P34-25.png",
+    "description": "Oval Platter (B379)",
+    "keywords": [
+      "Oval Platter",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B379"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "275×H250mm; 48 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B379",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0149",
+    "name": "Oval Platter (B380)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-oval-platter-b380-p34-26",
+    "image": "assets/img/products/hospitality-oval-platter-b380-p34-26.webp",
+    "source_image": "DFWin_202610_P34-26.png",
+    "description": "Oval Platter (B380)",
+    "keywords": [
+      "Oval Platter",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B380"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "306×H231mm; 18 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B380",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0150",
+    "name": "Square Platter (B117)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-square-platter-b117-p34-27",
+    "image": "assets/img/products/hospitality-square-platter-b117-p34-27.webp",
+    "source_image": "DFWin_202610_P34-27.png",
+    "description": "Square Platter (B117)",
+    "keywords": [
+      "Square Platter",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B117"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L229×W229×H15mm; 48 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B117",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0151",
+    "name": "Square Platter (B118)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-square-platter-b118-p34-28",
+    "image": "assets/img/products/hospitality-square-platter-b118-p34-28.webp",
+    "source_image": "DFWin_202610_P34-28.png",
+    "description": "Square Platter (B118)",
+    "keywords": [
+      "Square Platter",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B118"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L253×W253×H115mm; 36 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B118",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0152",
+    "name": "Square Platter (B119)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-square-platter-b119-p34-29",
+    "image": "assets/img/products/hospitality-square-platter-b119-p34-29.webp",
+    "source_image": "DFWin_202610_P34-29.png",
+    "description": "Square Platter (B119)",
+    "keywords": [
+      "Square Platter",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B119"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L279×W279×H18mm; 24 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B119",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0153",
+    "name": "Rectangular Platter (B108)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-rectangular-platter-b108-p34-30",
+    "image": "assets/img/products/hospitality-rectangular-platter-b108-p34-30.webp",
+    "source_image": "DFWin_202610_P34-30.png",
+    "description": "Rectangular Platter (B108)",
+    "keywords": [
+      "Rectangular Platter",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B108"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L254×W160×H14mm; 64 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B108",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0154",
+    "name": "Rectangular Platter (B109)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-rectangular-platter-b109-p34-31",
+    "image": "assets/img/products/hospitality-rectangular-platter-b109-p34-31.webp",
+    "source_image": "DFWin_202610_P34-31.png",
+    "description": "Rectangular Platter (B109)",
+    "keywords": [
+      "Rectangular Platter",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B109"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L280×W180×H14mm; 48 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B109",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0155",
+    "name": "Rectangular Platter (B110)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-rectangular-platter-b110-p34-32",
+    "image": "assets/img/products/hospitality-rectangular-platter-b110-p34-32.webp",
+    "source_image": "DFWin_202610_P34-32.png",
+    "description": "Rectangular Platter (B110)",
+    "keywords": [
+      "Rectangular Platter",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B110"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L303×W200×H17mm; 36 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B110",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0156",
+    "name": "Square Platter (B584)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-square-platter-b584-p34-33",
+    "image": "assets/img/products/hospitality-square-platter-b584-p34-33.webp",
+    "source_image": "DFWin_202610_P34-33.png",
+    "description": "Square Platter (B584)",
+    "keywords": [
+      "Square Platter",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B584"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L227×W227×H30mm; 36 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B584",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0157",
+    "name": "Square Platter (B585)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-square-platter-b585-p34-34",
+    "image": "assets/img/products/hospitality-square-platter-b585-p34-34.webp",
+    "source_image": "DFWin_202610_P34-34.png",
+    "description": "Square Platter (B585)",
+    "keywords": [
+      "Square Platter",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B585"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L254×W254×H32mm; 24 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B585",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0158",
+    "name": "Square Platter (B586)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-square-platter-b586-p34-35",
+    "image": "assets/img/products/hospitality-square-platter-b586-p34-35.webp",
+    "source_image": "DFWin_202610_P34-35.png",
+    "description": "Square Platter (B586)",
+    "keywords": [
+      "Square Platter",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "B586"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L304×W304×H38mm; 18 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "B586",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0159",
+    "name": "Spoon (C336)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-spoon-c336-p34-36",
+    "image": "assets/img/products/hospitality-spoon-c336-p34-36.webp",
+    "source_image": "DFWin_202610_P34-36.png",
+    "description": "Spoon (C336)",
+    "keywords": [
+      "Spoon",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "C336"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L254×W66×H45mm; 150 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "C336",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0160",
+    "name": "Spoon (D009)",
+    "sector": "Hospitality",
+    "category": "Melamine – Green Edge",
+    "slug": "hospitality-spoon-d009-p34-37",
+    "image": "assets/img/products/hospitality-spoon-d009-p34-37.webp",
+    "source_image": "DFWin_202610_P34-37.png",
+    "description": "Spoon (D009)",
+    "keywords": [
+      "Spoon",
+      "Melamine – Green Edge",
+      "Hospitality",
+      "D009"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L146×W41×H28mm; 560 pcs/box. 100% melamine. Catalog states European LFGB and American NSF certification. Standard and customized products.",
+        "unit": ""
+      },
+      {
+        "name": "Catalog model",
+        "value": "D009",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0161",
+    "name": "Yuanfeng Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-plate-p35-01",
+    "image": "assets/img/products/hospitality-yuanfeng-plate-p35-01.webp",
+    "source_image": "DFWin_202610_P35-01.png",
+    "description": "Yuanfeng Plate",
+    "keywords": [
+      "Yuanfeng Plate",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "310mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0162",
+    "name": "Yuanfeng Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-plate-p35-02",
+    "image": "assets/img/products/hospitality-yuanfeng-plate-p35-02.webp",
+    "source_image": "DFWin_202610_P35-02.png",
+    "description": "Yuanfeng Plate",
+    "keywords": [
+      "Yuanfeng Plate",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "295mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0163",
+    "name": "Yuanfeng Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-plate-p35-03",
+    "image": "assets/img/products/hospitality-yuanfeng-plate-p35-03.webp",
+    "source_image": "DFWin_202610_P35-03.png",
+    "description": "Yuanfeng Plate",
+    "keywords": [
+      "Yuanfeng Plate",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "270mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0164",
+    "name": "Yuanfeng Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-plate-p35-04",
+    "image": "assets/img/products/hospitality-yuanfeng-plate-p35-04.webp",
+    "source_image": "DFWin_202610_P35-04.png",
+    "description": "Yuanfeng Plate",
+    "keywords": [
+      "Yuanfeng Plate",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "240mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0165",
+    "name": "Yuanfeng Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-plate-p35-05",
+    "image": "assets/img/products/hospitality-yuanfeng-plate-p35-05.webp",
+    "source_image": "DFWin_202610_P35-05.png",
+    "description": "Yuanfeng Plate",
+    "keywords": [
+      "Yuanfeng Plate",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "205mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0166",
+    "name": "Yuanfeng Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-plate-p35-06",
+    "image": "assets/img/products/hospitality-yuanfeng-plate-p35-06.webp",
+    "source_image": "DFWin_202610_P35-06.png",
+    "description": "Yuanfeng Plate",
+    "keywords": [
+      "Yuanfeng Plate",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "160mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0167",
+    "name": "Yuanfeng Teapot with Lid",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-teapot-with-lid-p35-07",
+    "image": "assets/img/products/hospitality-yuanfeng-teapot-with-lid-p35-07.webp",
+    "source_image": "DFWin_202610_P35-07.png",
+    "description": "Yuanfeng Teapot with Lid",
+    "keywords": [
+      "Yuanfeng Teapot with Lid",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "1200ml. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0168",
+    "name": "Yuanfeng Teapot with Lid",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-teapot-with-lid-p35-08",
+    "image": "assets/img/products/hospitality-yuanfeng-teapot-with-lid-p35-08.webp",
+    "source_image": "DFWin_202610_P35-08.png",
+    "description": "Yuanfeng Teapot with Lid",
+    "keywords": [
+      "Yuanfeng Teapot with Lid",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "450ml. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0169",
+    "name": "Yuanfeng Sugar Pot with Lid",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-sugar-pot-with-lid-p35-09",
+    "image": "assets/img/products/hospitality-yuanfeng-sugar-pot-with-lid-p35-09.webp",
+    "source_image": "DFWin_202610_P35-09.png",
+    "description": "Yuanfeng Sugar Pot with Lid",
+    "keywords": [
+      "Yuanfeng Sugar Pot with Lid",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "400ml. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0170",
+    "name": "Yuanfeng Creamer",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-creamer-p35-10",
+    "image": "assets/img/products/hospitality-yuanfeng-creamer-p35-10.webp",
+    "source_image": "DFWin_202610_P35-10.png",
+    "description": "Yuanfeng Creamer",
+    "keywords": [
+      "Yuanfeng Creamer",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "300ml. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0171",
+    "name": "Yuanfeng Oval Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-oval-plate-p35-11",
+    "image": "assets/img/products/hospitality-yuanfeng-oval-plate-p35-11.webp",
+    "source_image": "DFWin_202610_P35-11.png",
+    "description": "Yuanfeng Oval Plate",
+    "keywords": [
+      "Yuanfeng Oval Plate",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "355×255mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0172",
+    "name": "Yuanfeng Oval Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-oval-plate-p35-12",
+    "image": "assets/img/products/hospitality-yuanfeng-oval-plate-p35-12.webp",
+    "source_image": "DFWin_202610_P35-12.png",
+    "description": "Yuanfeng Oval Plate",
+    "keywords": [
+      "Yuanfeng Oval Plate",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "310×200mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0173",
+    "name": "Yuanfeng Oval Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-oval-plate-p35-13",
+    "image": "assets/img/products/hospitality-yuanfeng-oval-plate-p35-13.webp",
+    "source_image": "DFWin_202610_P35-13.png",
+    "description": "Yuanfeng Oval Plate",
+    "keywords": [
+      "Yuanfeng Oval Plate",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "230×150mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0174",
+    "name": "Yuanfeng Bowl",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-bowl-p35-14",
+    "image": "assets/img/products/hospitality-yuanfeng-bowl-p35-14.webp",
+    "source_image": "DFWin_202610_P35-14.png",
+    "description": "Yuanfeng Bowl",
+    "keywords": [
+      "Yuanfeng Bowl",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "240mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0175",
+    "name": "Yuanfeng Bowl A",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-bowl-a-p35-15",
+    "image": "assets/img/products/hospitality-yuanfeng-bowl-a-p35-15.webp",
+    "source_image": "DFWin_202610_P35-15.png",
+    "description": "Yuanfeng Bowl A",
+    "keywords": [
+      "Yuanfeng Bowl A",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "190mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0176",
+    "name": "Yuanfeng Bowl",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-bowl-p35-16",
+    "image": "assets/img/products/hospitality-yuanfeng-bowl-p35-16.webp",
+    "source_image": "DFWin_202610_P35-16.png",
+    "description": "Yuanfeng Bowl",
+    "keywords": [
+      "Yuanfeng Bowl",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "150mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0177",
+    "name": "Yuanfeng Bowl",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-bowl-p35-17",
+    "image": "assets/img/products/hospitality-yuanfeng-bowl-p35-17.webp",
+    "source_image": "DFWin_202610_P35-17.png",
+    "description": "Yuanfeng Bowl",
+    "keywords": [
+      "Yuanfeng Bowl",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "115mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0178",
+    "name": "Yuanfeng Bowl",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-bowl-p35-18",
+    "image": "assets/img/products/hospitality-yuanfeng-bowl-p35-18.webp",
+    "source_image": "DFWin_202610_P35-18.png",
+    "description": "Yuanfeng Bowl",
+    "keywords": [
+      "Yuanfeng Bowl",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "100mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0179",
+    "name": "Yuanfeng Soup Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-soup-plate-p35-19",
+    "image": "assets/img/products/hospitality-yuanfeng-soup-plate-p35-19.webp",
+    "source_image": "DFWin_202610_P35-19.png",
+    "description": "Yuanfeng Soup Plate",
+    "keywords": [
+      "Yuanfeng Soup Plate",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "295mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0180",
+    "name": "Yuanfeng Soup Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-soup-plate-p35-20",
+    "image": "assets/img/products/hospitality-yuanfeng-soup-plate-p35-20.webp",
+    "source_image": "DFWin_202610_P35-20.png",
+    "description": "Yuanfeng Soup Plate",
+    "keywords": [
+      "Yuanfeng Soup Plate",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "235mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0181",
+    "name": "Yuanfeng Yuanmei Bowl with Yuanfeng Saucer",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanfeng",
+    "slug": "hospitality-yuanfeng-yuanmei-bowl-with-yuanfeng-saucer-p35-21",
+    "image": "assets/img/products/hospitality-yuanfeng-yuanmei-bowl-with-yuanfeng-saucer-p35-21.webp",
+    "source_image": "DFWin_202610_P35-21.png",
+    "description": "Yuanfeng Yuanmei Bowl with Yuanfeng Saucer",
+    "keywords": [
+      "Yuanfeng Yuanmei Bowl with Yuanfeng Saucer",
+      "Chinaware – Yuanfeng",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "125mm bowl + 160mm saucer. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0182",
+    "name": "Yuanhua Coffee Pot with Lid",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-coffee-pot-with-lid-p36-01",
+    "image": "assets/img/products/hospitality-yuanhua-coffee-pot-with-lid-p36-01.webp",
+    "source_image": "DFWin_202610_P36-01.png",
+    "description": "Yuanhua Coffee Pot with Lid",
+    "keywords": [
+      "Yuanhua Coffee Pot with Lid",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "1200ml. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0183",
+    "name": "Yuanhua Sugar Pot with Lid",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-sugar-pot-with-lid-p36-02",
+    "image": "assets/img/products/hospitality-yuanhua-sugar-pot-with-lid-p36-02.webp",
+    "source_image": "DFWin_202610_P36-02.png",
+    "description": "Yuanhua Sugar Pot with Lid",
+    "keywords": [
+      "Yuanhua Sugar Pot with Lid",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "380ml. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0184",
+    "name": "Yuanhua Creamer",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-creamer-p36-03",
+    "image": "assets/img/products/hospitality-yuanhua-creamer-p36-03.webp",
+    "source_image": "DFWin_202610_P36-03.png",
+    "description": "Yuanhua Creamer",
+    "keywords": [
+      "Yuanhua Creamer",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "350ml. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0185",
+    "name": "Yuanhua Cup and Saucer",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-cup-and-saucer-p36-04",
+    "image": "assets/img/products/hospitality-yuanhua-cup-and-saucer-p36-04.webp",
+    "source_image": "DFWin_202610_P36-04.png",
+    "description": "Yuanhua Cup and Saucer",
+    "keywords": [
+      "Yuanhua Cup and Saucer",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "150ml cup + 145×145mm saucer. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0186",
+    "name": "Yuanhua Coffee Cup and Saucer",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-coffee-cup-and-saucer-p36-05",
+    "image": "assets/img/products/hospitality-yuanhua-coffee-cup-and-saucer-p36-05.webp",
+    "source_image": "DFWin_202610_P36-05.png",
+    "description": "Yuanhua Coffee Cup and Saucer",
+    "keywords": [
+      "Yuanhua Coffee Cup and Saucer",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "80ml cup + 115×115mm saucer. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0187",
+    "name": "Yuanhua Square Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-square-plate-p36-06",
+    "image": "assets/img/products/hospitality-yuanhua-square-plate-p36-06.webp",
+    "source_image": "DFWin_202610_P36-06.png",
+    "description": "Yuanhua Square Plate",
+    "keywords": [
+      "Yuanhua Square Plate",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "305×305mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0188",
+    "name": "Yuanhua Square Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-square-plate-p36-07",
+    "image": "assets/img/products/hospitality-yuanhua-square-plate-p36-07.webp",
+    "source_image": "DFWin_202610_P36-07.png",
+    "description": "Yuanhua Square Plate",
+    "keywords": [
+      "Yuanhua Square Plate",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "260×260mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0189",
+    "name": "Yuanhua Square Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-square-plate-p36-08",
+    "image": "assets/img/products/hospitality-yuanhua-square-plate-p36-08.webp",
+    "source_image": "DFWin_202610_P36-08.png",
+    "description": "Yuanhua Square Plate",
+    "keywords": [
+      "Yuanhua Square Plate",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "205×205mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0190",
+    "name": "Yuanhua Square Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-square-plate-p36-09",
+    "image": "assets/img/products/hospitality-yuanhua-square-plate-p36-09.webp",
+    "source_image": "DFWin_202610_P36-09.png",
+    "description": "Yuanhua Square Plate",
+    "keywords": [
+      "Yuanhua Square Plate",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "160×160mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0191",
+    "name": "Yuanhua Soup Tureen with Lid",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-soup-tureen-with-lid-p36-10",
+    "image": "assets/img/products/hospitality-yuanhua-soup-tureen-with-lid-p36-10.webp",
+    "source_image": "DFWin_202610_P36-10.png",
+    "description": "Yuanhua Soup Tureen with Lid",
+    "keywords": [
+      "Yuanhua Soup Tureen with Lid",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "2900ml. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0192",
+    "name": "Yuanhua Gravy Boat",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-gravy-boat-p36-11",
+    "image": "assets/img/products/hospitality-yuanhua-gravy-boat-p36-11.webp",
+    "source_image": "DFWin_202610_P36-11.png",
+    "description": "Yuanhua Gravy Boat",
+    "keywords": [
+      "Yuanhua Gravy Boat",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "460ml. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0193",
+    "name": "Yuanhua Salt and Pepper Shaker",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-salt-and-pepper-shaker-p36-12",
+    "image": "assets/img/products/hospitality-yuanhua-salt-and-pepper-shaker-p36-12.webp",
+    "source_image": "DFWin_202610_P36-12.png",
+    "description": "Yuanhua Salt and Pepper Shaker",
+    "keywords": [
+      "Yuanhua Salt and Pepper Shaker",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "60mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0194",
+    "name": "Yuanhua Square Platter",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-square-platter-p36-13",
+    "image": "assets/img/products/hospitality-yuanhua-square-platter-p36-13.webp",
+    "source_image": "DFWin_202610_P36-13.png",
+    "description": "Yuanhua Square Platter",
+    "keywords": [
+      "Yuanhua Square Platter",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "355×280mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0195",
+    "name": "Yuanhua Square Platter",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-square-platter-p36-14",
+    "image": "assets/img/products/hospitality-yuanhua-square-platter-p36-14.webp",
+    "source_image": "DFWin_202610_P36-14.png",
+    "description": "Yuanhua Square Platter",
+    "keywords": [
+      "Yuanhua Square Platter",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "305×235mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0196",
+    "name": "Yuanhua Square Platter",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-square-platter-p36-15",
+    "image": "assets/img/products/hospitality-yuanhua-square-platter-p36-15.webp",
+    "source_image": "DFWin_202610_P36-15.png",
+    "description": "Yuanhua Square Platter",
+    "keywords": [
+      "Yuanhua Square Platter",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "215×170mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0197",
+    "name": "Yuanhua Square Platter",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-square-platter-p36-16",
+    "image": "assets/img/products/hospitality-yuanhua-square-platter-p36-16.webp",
+    "source_image": "DFWin_202610_P36-16.png",
+    "description": "Yuanhua Square Platter",
+    "keywords": [
+      "Yuanhua Square Platter",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "270×270mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0198",
+    "name": "Yuanhua Square Bowl",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-square-bowl-p36-17",
+    "image": "assets/img/products/hospitality-yuanhua-square-bowl-p36-17.webp",
+    "source_image": "DFWin_202610_P36-17.png",
+    "description": "Yuanhua Square Bowl",
+    "keywords": [
+      "Yuanhua Square Bowl",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "260×260mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0199",
+    "name": "Yuanhua Square Bowl",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-square-bowl-p36-18",
+    "image": "assets/img/products/hospitality-yuanhua-square-bowl-p36-18.webp",
+    "source_image": "DFWin_202610_P36-18.png",
+    "description": "Yuanhua Square Bowl",
+    "keywords": [
+      "Yuanhua Square Bowl",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "195×195mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0200",
+    "name": "Yuanhua Square Bowl",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhua",
+    "slug": "hospitality-yuanhua-square-bowl-p36-19",
+    "image": "assets/img/products/hospitality-yuanhua-square-bowl-p36-19.webp",
+    "source_image": "DFWin_202610_P36-19.png",
+    "description": "Yuanhua Square Bowl",
+    "keywords": [
+      "Yuanhua Square Bowl",
+      "Chinaware – Yuanhua",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "130×130mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0201",
+    "name": "Yuanhui Cup and Saucer",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-cup-and-saucer-p37-01",
+    "image": "assets/img/products/hospitality-yuanhui-cup-and-saucer-p37-01.webp",
+    "source_image": "DFWin_202610_P37-01.png",
+    "description": "Yuanhui Cup and Saucer",
+    "keywords": [
+      "Yuanhui Cup and Saucer",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "200ml cup + 155mm saucer. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0202",
+    "name": "Yuanhui Cup and Saucer",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-cup-and-saucer-p37-02",
+    "image": "assets/img/products/hospitality-yuanhui-cup-and-saucer-p37-02.webp",
+    "source_image": "DFWin_202610_P37-02.png",
+    "description": "Yuanhui Cup and Saucer",
+    "keywords": [
+      "Yuanhui Cup and Saucer",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "80ml cup + 125mm saucer. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0203",
+    "name": "Yuanhui Salt and Pepper Shakers",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-salt-and-pepper-shakers-p37-03",
+    "image": "assets/img/products/hospitality-yuanhui-salt-and-pepper-shakers-p37-03.webp",
+    "source_image": "DFWin_202610_P37-03.png",
+    "description": "Yuanhui Salt and Pepper Shakers",
+    "keywords": [
+      "Yuanhui Salt and Pepper Shakers",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "80mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0204",
+    "name": "Yuanhui Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-plate-p37-04",
+    "image": "assets/img/products/hospitality-yuanhui-plate-p37-04.webp",
+    "source_image": "DFWin_202610_P37-04.png",
+    "description": "Yuanhui Plate",
+    "keywords": [
+      "Yuanhui Plate",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "270mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0205",
+    "name": "Yuanhui Soup Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-soup-plate-p37-05",
+    "image": "assets/img/products/hospitality-yuanhui-soup-plate-p37-05.webp",
+    "source_image": "DFWin_202610_P37-05.png",
+    "description": "Yuanhui Soup Plate",
+    "keywords": [
+      "Yuanhui Soup Plate",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "215mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0206",
+    "name": "Yuanhui Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-plate-p37-06",
+    "image": "assets/img/products/hospitality-yuanhui-plate-p37-06.webp",
+    "source_image": "DFWin_202610_P37-06.png",
+    "description": "Yuanhui Plate",
+    "keywords": [
+      "Yuanhui Plate",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "190mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0207",
+    "name": "Yuanhui Plate",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-plate-p37-07",
+    "image": "assets/img/products/hospitality-yuanhui-plate-p37-07.webp",
+    "source_image": "DFWin_202610_P37-07.png",
+    "description": "Yuanhui Plate",
+    "keywords": [
+      "Yuanhui Plate",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "160mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0208",
+    "name": "Yuanhui Oval Platter",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-oval-platter-p37-08",
+    "image": "assets/img/products/hospitality-yuanhui-oval-platter-p37-08.webp",
+    "source_image": "DFWin_202610_P37-08.png",
+    "description": "Yuanhui Oval Platter",
+    "keywords": [
+      "Yuanhui Oval Platter",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "360mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0209",
+    "name": "Yuanhui Oval Platter",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-oval-platter-p37-09",
+    "image": "assets/img/products/hospitality-yuanhui-oval-platter-p37-09.webp",
+    "source_image": "DFWin_202610_P37-09.png",
+    "description": "Yuanhui Oval Platter",
+    "keywords": [
+      "Yuanhui Oval Platter",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "315mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0210",
+    "name": "Yuanhui Oval Platter",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-oval-platter-p37-10",
+    "image": "assets/img/products/hospitality-yuanhui-oval-platter-p37-10.webp",
+    "source_image": "DFWin_202610_P37-10.png",
+    "description": "Yuanhui Oval Platter",
+    "keywords": [
+      "Yuanhui Oval Platter",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "230mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0211",
+    "name": "Yuanhui Oval Platter",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-oval-platter-p37-11",
+    "image": "assets/img/products/hospitality-yuanhui-oval-platter-p37-11.webp",
+    "source_image": "DFWin_202610_P37-11.png",
+    "description": "Yuanhui Oval Platter",
+    "keywords": [
+      "Yuanhui Oval Platter",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "360mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0212",
+    "name": "Yuanhui Oval Platter",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-oval-platter-p37-12",
+    "image": "assets/img/products/hospitality-yuanhui-oval-platter-p37-12.webp",
+    "source_image": "DFWin_202610_P37-12.png",
+    "description": "Yuanhui Oval Platter",
+    "keywords": [
+      "Yuanhui Oval Platter",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "315mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0213",
+    "name": "Yuanhui Oval Platter",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-oval-platter-p37-13",
+    "image": "assets/img/products/hospitality-yuanhui-oval-platter-p37-13.webp",
+    "source_image": "DFWin_202610_P37-13.png",
+    "description": "Yuanhui Oval Platter",
+    "keywords": [
+      "Yuanhui Oval Platter",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "230mm. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0214",
+    "name": "Yuanhui Soup Tureen",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-soup-tureen-p37-14",
+    "image": "assets/img/products/hospitality-yuanhui-soup-tureen-p37-14.webp",
+    "source_image": "DFWin_202610_P37-14.png",
+    "description": "Yuanhui Soup Tureen",
+    "keywords": [
+      "Yuanhui Soup Tureen",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "2300ml. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0215",
+    "name": "Yuanhui Gravy Boat",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-gravy-boat-p37-15",
+    "image": "assets/img/products/hospitality-yuanhui-gravy-boat-p37-15.webp",
+    "source_image": "DFWin_202610_P37-15.png",
+    "description": "Yuanhui Gravy Boat",
+    "keywords": [
+      "Yuanhui Gravy Boat",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "400ml. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0216",
+    "name": "Yuanhui Coffee Pot",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-coffee-pot-p37-16",
+    "image": "assets/img/products/hospitality-yuanhui-coffee-pot-p37-16.webp",
+    "source_image": "DFWin_202610_P37-16.png",
+    "description": "Yuanhui Coffee Pot",
+    "keywords": [
+      "Yuanhui Coffee Pot",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "1355ml. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0217",
+    "name": "Yuanhui Sugar Pot",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-sugar-pot-p37-17",
+    "image": "assets/img/products/hospitality-yuanhui-sugar-pot-p37-17.webp",
+    "source_image": "DFWin_202610_P37-17.png",
+    "description": "Yuanhui Sugar Pot",
+    "keywords": [
+      "Yuanhui Sugar Pot",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "400ml. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0218",
+    "name": "Yuanhui Creamer",
+    "sector": "Hospitality",
+    "category": "Chinaware – Yuanhui",
+    "slug": "hospitality-yuanhui-creamer-p37-18",
+    "image": "assets/img/products/hospitality-yuanhui-creamer-p37-18.webp",
+    "source_image": "DFWin_202610_P37-18.png",
+    "description": "Yuanhui Creamer",
+    "keywords": [
+      "Yuanhui Creamer",
+      "Chinaware – Yuanhui",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "350ml. Refined chinaware without bone ash. Bisque firing 1280°C and glaze firing 1180°C. Standard and customized products.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0219",
+    "name": "Light-up Glass Souvenir",
+    "sector": "Hospitality",
+    "category": "Souvenir",
+    "slug": "hospitality-light-up-glass-souvenir-p39-01",
+    "image": "assets/img/products/hospitality-light-up-glass-souvenir-p39-01.webp",
+    "source_image": "DFWin_202610_P39-01.png",
+    "description": "Light-up Glass Souvenir",
+    "keywords": [
+      "Light-up Glass Souvenir",
+      "Souvenir",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "PC or PS. LED light-up. Custom mold and logo via silk or heat-transfer printing.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "HOSP-0220",
+    "name": "Color-changing Cups",
+    "sector": "Hospitality",
+    "category": "Drinkware",
+    "slug": "hospitality-color-changing-cups-p40-01",
+    "image": "assets/img/products/hospitality-color-changing-cups-p40-01.webp",
+    "source_image": "DFWin_202610_P40-01.png",
+    "description": "Color-changing Cups",
+    "keywords": [
+      "Color-changing Cups",
+      "Drinkware",
+      "Hospitality"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Plastic, ceramics, glass or metal. Cold/heat-sensitive color change. Custom mold and color-changing design.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "OUTD-0221",
+    "name": "Stationary Armchair – Fixed Position",
+    "sector": "Outdoor Furniture",
+    "category": "Stationary Chair",
+    "slug": "outdoor-furniture-stationary-armchair-fixed-position-p46-01",
+    "image": "assets/img/products/outdoor-furniture-stationary-armchair-fixed-position-p46-01.webp",
+    "source_image": "DFWin_202610_P46-01.png",
+    "description": "Stationary Armchair – Fixed Position",
+    "keywords": [
+      "Stationary Armchair – Fixed Position",
+      "Stationary Chair",
+      "Outdoor Furniture"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "W27½in×D28in×H41½in; seat height15in; arm height22¾in.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "OUTD-0222",
+    "name": "Stationary Chair – Adjustable Backrest",
+    "sector": "Outdoor Furniture",
+    "category": "Stationary Chair",
+    "slug": "outdoor-furniture-stationary-chair-adjustable-backrest-p47-01",
+    "image": "assets/img/products/outdoor-furniture-stationary-chair-adjustable-backrest-p47-01.webp",
+    "source_image": "DFWin_202610_P47-01.png",
+    "description": "Stationary Chair – Adjustable Backrest",
+    "keywords": [
+      "Stationary Chair – Adjustable Backrest",
+      "Stationary Chair",
+      "Outdoor Furniture"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Reclining backrest with multiple positions. Dimensions not stated.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "OUTD-0223",
+    "name": "Curvilinear Chaise Lounge",
+    "sector": "Outdoor Furniture",
+    "category": "Sun Loungers",
+    "slug": "outdoor-furniture-curvilinear-chaise-lounge-p48-01",
+    "image": "assets/img/products/outdoor-furniture-curvilinear-chaise-lounge-p48-01.webp",
+    "source_image": "DFWin_202610_P48-01.png",
+    "description": "Curvilinear Chaise Lounge",
+    "keywords": [
+      "Curvilinear Chaise Lounge",
+      "Sun Loungers",
+      "Outdoor Furniture"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "L80in×W26in×H35in;seat height13½in. Stacks to10.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "OUTD-0224",
+    "name": "Rectilinear Chaise Sun Lounger",
+    "sector": "Outdoor Furniture",
+    "category": "Sun Loungers",
+    "slug": "outdoor-furniture-rectilinear-chaise-sun-lounger-p49-01",
+    "image": "assets/img/products/outdoor-furniture-rectilinear-chaise-sun-lounger-p49-01.webp",
+    "source_image": "DFWin_202610_P49-01.png",
+    "description": "Rectilinear Chaise Sun Lounger",
+    "keywords": [
+      "Rectilinear Chaise Sun Lounger",
+      "Sun Loungers",
+      "Outdoor Furniture"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Dimensions and material not stated.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "OUTD-0225",
+    "name": "Sun Loungers",
+    "sector": "Outdoor Furniture",
+    "category": "Sun Loungers",
+    "slug": "outdoor-furniture-sun-loungers-p50-01",
+    "image": "assets/img/products/outdoor-furniture-sun-loungers-p50-01.webp",
+    "source_image": "DFWin_202610_P50-01.png",
+    "description": "Sun Loungers",
+    "keywords": [
+      "Sun Loungers",
+      "Outdoor Furniture"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "Poolside collection image. Dimensions and model identifiers not stated.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "OUTD-0226",
+    "name": "Reading Chair",
+    "sector": "Outdoor Furniture",
+    "category": "Reading Chair",
+    "slug": "outdoor-furniture-reading-chair-p51-01",
+    "image": "assets/img/products/outdoor-furniture-reading-chair-p51-01.webp",
+    "source_image": "DFWin_202610_P51-01.png",
+    "description": "Reading Chair",
+    "keywords": [
+      "Reading Chair",
+      "Outdoor Furniture"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "578(W)×1055(H)×1015(L)mm.",
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "id": "OUTD-0227",
+    "name": "Ottoman",
+    "sector": "Outdoor Furniture",
+    "category": "Reading Chair",
+    "slug": "outdoor-furniture-ottoman-p51-02",
+    "image": "assets/img/products/outdoor-furniture-ottoman-p51-02.webp",
+    "source_image": "DFWin_202610_P51-02.png",
+    "description": "Ottoman",
+    "keywords": [
+      "Ottoman",
+      "Reading Chair",
+      "Outdoor Furniture"
+    ],
+    "status": "Active",
+    "specifications": [
+      {
+        "name": "Catalog specifications (October 2026)",
+        "value": "490(W)×360(H)×504(L)mm.",
+        "unit": ""
+      }
+    ]
   }
 ]
