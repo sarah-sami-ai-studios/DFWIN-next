@@ -1,7 +1,8 @@
 name: Catalog test build
 on:
+  workflow_dispatch:
   push:
-    branches: [catalog-update-test]
+    branches: [main, catalog-update-test]
 permissions:
   contents: read
 jobs:
